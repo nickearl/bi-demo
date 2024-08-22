@@ -25,10 +25,6 @@ class UInterface:
 		print('Initializing Home')
 		self.init_time = datetime.now()
 		self.product_name = 'Portfolio | Nick Earl'
-		# self.logo_paths = {
-		# 	'dark': 'assets/images/Fandom_logo_2021_lockup_1.png',
-		# 	'light': 'assets/images/Fandom_logo_2021_lockup_2.png',
-		# }
 		self.styles = {
 			'color_sequence': ["#FA005A", "#86D7DC", "#FFC500", "#520044", "#9B004E","#FA005A", "#86D7DC", "#FFC500", "#520044", "#9B004E"],
 		}

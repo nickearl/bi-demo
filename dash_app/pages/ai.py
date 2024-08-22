@@ -26,10 +26,6 @@ class UInterface:
 		print('Initializing AI Demo')
 		self.init_time = datetime.now()
 		self.product_name = 'Fun with Gen AI | Nick Earl'
-		# self.logo_paths = {
-		# 	'dark': 'assets/images/Fandom_logo_2021_lockup_1.png',
-		# 	'light': 'assets/images/Fandom_logo_2021_lockup_2.png',
-		# }
 		self.styles = {
 			'color_sequence': ['#FD486D', '#9F4A86', '#F5D107', '#86D7DC', '#333D79', '#E5732D', '#4CAF8E', '#722B5C', '#FFC10A', '#005580'],
 			'portrait_colors': ['#86D7DC', '#9B004E','#FA005A','#FFC500','#520044'],
