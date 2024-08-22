@@ -53,11 +53,11 @@ def create_dash_app(server, url_base_pathname, assets_folder, meta_tags, use_pag
     app = dash.Dash(server=server, assets_folder=assets_folder, meta_tags=meta_tags, routes_pathname_prefix=url_base_pathname,suppress_callback_exceptions=True, prevent_initial_callbacks='initial_duplicate', update_title=None, use_pages=use_pages,pages_folder=pages_folder,external_stylesheets=[dbc.themes.FLATLY, dbc.icons.BOOTSTRAP,dbc.icons.FONT_AWESOME])
     print('host ip: ' + str(socket.gethostbyname(socket.gethostname())))
     print('environment: ' + str(os.environ['DEPLOY_ENV']))
-    if os.environ['DEPLOY_ENV'] == 'prod':
-        auth = dash_auth.BasicAuth(
-            app,
-            VALID_USERNAME_PASSWORD_PAIRS
-        )
+    # if os.environ['DEPLOY_ENV'] == 'prod':
+    #     auth = dash_auth.BasicAuth(
+    #         app,
+    #         VALID_USERNAME_PASSWORD_PAIRS
+    #     )
 
     global_ui = {
         'sidebar' : dbc.Offcanvas(
@@ -74,9 +74,6 @@ def create_dash_app(server, url_base_pathname, assets_folder, meta_tags, use_pag
                                 dbc.NavLink(PRODUCT_NAME, href=f'{url_base_pathname}', active='exact',style={'color': '#280033','border-radius':'10px'}),
                                 dbc.NavLink('Dashboard', href=f'{url_base_pathname}/dashboard/', active='exact',style={'color': '#280033','border-radius':'10px'}),
                                 dbc.NavLink('Gen AI', href=f'{url_base_pathname}/ai', active='exact',style={'color': '#280033','border-radius':'10px'}),
-                                #dbc.NavLink('Franchise Score', href='/page-2', active='exact',style={'color': '#280033','border-radius':'10px'}),
-                                #dbc.NavLink('Share of Voice', href='/page-2', active='exact',style={'color': '#280033','border-radius':'10px'}),
-                                #dbc.NavLink('Audience Comparison', href='/page-3', active='exact',style={'color': '#280033','border-radius':'10px'}),
                             ],
                             vertical=True,
                             pills=True
@@ -100,7 +97,6 @@ def create_dash_app(server, url_base_pathname, assets_folder, meta_tags, use_pag
                         ],align='center',width={'size':12,'offset':0}),
                     ],class_name='container-fluid',align='start',justify='around'),
                 ]),
-           # ],class_name='navbar container-fluid',color='secondary',style=HEADER_STYLE),
             ],class_name='navbar container-fluid',color='secondary'),
         'footer': dbc.Stack([
             html.Span(f'Nick Earl © {datetime.now().year}', className='footer-text'),
