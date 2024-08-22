@@ -1,0 +1,1921 @@
+date,country,device_type,video_category,video_title,users,users_dod,video_plays
+2024-07-17,India,mobile,education,Stanley Spadowski's Clubhouse,379,1.0,1214
+2024-07-18,India,mobile,education,Stanley Spadowski's Clubhouse,399,1.0542366646888315,583
+2024-07-19,India,mobile,education,Stanley Spadowski's Clubhouse,413,1.0358825720971834,648
+2024-07-20,India,mobile,education,Stanley Spadowski's Clubhouse,463,1.123183591840402,720
+2024-07-21,India,mobile,education,Stanley Spadowski's Clubhouse,543,1.174078384267164,852
+2024-07-22,India,mobile,education,Stanley Spadowski's Clubhouse,547,1.0079779314491684,849
+2024-07-23,India,mobile,education,Stanley Spadowski's Clubhouse,423,0.7750701504304844,619
+2024-07-24,India,mobile,education,Stanley Spadowski's Clubhouse,276,0.654074749984747,425
+2024-07-25,India,mobile,education,Stanley Spadowski's Clubhouse,218,0.7904869309716691,345
+2024-07-26,India,mobile,education,Stanley Spadowski's Clubhouse,200,0.919651649716427,299
+2024-07-27,India,mobile,education,Stanley Spadowski's Clubhouse,220,1.1036715935623536,332
+2024-07-28,India,mobile,education,Stanley Spadowski's Clubhouse,278,1.2673889287189664,441
+2024-07-29,India,mobile,education,Stanley Spadowski's Clubhouse,403,1.4501322958683895,589
+2024-07-30,India,mobile,education,Stanley Spadowski's Clubhouse,595,1.4786019478761039,925
+2024-07-31,India,mobile,education,Stanley Spadowski's Clubhouse,726,1.2218019201906056,1150
+2024-08-01,India,mobile,education,Stanley Spadowski's Clubhouse,638,0.8797484907711987,962
+2024-08-02,India,mobile,education,Stanley Spadowski's Clubhouse,320,0.5022387180840113,497
+2024-08-03,India,mobile,education,Stanley Spadowski's Clubhouse,218,0.6829119658737228,316
+2024-08-04,India,mobile,education,Stanley Spadowski's Clubhouse,174,0.8021403904427543,266
+2024-08-05,India,mobile,education,Stanley Spadowski's Clubhouse,175,1.0113163407041303,259
+2024-08-06,India,mobile,education,Stanley Spadowski's Clubhouse,209,1.194988047232996,321
+2024-08-07,India,mobile,education,Stanley Spadowski's Clubhouse,291,1.3953512201433815,435
+2024-08-08,India,mobile,education,Stanley Spadowski's Clubhouse,436,1.498463936356131,683
+2024-08-09,India,mobile,education,Stanley Spadowski's Clubhouse,636,1.4603593257693515,988
+2024-08-10,India,mobile,education,Stanley Spadowski's Clubhouse,841,1.323553057735355,1332
+2024-08-11,India,mobile,education,Stanley Spadowski's Clubhouse,830,0.9879242474441448,1201
+2024-08-12,India,mobile,education,Stanley Spadowski's Clubhouse,169,0.20444253700379666,253
+2024-08-13,India,mobile,education,Stanley Spadowski's Clubhouse,71,0.42353113358045913,105
+2024-08-14,India,mobile,education,Stanley Spadowski's Clubhouse,43,0.6108754585079863,67
+2024-08-15,India,mobile,education,Stanley Spadowski's Clubhouse,35,0.8289338625084963,56
+2024-07-17,India,desktop,education,Stanley Spadowski's Clubhouse,1075,1.0,3441
+2024-07-18,India,desktop,education,Stanley Spadowski's Clubhouse,1186,1.1035039577834709,1787
+2024-07-19,India,desktop,education,Stanley Spadowski's Clubhouse,1288,1.0866752706533354,2020
+2024-07-20,India,desktop,education,Stanley Spadowski's Clubhouse,1388,1.0783937044232432,2093
+2024-07-21,India,desktop,education,Stanley Spadowski's Clubhouse,1487,1.0714578078690917,2286
+2024-07-22,India,desktop,education,Stanley Spadowski's Clubhouse,1296,0.8720231462304763,1894
+2024-07-23,India,desktop,education,Stanley Spadowski's Clubhouse,1079,0.8332793356080529,1611
+2024-07-24,India,desktop,education,Stanley Spadowski's Clubhouse,868,0.8050697577859021,1375
+2024-07-25,India,desktop,education,Stanley Spadowski's Clubhouse,836,0.9639938180260865,1235
+2024-07-26,India,desktop,education,Stanley Spadowski's Clubhouse,861,1.0306815937307288,1259
+2024-07-27,India,desktop,education,Stanley Spadowski's Clubhouse,1060,1.2316362790198296,1662
+2024-07-28,India,desktop,education,Stanley Spadowski's Clubhouse,1345,1.2696552289024654,2028
+2024-07-29,India,desktop,education,Stanley Spadowski's Clubhouse,1625,1.2088285943046797,2425
+2024-07-30,India,desktop,education,Stanley Spadowski's Clubhouse,1648,1.014438306706161,2559
+2024-07-31,India,desktop,education,Stanley Spadowski's Clubhouse,1090,0.6618468943577587,1643
+2024-08-01,India,desktop,education,Stanley Spadowski's Clubhouse,763,0.7003483327667572,1138
+2024-08-02,India,desktop,education,Stanley Spadowski's Clubhouse,641,0.8412446573110102,967
+2024-08-03,India,desktop,education,Stanley Spadowski's Clubhouse,661,1.0321579632005171,1007
+2024-08-04,India,desktop,education,Stanley Spadowski's Clubhouse,806,1.220050468251392,1239
+2024-08-05,India,desktop,education,Stanley Spadowski's Clubhouse,1047,1.3000304461683145,1610
+2024-08-06,India,desktop,education,Stanley Spadowski's Clubhouse,1475,1.4090916866671592,2223
+2024-08-07,India,desktop,education,Stanley Spadowski's Clubhouse,1833,1.2430686716429007,2791
+2024-08-08,India,desktop,education,Stanley Spadowski's Clubhouse,1773,0.9676020717154408,2672
+2024-08-09,India,desktop,education,Stanley Spadowski's Clubhouse,1146,0.6464702339091832,1814
+2024-08-10,India,desktop,education,Stanley Spadowski's Clubhouse,808,0.7051079514248142,1230
+2024-08-11,India,desktop,education,Stanley Spadowski's Clubhouse,706,0.874621767902249,1032
+2024-08-12,India,desktop,education,Stanley Spadowski's Clubhouse,698,0.9893957451184674,1031
+2024-08-13,India,desktop,education,Stanley Spadowski's Clubhouse,774,1.1098850186966704,1202
+2024-08-14,India,desktop,education,Stanley Spadowski's Clubhouse,982,1.2688089993615097,1420
+2024-08-15,India,desktop,education,Stanley Spadowski's Clubhouse,1283,1.3070045630562839,1914
+2024-07-17,India,mobile,drama,Conan the Librarian,1343,1.0,4297
+2024-07-18,India,mobile,drama,Conan the Librarian,1454,1.0833517351232715,5548
+2024-07-19,India,mobile,drama,Conan the Librarian,1588,1.0926690998723654,5651
+2024-07-20,India,mobile,drama,Conan the Librarian,1871,1.178673678760853,6932
+2024-07-21,India,mobile,drama,Conan the Librarian,2145,1.146719331587223,8025
+2024-07-22,India,mobile,drama,Conan the Librarian,1789,0.8343501534642799,6431
+2024-07-23,India,mobile,drama,Conan the Librarian,1255,0.7019616180649433,4374
+2024-07-24,India,mobile,drama,Conan the Librarian,825,0.6580446360590626,2967
+2024-07-25,India,mobile,drama,Conan the Librarian,691,0.8378356640505665,2610
+2024-07-26,India,mobile,drama,Conan the Librarian,667,0.965351501260686,2470
+2024-07-27,India,mobile,drama,Conan the Librarian,779,1.1688766537485864,2744
+2024-07-28,India,mobile,drama,Conan the Librarian,1065,1.3674526193016463,3906
+2024-07-29,India,mobile,drama,Conan the Librarian,1570,1.4742520162761272,5930
+2024-07-30,India,mobile,drama,Conan the Librarian,2190,1.3952466740240264,8113
+2024-07-31,India,mobile,drama,Conan the Librarian,2535,1.157975328733454,9392
+2024-08-01,India,mobile,drama,Conan the Librarian,1930,0.7617180106352243,7364
+2024-08-02,India,mobile,drama,Conan the Librarian,1093,0.5663318511736843,3847
+2024-08-03,India,mobile,drama,Conan the Librarian,766,0.7014511413454299,2783
+2024-08-04,India,mobile,drama,Conan the Librarian,691,0.9027717843231453,2409
+2024-08-05,India,mobile,drama,Conan the Librarian,751,1.088088886047928,2729
+2024-08-06,India,mobile,drama,Conan the Librarian,948,1.2624527836709645,3407
+2024-08-07,India,mobile,drama,Conan the Librarian,1326,1.3987501071335346,4862
+2024-08-08,India,mobile,drama,Conan the Librarian,1879,1.4172008746376368,7097
+2024-08-09,India,mobile,drama,Conan the Librarian,2655,1.413232414594865,10127
+2024-08-10,India,mobile,drama,Conan the Librarian,2766,1.0420194715228994,10347
+2024-08-11,India,mobile,drama,Conan the Librarian,2069,0.7481618368588249,7892
+2024-08-12,India,mobile,drama,Conan the Librarian,750,0.36256214402213616,2723
+2024-08-13,India,mobile,drama,Conan the Librarian,419,0.5591879874429874,1568
+2024-08-14,India,mobile,drama,Conan the Librarian,308,0.7356827361751377,1164
+2024-08-15,India,mobile,drama,Conan the Librarian,288,0.9350928891813949,1056
+2024-07-17,India,desktop,drama,Conan the Librarian,0,1.0,0
+2024-07-18,India,desktop,drama,Conan the Librarian,0,,0
+2024-07-19,India,desktop,drama,Conan the Librarian,0,,0
+2024-07-20,India,desktop,drama,Conan the Librarian,0,,0
+2024-07-21,India,desktop,drama,Conan the Librarian,0,,0
+2024-07-22,India,desktop,drama,Conan the Librarian,0,,0
+2024-07-23,India,desktop,drama,Conan the Librarian,0,,0
+2024-07-24,India,desktop,drama,Conan the Librarian,0,,0
+2024-07-25,India,desktop,drama,Conan the Librarian,0,,0
+2024-07-26,India,desktop,drama,Conan the Librarian,0,,0
+2024-07-27,India,desktop,drama,Conan the Librarian,0,,0
+2024-07-28,India,desktop,drama,Conan the Librarian,0,,0
+2024-07-29,India,desktop,drama,Conan the Librarian,0,,0
+2024-07-30,India,desktop,drama,Conan the Librarian,0,,0
+2024-07-31,India,desktop,drama,Conan the Librarian,0,,0
+2024-08-01,India,desktop,drama,Conan the Librarian,0,,0
+2024-08-02,India,desktop,drama,Conan the Librarian,0,,0
+2024-08-03,India,desktop,drama,Conan the Librarian,0,,0
+2024-08-04,India,desktop,drama,Conan the Librarian,0,,0
+2024-08-05,India,desktop,drama,Conan the Librarian,0,,0
+2024-08-06,India,desktop,drama,Conan the Librarian,0,,0
+2024-08-07,India,desktop,drama,Conan the Librarian,0,,0
+2024-08-08,India,desktop,drama,Conan the Librarian,0,,0
+2024-08-09,India,desktop,drama,Conan the Librarian,0,,0
+2024-08-10,India,desktop,drama,Conan the Librarian,0,,0
+2024-08-11,India,desktop,drama,Conan the Librarian,0,,0
+2024-08-12,India,desktop,drama,Conan the Librarian,0,,0
+2024-08-13,India,desktop,drama,Conan the Librarian,0,,0
+2024-08-14,India,desktop,drama,Conan the Librarian,0,,0
+2024-08-15,India,desktop,drama,Conan the Librarian,0,,0
+2024-07-17,India,mobile,education,Raul's Wild Kingdom,188,1.0,603
+2024-07-18,India,mobile,education,Raul's Wild Kingdom,205,1.0947503540467596,596
+2024-07-19,India,mobile,education,Raul's Wild Kingdom,218,1.0663422329944368,665
+2024-07-20,India,mobile,education,Raul's Wild Kingdom,239,1.1005332106437102,688
+2024-07-21,India,mobile,education,Raul's Wild Kingdom,280,1.173741767736647,829
+2024-07-22,India,mobile,education,Raul's Wild Kingdom,278,0.9928589124860354,846
+2024-07-23,India,mobile,education,Raul's Wild Kingdom,208,0.7503741885179027,629
+2024-07-24,India,mobile,education,Raul's Wild Kingdom,128,0.6161100297036566,356
+2024-07-25,India,mobile,education,Raul's Wild Kingdom,98,0.7679360280426636,296
+2024-07-26,India,mobile,education,Raul's Wild Kingdom,89,0.9144828532329726,267
+2024-07-27,India,mobile,education,Raul's Wild Kingdom,98,1.1112271025688052,295
+2024-07-28,India,mobile,education,Raul's Wild Kingdom,131,1.3405682546800346,376
+2024-07-29,India,mobile,education,Raul's Wild Kingdom,192,1.4718637437181996,570
+2024-07-30,India,mobile,education,Raul's Wild Kingdom,302,1.5761836645165428,921
+2024-07-31,India,mobile,education,Raul's Wild Kingdom,374,1.2392731619122974,1040
+2024-08-01,India,mobile,education,Raul's Wild Kingdom,305,0.8165997726036228,876
+2024-08-02,India,mobile,education,Raul's Wild Kingdom,151,0.49567373129161985,424
+2024-08-03,India,mobile,education,Raul's Wild Kingdom,96,0.636751733901508,281
+2024-08-04,India,mobile,education,Raul's Wild Kingdom,78,0.8133953686080884,230
+2024-08-05,India,mobile,education,Raul's Wild Kingdom,78,1.000889213407165,217
+2024-08-06,India,mobile,education,Raul's Wild Kingdom,89,1.143890818553286,250
+2024-08-07,India,mobile,education,Raul's Wild Kingdom,118,1.329588459413035,329
+2024-08-08,India,mobile,education,Raul's Wild Kingdom,177,1.5010367918654868,539
+2024-08-09,India,mobile,education,Raul's Wild Kingdom,272,1.5408584214465266,798
+2024-08-10,India,mobile,education,Raul's Wild Kingdom,405,1.4921259875549333,1140
+2024-08-11,India,mobile,education,Raul's Wild Kingdom,528,1.3058163116305614,1594
+2024-08-12,India,mobile,education,Raul's Wild Kingdom,63,0.12053798296253948,182
+2024-08-13,India,mobile,education,Raul's Wild Kingdom,20,0.33266338778986965,60
+2024-08-14,India,mobile,education,Raul's Wild Kingdom,10,0.5347124987948005,30
+2024-08-15,India,mobile,education,Raul's Wild Kingdom,7,0.747963958918322,21
+2024-07-17,India,desktop,education,Raul's Wild Kingdom,763,1.0,2444
+2024-07-18,India,desktop,education,Raul's Wild Kingdom,781,1.0239355040817224,2218
+2024-07-19,India,desktop,education,Raul's Wild Kingdom,866,1.1099890957299896,2588
+2024-07-20,India,desktop,education,Raul's Wild Kingdom,941,1.0875971596950393,2619
+2024-07-21,India,desktop,education,Raul's Wild Kingdom,1080,1.1478261081642631,3004
+2024-07-22,India,desktop,education,Raul's Wild Kingdom,1056,0.9785277346783403,3032
+2024-07-23,India,desktop,education,Raul's Wild Kingdom,834,0.7904023499376607,2419
+2024-07-24,India,desktop,education,Raul's Wild Kingdom,619,0.7429967603349797,1741
+2024-07-25,India,desktop,education,Raul's Wild Kingdom,515,0.8327922043666856,1554
+2024-07-26,India,desktop,education,Raul's Wild Kingdom,512,0.9960960988778778,1546
+2024-07-27,India,desktop,education,Raul's Wild Kingdom,601,1.174369020539535,1777
+2024-07-28,India,desktop,education,Raul's Wild Kingdom,818,1.3624546239339108,2325
+2024-07-29,India,desktop,education,Raul's Wild Kingdom,1130,1.3814861926314104,3407
+2024-07-30,India,desktop,education,Raul's Wild Kingdom,1392,1.23259863425524,3955
+2024-07-31,India,desktop,education,Raul's Wild Kingdom,964,0.6927371886488285,2766
+2024-08-01,India,desktop,education,Raul's Wild Kingdom,621,0.644225881547865,1854
+2024-08-02,India,desktop,education,Raul's Wild Kingdom,425,0.684443521846455,1256
+2024-08-03,India,desktop,education,Raul's Wild Kingdom,379,0.8930604867645835,1088
+2024-08-04,India,desktop,education,Raul's Wild Kingdom,417,1.1017034678313218,1210
+2024-08-05,India,desktop,education,Raul's Wild Kingdom,516,1.237466458302145,1571
+2024-08-06,India,desktop,education,Raul's Wild Kingdom,717,1.3913345081286466,2143
+2024-08-07,India,desktop,education,Raul's Wild Kingdom,997,1.3911686389491353,2978
+2024-08-08,India,desktop,education,Raul's Wild Kingdom,1408,1.4125447680985947,4122
+2024-08-09,India,desktop,education,Raul's Wild Kingdom,1461,1.0380156851845088,4107
+2024-08-10,India,desktop,education,Raul's Wild Kingdom,1198,0.820650104935485,3475
+2024-08-11,India,desktop,education,Raul's Wild Kingdom,865,0.7225319964838548,2635
+2024-08-12,India,desktop,education,Raul's Wild Kingdom,523,0.6048476599396186,1470
+2024-08-13,India,desktop,education,Raul's Wild Kingdom,388,0.743431875796167,1138
+2024-08-14,India,desktop,education,Raul's Wild Kingdom,350,0.9024235833893681,1055
+2024-08-15,India,desktop,education,Raul's Wild Kingdom,371,1.0603356557589376,1053
+2024-07-17,India,mobile,game shows,Wheel of Fish,483,1.0,1546
+2024-07-18,India,mobile,game shows,Wheel of Fish,523,1.0837493913323655,2497
+2024-07-19,India,mobile,game shows,Wheel of Fish,539,1.0307423281924217,2546
+2024-07-20,India,mobile,game shows,Wheel of Fish,587,1.0895822319719555,2745
+2024-07-21,India,mobile,game shows,Wheel of Fish,674,1.1497341676139499,3253
+2024-07-22,India,mobile,game shows,Wheel of Fish,699,1.0384001285218243,3305
+2024-07-23,India,mobile,game shows,Wheel of Fish,583,0.8349017977815464,2756
+2024-07-24,India,mobile,game shows,Wheel of Fish,387,0.6650715450130786,1924
+2024-07-25,India,mobile,game shows,Wheel of Fish,314,0.8114988611826103,1468
+2024-07-26,India,mobile,game shows,Wheel of Fish,280,0.8927410689634484,1310
+2024-07-27,India,mobile,game shows,Wheel of Fish,308,1.101211566597874,1486
+2024-07-28,India,mobile,game shows,Wheel of Fish,379,1.2310367134076727,1845
+2024-07-29,India,mobile,game shows,Wheel of Fish,507,1.3397855875184905,2447
+2024-07-30,India,mobile,game shows,Wheel of Fish,660,1.303192724829563,3025
+2024-07-31,India,mobile,game shows,Wheel of Fish,789,1.1955205587536748,3651
+2024-08-01,India,mobile,game shows,Wheel of Fish,740,0.9386454063690259,3712
+2024-08-02,India,mobile,game shows,Wheel of Fish,544,0.7356969724250662,2702
+2024-08-03,India,mobile,game shows,Wheel of Fish,404,0.7433910707364224,1890
+2024-08-04,India,mobile,game shows,Wheel of Fish,357,0.8851826526211856,1654
+2024-08-05,India,mobile,game shows,Wheel of Fish,361,1.012886607865216,1795
+2024-08-06,India,mobile,game shows,Wheel of Fish,386,1.069894384700743,1824
+2024-08-07,India,mobile,game shows,Wheel of Fish,457,1.1861180876557271,2250
+2024-08-08,India,mobile,game shows,Wheel of Fish,589,1.2898769360620363,2954
+2024-08-09,India,mobile,game shows,Wheel of Fish,739,1.2552463916964105,3634
+2024-08-10,India,mobile,game shows,Wheel of Fish,847,1.1466517868631685,4125
+2024-08-11,India,mobile,game shows,Wheel of Fish,892,1.0536591165802038,4387
+2024-08-12,India,mobile,game shows,Wheel of Fish,469,0.5268312057337563,2287
+2024-08-13,India,mobile,game shows,Wheel of Fish,263,0.562250953052792,1232
+2024-08-14,India,mobile,game shows,Wheel of Fish,184,0.7031035065262463,873
+2024-08-15,India,mobile,game shows,Wheel of Fish,170,0.927267093353567,797
+2024-07-17,India,desktop,game shows,Wheel of Fish,439,1.0,1405
+2024-07-18,India,desktop,game shows,Wheel of Fish,449,1.0235965252695798,2252
+2024-07-19,India,desktop,game shows,Wheel of Fish,461,1.028743520390549,2137
+2024-07-20,India,desktop,game shows,Wheel of Fish,511,1.1097730442019855,2342
+2024-07-21,India,desktop,game shows,Wheel of Fish,621,1.21578872997749,3054
+2024-07-22,India,desktop,game shows,Wheel of Fish,614,0.989597444092973,2991
+2024-07-23,India,desktop,game shows,Wheel of Fish,491,0.800577839342125,2393
+2024-07-24,India,desktop,game shows,Wheel of Fish,348,0.709910407546719,1730
+2024-07-25,India,desktop,game shows,Wheel of Fish,279,0.8045091868280457,1403
+2024-07-26,India,desktop,game shows,Wheel of Fish,261,0.9378408044078436,1299
+2024-07-27,India,desktop,game shows,Wheel of Fish,301,1.15503091483882,1438
+2024-07-28,India,desktop,game shows,Wheel of Fish,404,1.3448796427054823,1931
+2024-07-29,India,desktop,game shows,Wheel of Fish,564,1.396877112737101,2611
+2024-07-30,India,desktop,game shows,Wheel of Fish,779,1.3820470229001063,3569
+2024-07-31,India,desktop,game shows,Wheel of Fish,713,0.9158613381356651,3473
+2024-08-01,India,desktop,game shows,Wheel of Fish,493,0.6918851941110575,2282
+2024-08-02,India,desktop,game shows,Wheel of Fish,325,0.6604458901700527,1522
+2024-08-03,India,desktop,game shows,Wheel of Fish,263,0.8092410295473427,1318
+2024-08-04,India,desktop,game shows,Wheel of Fish,266,1.0135581411150405,1220
+2024-08-05,India,desktop,game shows,Wheel of Fish,314,1.1832709039024716,1441
+2024-08-06,India,desktop,game shows,Wheel of Fish,401,1.2793548316784304,1858
+2024-08-07,India,desktop,game shows,Wheel of Fish,519,1.294553427884547,2427
+2024-08-08,India,desktop,game shows,Wheel of Fish,680,1.3112576248784784,3280
+2024-08-09,India,desktop,game shows,Wheel of Fish,788,1.159271995007214,3875
+2024-08-10,India,desktop,game shows,Wheel of Fish,744,0.9454118064430228,3519
+2024-08-11,India,desktop,game shows,Wheel of Fish,606,0.8153714927538954,2836
+2024-08-12,India,desktop,game shows,Wheel of Fish,343,0.5672176860359155,1673
+2024-08-13,India,desktop,game shows,Wheel of Fish,238,0.6961971836945771,1093
+2024-08-14,India,desktop,game shows,Wheel of Fish,194,0.8192203202376197,967
+2024-08-15,India,desktop,game shows,Wheel of Fish,197,1.0181641716268217,933
+2024-07-17,India,mobile,sports,Dog Racing from Rio de Janeiro,74,1.0,239
+2024-07-18,India,mobile,sports,Dog Racing from Rio de Janeiro,80,1.0903919895074314,212
+2024-07-19,India,mobile,sports,Dog Racing from Rio de Janeiro,88,1.1042882223764832,242
+2024-07-20,India,mobile,sports,Dog Racing from Rio de Janeiro,97,1.1067729949668055,272
+2024-07-21,India,mobile,sports,Dog Racing from Rio de Janeiro,110,1.1424990180516141,291
+2024-07-22,India,mobile,sports,Dog Racing from Rio de Janeiro,105,0.9548450990312621,271
+2024-07-23,India,mobile,sports,Dog Racing from Rio de Janeiro,80,0.7671610841854983,223
+2024-07-24,India,mobile,sports,Dog Racing from Rio de Janeiro,54,0.6871193265121188,150
+2024-07-25,India,mobile,sports,Dog Racing from Rio de Janeiro,47,0.8740106274595577,129
+2024-07-26,India,mobile,sports,Dog Racing from Rio de Janeiro,47,1.0148597880998924,132
+2024-07-27,India,mobile,sports,Dog Racing from Rio de Janeiro,54,1.1617746133212181,143
+2024-07-28,India,mobile,sports,Dog Racing from Rio de Janeiro,71,1.3257288401417453,196
+2024-07-29,India,mobile,sports,Dog Racing from Rio de Janeiro,96,1.3646434396426892,265
+2024-07-30,India,mobile,sports,Dog Racing from Rio de Janeiro,130,1.3613719616087756,340
+2024-07-31,India,mobile,sports,Dog Racing from Rio de Janeiro,125,0.9666509901807847,344
+2024-08-01,India,mobile,sports,Dog Racing from Rio de Janeiro,91,0.7284078201576567,247
+2024-08-02,India,mobile,sports,Dog Racing from Rio de Janeiro,54,0.6038413260044799,152
+2024-08-03,India,mobile,sports,Dog Racing from Rio de Janeiro,43,0.797532707541729,109
+2024-08-04,India,mobile,sports,Dog Racing from Rio de Janeiro,39,0.9275566913637159,111
+2024-08-05,India,mobile,sports,Dog Racing from Rio de Janeiro,43,1.1237868254761014,116
+2024-08-06,India,mobile,sports,Dog Racing from Rio de Janeiro,55,1.2900817908501925,150
+2024-08-07,India,mobile,sports,Dog Racing from Rio de Janeiro,75,1.3737969461785695,209
+2024-08-08,India,mobile,sports,Dog Racing from Rio de Janeiro,110,1.4757200762369422,297
+2024-08-09,India,mobile,sports,Dog Racing from Rio de Janeiro,146,1.3329984097010399,382
+2024-08-10,India,mobile,sports,Dog Racing from Rio de Janeiro,150,1.0313435938114415,396
+2024-08-11,India,mobile,sports,Dog Racing from Rio de Janeiro,112,0.7496465832982702,290
+2024-08-12,India,mobile,sports,Dog Racing from Rio de Janeiro,40,0.36418809215967224,114
+2024-08-13,India,mobile,sports,Dog Racing from Rio de Janeiro,22,0.5662340566123615,62
+2024-08-14,India,mobile,sports,Dog Racing from Rio de Janeiro,16,0.7508802573629986,42
+2024-08-15,India,mobile,sports,Dog Racing from Rio de Janeiro,15,0.9679707651497578,40
+2024-07-17,India,desktop,sports,Dog Racing from Rio de Janeiro,962,1.0,3078
+2024-07-18,India,desktop,sports,Dog Racing from Rio de Janeiro,1051,1.0933411827550568,2940
+2024-07-19,India,desktop,sports,Dog Racing from Rio de Janeiro,1150,1.0949222714541675,3000
+2024-07-20,India,desktop,sports,Dog Racing from Rio de Janeiro,1268,1.102632457889165,3374
+2024-07-21,India,desktop,sports,Dog Racing from Rio de Janeiro,1440,1.1359747676889342,3755
+2024-07-22,India,desktop,sports,Dog Racing from Rio de Janeiro,1386,0.9625513039612088,3576
+2024-07-23,India,desktop,sports,Dog Racing from Rio de Janeiro,963,0.6952122555626066,2641
+2024-07-24,India,desktop,sports,Dog Racing from Rio de Janeiro,616,0.6405024083478237,1707
+2024-07-25,India,desktop,sports,Dog Racing from Rio de Janeiro,504,0.8193440328883349,1302
+2024-07-26,India,desktop,sports,Dog Racing from Rio de Janeiro,475,0.9425689045413838,1302
+2024-07-27,India,desktop,sports,Dog Racing from Rio de Janeiro,553,1.1653268860468682,1517
+2024-07-28,India,desktop,sports,Dog Racing from Rio de Janeiro,760,1.3759131505693012,2127
+2024-07-29,India,desktop,sports,Dog Racing from Rio de Janeiro,1113,1.465508020338496,3053
+2024-07-30,India,desktop,sports,Dog Racing from Rio de Janeiro,1699,1.5273617122621608,4752
+2024-07-31,India,desktop,sports,Dog Racing from Rio de Janeiro,1797,1.0578999469295056,4927
+2024-08-01,India,desktop,sports,Dog Racing from Rio de Janeiro,1343,0.7474674396202666,3682
+2024-08-02,India,desktop,sports,Dog Racing from Rio de Janeiro,706,0.5259256327669894,1879
+2024-08-03,India,desktop,sports,Dog Racing from Rio de Janeiro,488,0.691492658275769,1364
+2024-08-04,India,desktop,sports,Dog Racing from Rio de Janeiro,409,0.8393987143022826,1112
+2024-08-05,India,desktop,sports,Dog Racing from Rio de Janeiro,422,1.0324397276196233,1180
+2024-08-06,India,desktop,sports,Dog Racing from Rio de Janeiro,512,1.2134446338545803,1376
+2024-08-07,India,desktop,sports,Dog Racing from Rio de Janeiro,688,1.344036607107125,1849
+2024-08-08,India,desktop,sports,Dog Racing from Rio de Janeiro,1045,1.5198337471021897,2895
+2024-08-09,India,desktop,sports,Dog Racing from Rio de Janeiro,1660,1.5891791528557846,4508
+2024-08-10,India,desktop,sports,Dog Racing from Rio de Janeiro,2375,1.431242337383132,6194
+2024-08-11,India,desktop,sports,Dog Racing from Rio de Janeiro,2384,1.0037997077341365,6216
+2024-08-12,India,desktop,sports,Dog Racing from Rio de Janeiro,0,-0.14970334929957452,0
+2024-08-13,India,desktop,sports,Dog Racing from Rio de Janeiro,0,,0
+2024-08-14,India,desktop,sports,Dog Racing from Rio de Janeiro,0,,0
+2024-08-15,India,desktop,sports,Dog Racing from Rio de Janeiro,0,,0
+2024-07-17,India,mobile,drama,Town Talk,901,1.0,2886
+2024-07-18,India,mobile,drama,Town Talk,940,1.0438686951339058,3318
+2024-07-19,India,mobile,drama,Town Talk,990,1.0535742965473691,3751
+2024-07-20,India,mobile,drama,Town Talk,1063,1.0741596088022805,3870
+2024-07-21,India,mobile,drama,Town Talk,1249,1.1755887551581823,4641
+2024-07-22,India,mobile,drama,Town Talk,1295,1.0371291758723034,4762
+2024-07-23,India,mobile,drama,Town Talk,1151,0.8888613730214474,4232
+2024-07-24,India,mobile,drama,Town Talk,797,0.6930155542110802,2932
+2024-07-25,India,mobile,drama,Town Talk,657,0.8251924137085846,2515
+2024-07-26,India,mobile,drama,Town Talk,597,0.9094093467736284,2196
+2024-07-27,India,mobile,drama,Town Talk,626,1.0494236988731467,2373
+2024-07-28,India,mobile,drama,Town Talk,755,1.2069664154374036,2918
+2024-07-29,India,mobile,drama,Town Talk,949,1.2581375259331165,3563
+2024-07-30,India,mobile,drama,Town Talk,1256,1.3235529935835046,4524
+2024-07-31,India,mobile,drama,Town Talk,1414,1.1260696073943903,5252
+2024-08-01,India,mobile,drama,Town Talk,1297,0.9175704828211069,4963
+2024-08-02,India,mobile,drama,Town Talk,979,0.7554819577891754,3566
+2024-08-03,India,mobile,drama,Town Talk,781,0.7978649053868314,2958
+2024-08-04,India,mobile,drama,Town Talk,721,0.9237331128749033,2679
+2024-08-05,India,mobile,drama,Town Talk,738,1.0241370166628203,2632
+2024-08-06,India,mobile,drama,Town Talk,784,1.0628424629955295,2913
+2024-08-07,India,mobile,drama,Town Talk,868,1.1081972039634185,3323
+2024-08-08,India,mobile,drama,Town Talk,1053,1.2140927221159135,3874
+2024-08-09,India,mobile,drama,Town Talk,1287,1.2230832072819455,4591
+2024-08-10,India,mobile,drama,Town Talk,1451,1.1276530411866401,5605
+2024-08-11,India,mobile,drama,Town Talk,1596,1.100196031518206,5750
+2024-08-12,India,mobile,drama,Town Talk,1133,0.7102386331830245,4083
+2024-08-13,India,mobile,drama,Town Talk,596,0.5266125678528409,2260
+2024-08-14,India,mobile,drama,Town Talk,388,0.6516783260781261,1485
+2024-08-15,India,mobile,drama,Town Talk,335,0.8656952414002135,1210
+2024-07-17,India,desktop,drama,Town Talk,69,1.0,222
+2024-07-18,India,desktop,drama,Town Talk,70,1.0272035905167054,273
+2024-07-19,India,desktop,drama,Town Talk,76,1.0972064944191349,288
+2024-07-20,India,desktop,drama,Town Talk,90,1.1918449816011627,319
+2024-07-21,India,desktop,drama,Town Talk,103,1.153215837976349,389
+2024-07-22,India,desktop,drama,Town Talk,105,1.0205047472989395,405
+2024-07-23,India,desktop,drama,Town Talk,75,0.7176805318780248,271
+2024-07-24,India,desktop,drama,Town Talk,46,0.6173745278727284,175
+2024-07-25,India,desktop,drama,Town Talk,35,0.7628843205430103,126
+2024-07-26,India,desktop,drama,Town Talk,33,0.9455788703574385,119
+2024-07-27,India,desktop,drama,Town Talk,36,1.099992413913002,136
+2024-07-28,India,desktop,drama,Town Talk,47,1.3099158951184444,178
+2024-07-29,India,desktop,drama,Town Talk,66,1.4179183040307568,242
+2024-07-30,India,desktop,drama,Town Talk,98,1.4995330205981103,374
+2024-07-31,India,desktop,drama,Town Talk,135,1.3863867197635207,484
+2024-08-01,India,desktop,drama,Town Talk,131,0.9743445876349418,488
+2024-08-02,India,desktop,drama,Town Talk,73,0.5603325946012538,261
+2024-08-03,India,desktop,drama,Town Talk,45,0.6277160508896911,165
+2024-08-04,India,desktop,drama,Town Talk,35,0.7981725704268408,130
+2024-08-05,India,desktop,drama,Town Talk,32,0.9354527281340221,116
+2024-08-06,India,desktop,drama,Town Talk,36,1.1393056539527748,139
+2024-08-07,India,desktop,drama,Town Talk,47,1.3116848813166349,175
+2024-08-08,India,desktop,drama,Town Talk,71,1.5115783109454415,255
+2024-08-09,India,desktop,drama,Town Talk,108,1.5221518239553862,409
+2024-08-10,India,desktop,drama,Town Talk,159,1.4801522141542813,593
+2024-08-11,India,desktop,drama,Town Talk,169,1.0676043120153618,605
+2024-08-12,India,desktop,drama,Town Talk,19,0.1165213593480947,71
+2024-08-13,India,desktop,drama,Town Talk,7,0.378123538372223,25
+2024-08-14,India,desktop,drama,Town Talk,3,0.5640466919162171,14
+2024-08-15,India,desktop,drama,Town Talk,2,0.7794667460556889,8
+2024-07-17,India,mobile,education,Secrets of the Universe,614,1.0,1967
+2024-07-18,India,mobile,education,Secrets of the Universe,641,1.044086334437734,2043
+2024-07-19,India,mobile,education,Secrets of the Universe,675,1.0537186253326696,1985
+2024-07-20,India,mobile,education,Secrets of the Universe,774,1.1476611204063756,2373
+2024-07-21,India,mobile,education,Secrets of the Universe,916,1.1846975884502944,2837
+2024-07-22,India,mobile,education,Secrets of the Universe,874,0.9545773649903598,2597
+2024-07-23,India,mobile,education,Secrets of the Universe,634,0.7262966414963377,1885
+2024-07-24,India,mobile,education,Secrets of the Universe,431,0.6809046049643573,1362
+2024-07-25,India,mobile,education,Secrets of the Universe,353,0.8203487361854879,1039
+2024-07-26,India,mobile,education,Secrets of the Universe,335,0.9516958196535283,987
+2024-07-27,India,mobile,education,Secrets of the Universe,391,1.1672293967521652,1258
+2024-07-28,India,mobile,education,Secrets of the Universe,502,1.285064533748373,1554
+2024-07-29,India,mobile,education,Secrets of the Universe,692,1.3803132449678641,2229
+2024-07-30,India,mobile,education,Secrets of the Universe,976,1.4106328347800028,2929
+2024-07-31,India,mobile,education,Secrets of the Universe,1115,1.143432431568189,3384
+2024-08-01,India,mobile,education,Secrets of the Universe,896,0.8041648177257856,2635
+2024-08-02,India,mobile,education,Secrets of the Universe,532,0.5948016448146817,1566
+2024-08-03,India,mobile,education,Secrets of the Universe,370,0.6969403283419768,1135
+2024-08-04,India,mobile,education,Secrets of the Universe,315,0.8524895624359087,1005
+2024-08-05,India,mobile,education,Secrets of the Universe,310,0.9855335105502281,950
+2024-08-06,India,mobile,education,Secrets of the Universe,358,1.156684666087287,1054
+2024-08-07,India,mobile,education,Secrets of the Universe,452,1.263237260078331,1413
+2024-08-08,India,mobile,education,Secrets of the Universe,617,1.365651135332818,1948
+2024-08-09,India,mobile,education,Secrets of the Universe,915,1.4831735663191572,2774
+2024-08-10,India,mobile,education,Secrets of the Universe,1304,1.4256628499402824,4036
+2024-08-11,India,mobile,education,Secrets of the Universe,1478,1.1335900622525805,4390
+2024-08-12,India,mobile,education,Secrets of the Universe,284,0.19269717621001736,872
+2024-08-13,India,mobile,education,Secrets of the Universe,101,0.3557385882156278,312
+2024-08-14,India,mobile,education,Secrets of the Universe,57,0.5693937401636588,183
+2024-08-15,India,mobile,education,Secrets of the Universe,44,0.7868165723554528,137
+2024-07-17,India,desktop,education,Secrets of the Universe,279,1.0,893
+2024-07-18,India,desktop,education,Secrets of the Universe,288,1.0338948146787061,883
+2024-07-19,India,desktop,education,Secrets of the Universe,311,1.0822500377064816,983
+2024-07-20,India,desktop,education,Secrets of the Universe,336,1.08190042082534,1020
+2024-07-21,India,desktop,education,Secrets of the Universe,394,1.1746717665466146,1257
+2024-07-22,India,desktop,education,Secrets of the Universe,394,1.0004749575525427,1207
+2024-07-23,India,desktop,education,Secrets of the Universe,325,0.8255235876426938,1046
+2024-07-24,India,desktop,education,Secrets of the Universe,228,0.7031765836771414,685
+2024-07-25,India,desktop,education,Secrets of the Universe,193,0.8483389156151323,568
+2024-07-26,India,desktop,education,Secrets of the Universe,187,0.9712309200651694,562
+2024-07-27,India,desktop,education,Secrets of the Universe,211,1.1307506563944454,634
+2024-07-28,India,desktop,education,Secrets of the Universe,265,1.2576036067768128,829
+2024-07-29,India,desktop,education,Secrets of the Universe,340,1.2836760700028775,1084
+2024-07-30,India,desktop,education,Secrets of the Universe,404,1.1894834412465647,1301
+2024-07-31,India,desktop,education,Secrets of the Universe,400,0.9909186260926237,1213
+2024-08-01,India,desktop,education,Secrets of the Universe,363,0.9077669844900186,1089
+2024-08-02,India,desktop,education,Secrets of the Universe,296,0.8168705026565383,926
+2024-08-03,India,desktop,education,Secrets of the Universe,254,0.8592001850343833,810
+2024-08-04,India,desktop,education,Secrets of the Universe,249,0.9812049450398103,755
+2024-08-05,India,desktop,education,Secrets of the Universe,255,1.025392793577035,782
+2024-08-06,India,desktop,education,Secrets of the Universe,268,1.0529407070803314,822
+2024-08-07,India,desktop,education,Secrets of the Universe,292,1.0906719485275687,886
+2024-08-08,India,desktop,education,Secrets of the Universe,331,1.1337662221716642,1024
+2024-08-09,India,desktop,education,Secrets of the Universe,348,1.0540744315956765,1036
+2024-08-10,India,desktop,education,Secrets of the Universe,389,1.119411936689141,1229
+2024-08-11,India,desktop,education,Secrets of the Universe,404,1.0393291234739512,1301
+2024-08-12,India,desktop,education,Secrets of the Universe,350,0.8685300250217332,1042
+2024-08-13,India,desktop,education,Secrets of the Universe,243,0.6944531450943404,774
+2024-08-14,India,desktop,education,Secrets of the Universe,183,0.7547768461856077,544
+2024-08-15,India,desktop,education,Secrets of the Universe,170,0.9298928579770802,500
+2024-07-17,India,mobile,sports,Celebrity Mud Wrestling,328,1.0,1051
+2024-07-18,India,mobile,sports,Celebrity Mud Wrestling,339,1.0344071408452493,1198
+2024-07-19,India,mobile,sports,Celebrity Mud Wrestling,356,1.0521721581537797,1173
+2024-07-20,India,mobile,sports,Celebrity Mud Wrestling,404,1.137590856020749,1402
+2024-07-21,India,mobile,sports,Celebrity Mud Wrestling,480,1.1885007226302273,1678
+2024-07-22,India,mobile,sports,Celebrity Mud Wrestling,489,1.0196609723088244,1728
+2024-07-23,India,mobile,sports,Celebrity Mud Wrestling,406,0.8314091492890265,1421
+2024-07-24,India,mobile,sports,Celebrity Mud Wrestling,271,0.6686372905386297,977
+2024-07-25,India,mobile,sports,Celebrity Mud Wrestling,220,0.8119373993079738,731
+2024-07-26,India,mobile,sports,Celebrity Mud Wrestling,194,0.8859496255107215,641
+2024-07-27,India,mobile,sports,Celebrity Mud Wrestling,208,1.0767781118544284,715
+2024-07-28,India,mobile,sports,Celebrity Mud Wrestling,260,1.2543790321810784,876
+2024-07-29,India,mobile,sports,Celebrity Mud Wrestling,360,1.3853506834775893,1271
+2024-07-30,India,mobile,sports,Celebrity Mud Wrestling,480,1.3342320719143699,1729
+2024-07-31,India,mobile,sports,Celebrity Mud Wrestling,557,1.162346615489889,1989
+2024-08-01,India,mobile,sports,Celebrity Mud Wrestling,534,0.9595331075612326,1868
+2024-08-02,India,mobile,sports,Celebrity Mud Wrestling,319,0.5973940861313367,1071
+2024-08-03,India,mobile,sports,Celebrity Mud Wrestling,237,0.7437977120133025,821
+2024-08-04,India,mobile,sports,Celebrity Mud Wrestling,207,0.8764784455290056,733
+2024-08-05,India,mobile,sports,Celebrity Mud Wrestling,202,0.979769995314737,688
+2024-08-06,India,mobile,sports,Celebrity Mud Wrestling,222,1.099220336327575,761
+2024-08-07,India,mobile,sports,Celebrity Mud Wrestling,278,1.2549197893035908,993
+2024-08-08,India,mobile,sports,Celebrity Mud Wrestling,366,1.3188609344478845,1218
+2024-08-09,India,mobile,sports,Celebrity Mud Wrestling,493,1.3481773735547833,1639
+2024-08-10,India,mobile,sports,Celebrity Mud Wrestling,633,1.285763514998118,2282
+2024-08-11,India,mobile,sports,Celebrity Mud Wrestling,696,1.1000795451576002,2290
+2024-08-12,India,mobile,sports,Celebrity Mud Wrestling,252,0.3628469190962267,856
+2024-08-13,India,mobile,sports,Celebrity Mud Wrestling,102,0.40593044301806486,339
+2024-08-14,India,mobile,sports,Celebrity Mud Wrestling,63,0.6248836109750132,222
+2024-08-15,India,mobile,sports,Celebrity Mud Wrestling,53,0.8420350146857793,185
+2024-07-17,India,desktop,sports,Celebrity Mud Wrestling,337,1.0,1081
+2024-07-18,India,desktop,sports,Celebrity Mud Wrestling,352,1.0449112868743495,1255
+2024-07-19,India,desktop,sports,Celebrity Mud Wrestling,382,1.085510970188002,1309
+2024-07-20,India,desktop,sports,Celebrity Mud Wrestling,450,1.1780624232177732,1511
+2024-07-21,India,desktop,sports,Celebrity Mud Wrestling,521,1.1584423035689533,1732
+2024-07-22,India,desktop,sports,Celebrity Mud Wrestling,510,0.9795285323894914,1766
+2024-07-23,India,desktop,sports,Celebrity Mud Wrestling,332,0.6529347505413015,1152
+2024-07-24,India,desktop,sports,Celebrity Mud Wrestling,199,0.5997406721724668,682
+2024-07-25,India,desktop,sports,Celebrity Mud Wrestling,162,0.8181197828250802,552
+2024-07-26,India,desktop,sports,Celebrity Mud Wrestling,159,0.9865275548010504,536
+2024-07-27,India,desktop,sports,Celebrity Mud Wrestling,187,1.1763157986235646,634
+2024-07-28,India,desktop,sports,Celebrity Mud Wrestling,255,1.3656316465417668,839
+2024-07-29,India,desktop,sports,Celebrity Mud Wrestling,363,1.4253219287589158,1308
+2024-07-30,India,desktop,sports,Celebrity Mud Wrestling,531,1.464804621451216,1767
+2024-07-31,India,desktop,sports,Celebrity Mud Wrestling,596,1.1231167919252143,2064
+2024-08-01,India,desktop,sports,Celebrity Mud Wrestling,507,0.8509225580882469,1720
+2024-08-02,India,desktop,sports,Celebrity Mud Wrestling,299,0.5916143758363627,1069
+2024-08-03,India,desktop,sports,Celebrity Mud Wrestling,214,0.7157272801943451,718
+2024-08-04,India,desktop,sports,Celebrity Mud Wrestling,193,0.9051642053187196,690
+2024-08-05,India,desktop,sports,Celebrity Mud Wrestling,194,1.0053783107276022,691
+2024-08-06,India,desktop,sports,Celebrity Mud Wrestling,238,1.228759681815823,800
+2024-08-07,India,desktop,sports,Celebrity Mud Wrestling,307,1.2919224798855882,1011
+2024-08-08,India,desktop,sports,Celebrity Mud Wrestling,439,1.430772056804309,1475
+2024-08-09,India,desktop,sports,Celebrity Mud Wrestling,569,1.2977797458309528,1893
+2024-08-10,India,desktop,sports,Celebrity Mud Wrestling,699,1.2287206602875285,2323
+2024-08-11,India,desktop,sports,Celebrity Mud Wrestling,628,0.8989436165695255,2197
+2024-08-12,India,desktop,sports,Celebrity Mud Wrestling,230,0.36730822250413087,822
+2024-08-13,India,desktop,sports,Celebrity Mud Wrestling,112,0.49081413242252603,394
+2024-08-14,India,desktop,sports,Celebrity Mud Wrestling,73,0.6556185567921714,249
+2024-08-15,India,desktop,sports,Celebrity Mud Wrestling,63,0.863398198076959,207
+2024-07-17,India,mobile,drama,The Young and the Dyslexic,340,1.0,1090
+2024-07-18,India,mobile,drama,The Young and the Dyslexic,375,1.10446141663613,1437
+2024-07-19,India,mobile,drama,The Young and the Dyslexic,419,1.1198687535291239,1607
+2024-07-20,India,mobile,drama,The Young and the Dyslexic,483,1.153661492250504,1905
+2024-07-21,India,mobile,drama,The Young and the Dyslexic,567,1.1756690141478277,2152
+2024-07-22,India,mobile,drama,The Young and the Dyslexic,485,0.8569274616218878,1823
+2024-07-23,India,mobile,drama,The Young and the Dyslexic,308,0.6365948659481755,1158
+2024-07-24,India,mobile,drama,The Young and the Dyslexic,198,0.643601220823602,743
+2024-07-25,India,mobile,drama,The Young and the Dyslexic,167,0.8437569606170677,633
+2024-07-26,India,mobile,drama,The Young and the Dyslexic,160,0.962362074400902,615
+2024-07-27,India,mobile,drama,The Young and the Dyslexic,193,1.2120994716850917,712
+2024-07-28,India,mobile,drama,The Young and the Dyslexic,266,1.3811194376618205,1050
+2024-07-29,India,mobile,drama,The Young and the Dyslexic,411,1.5463363046018297,1558
+2024-07-30,India,mobile,drama,The Young and the Dyslexic,599,1.4578532457097069,2339
+2024-07-31,India,mobile,drama,The Young and the Dyslexic,624,1.0430505356499826,2391
+2024-08-01,India,mobile,drama,The Young and the Dyslexic,445,0.7140630720028162,1705
+2024-08-02,India,mobile,drama,The Young and the Dyslexic,224,0.5034805919580043,815
+2024-08-03,India,mobile,drama,The Young and the Dyslexic,161,0.7209401930173512,624
+2024-08-04,India,mobile,drama,The Young and the Dyslexic,139,0.8673243229088933,534
+2024-08-05,India,mobile,drama,The Young and the Dyslexic,143,1.0354266416709026,556
+2024-08-06,India,mobile,drama,The Young and the Dyslexic,175,1.2239586588808553,670
+2024-08-07,India,mobile,drama,The Young and the Dyslexic,245,1.4017295600540658,948
+2024-08-08,India,mobile,drama,The Young and the Dyslexic,387,1.5829913860991198,1469
+2024-08-09,India,mobile,drama,The Young and the Dyslexic,639,1.65313498905517,2376
+2024-08-10,India,mobile,drama,The Young and the Dyslexic,913,1.4293481673005541,3496
+2024-08-11,India,mobile,drama,The Young and the Dyslexic,879,0.9635925622569231,3267
+2024-08-12,India,mobile,drama,The Young and the Dyslexic,0,-0.3374512904275653,0
+2024-08-13,India,mobile,drama,The Young and the Dyslexic,0,,0
+2024-08-14,India,mobile,drama,The Young and the Dyslexic,0,,0
+2024-08-15,India,mobile,drama,The Young and the Dyslexic,0,,0
+2024-07-17,India,desktop,drama,The Young and the Dyslexic,306,1.0,981
+2024-07-18,India,desktop,drama,The Young and the Dyslexic,316,1.0346547424988852,1151
+2024-07-19,India,desktop,drama,The Young and the Dyslexic,326,1.0324369379388443,1224
+2024-07-20,India,desktop,drama,The Young and the Dyslexic,355,1.0915213579854721,1362
+2024-07-21,India,desktop,drama,The Young and the Dyslexic,405,1.1430463182297006,1568
+2024-07-22,India,desktop,drama,The Young and the Dyslexic,419,1.0362766558647063,1638
+2024-07-23,India,desktop,drama,The Young and the Dyslexic,365,0.8724168304748149,1440
+2024-07-24,India,desktop,drama,The Young and the Dyslexic,281,0.7719616108943594,1057
+2024-07-25,India,desktop,drama,The Young and the Dyslexic,247,0.8808272081346439,909
+2024-07-26,India,desktop,drama,The Young and the Dyslexic,243,0.9845342803022468,958
+2024-07-27,India,desktop,drama,The Young and the Dyslexic,282,1.1609780147707682,1101
+2024-07-28,India,desktop,drama,The Young and the Dyslexic,342,1.2151466798823687,1337
+2024-07-29,India,desktop,drama,The Young and the Dyslexic,424,1.2420773763091335,1610
+2024-07-30,India,desktop,drama,The Young and the Dyslexic,459,1.083278566587932,1688
+2024-07-31,India,desktop,drama,The Young and the Dyslexic,385,0.8403869966639803,1403
+2024-08-01,India,desktop,drama,The Young and the Dyslexic,283,0.7360812876794155,1031
+2024-08-02,India,desktop,drama,The Young and the Dyslexic,217,0.769939975776473,817
+2024-08-03,India,desktop,drama,The Young and the Dyslexic,195,0.9004809256138349,718
+2024-08-04,India,desktop,drama,The Young and the Dyslexic,213,1.0923364369782664,807
+2024-08-05,India,desktop,drama,The Young and the Dyslexic,253,1.1904011339659304,941
+2024-08-06,India,desktop,drama,The Young and the Dyslexic,314,1.2450280960102373,1193
+2024-08-07,India,desktop,drama,The Young and the Dyslexic,412,1.3150408981699035,1549
+2024-08-08,India,desktop,drama,The Young and the Dyslexic,530,1.2864720122671032,1928
+2024-08-09,India,desktop,drama,The Young and the Dyslexic,542,1.0235556495402596,1994
+2024-08-10,India,desktop,drama,The Young and the Dyslexic,418,0.7724029787747526,1570
+2024-08-11,India,desktop,drama,The Young and the Dyslexic,315,0.7542499968573143,1183
+2024-08-12,India,desktop,drama,The Young and the Dyslexic,214,0.6807032829777432,820
+2024-08-13,India,desktop,drama,The Young and the Dyslexic,171,0.7996804010217626,648
+2024-08-14,India,desktop,drama,The Young and the Dyslexic,164,0.9644605762077888,625
+2024-08-15,India,desktop,drama,The Young and the Dyslexic,191,1.1701822018103236,705
+2024-07-17,India,mobile,game shows,Bowling for Burgers,563,1.0,1803
+2024-07-18,India,mobile,game shows,Bowling for Burgers,615,1.0938912637292155,1685
+2024-07-19,India,mobile,game shows,Bowling for Burgers,648,1.05396758607656,1755
+2024-07-20,India,mobile,game shows,Bowling for Burgers,702,1.0841431126521566,2001
+2024-07-21,India,mobile,game shows,Bowling for Burgers,818,1.165496643776858,2400
+2024-07-22,India,mobile,game shows,Bowling for Burgers,791,0.9671596462359694,2187
+2024-07-23,India,mobile,game shows,Bowling for Burgers,624,0.7900494854730166,1833
+2024-07-24,India,mobile,game shows,Bowling for Burgers,417,0.6690548193900065,1177
+2024-07-25,India,mobile,game shows,Bowling for Burgers,347,0.8325875296313902,999
+2024-07-26,India,mobile,game shows,Bowling for Burgers,330,0.952602416208742,951
+2024-07-27,India,mobile,game shows,Bowling for Burgers,363,1.1008013914353816,973
+2024-07-28,India,mobile,game shows,Bowling for Burgers,464,1.2788932948392606,1361
+2024-07-29,India,mobile,game shows,Bowling for Burgers,622,1.342140407609108,1668
+2024-07-30,India,mobile,game shows,Bowling for Burgers,874,1.405449585746824,2490
+2024-07-31,India,mobile,game shows,Bowling for Burgers,990,1.1336923124191436,2767
+2024-08-01,India,mobile,game shows,Bowling for Burgers,881,0.8899148241897725,2410
+2024-08-02,India,mobile,game shows,Bowling for Burgers,502,0.5708457250479226,1418
+2024-08-03,India,mobile,game shows,Bowling for Burgers,380,0.7569997281126927,1104
+2024-08-04,India,mobile,game shows,Bowling for Burgers,325,0.8558934900035599,917
+2024-08-05,India,mobile,game shows,Bowling for Burgers,346,1.0664127735131628,938
+2024-08-06,India,mobile,game shows,Bowling for Burgers,414,1.1980783248676703,1192
+2024-08-07,India,mobile,game shows,Bowling for Burgers,548,1.3253601141539653,1578
+2024-08-08,India,mobile,game shows,Bowling for Burgers,745,1.3605306814802256,2145
+2024-08-09,India,mobile,game shows,Bowling for Burgers,954,1.2806981682234098,2637
+2024-08-10,India,mobile,game shows,Bowling for Burgers,1081,1.1337625653289667,2959
+2024-08-11,India,mobile,game shows,Bowling for Burgers,1030,0.95354825473993,2762
+2024-08-12,India,mobile,game shows,Bowling for Burgers,453,0.440392343882529,1241
+2024-08-13,India,mobile,game shows,Bowling for Burgers,238,0.5263695055561196,652
+2024-08-14,India,mobile,game shows,Bowling for Burgers,164,0.6914406169330195,454
+2024-08-15,India,mobile,game shows,Bowling for Burgers,144,0.8835389943577515,408
+2024-07-17,India,desktop,game shows,Bowling for Burgers,203,1.0,651
+2024-07-18,India,desktop,game shows,Bowling for Burgers,212,1.0448861288077942,598
+2024-07-19,India,desktop,game shows,Bowling for Burgers,227,1.0752956787231136,630
+2024-07-20,India,desktop,game shows,Bowling for Burgers,257,1.1340358738121505,740
+2024-07-21,India,desktop,game shows,Bowling for Burgers,298,1.1620200664196225,859
+2024-07-22,India,desktop,game shows,Bowling for Burgers,298,1.0026811401090592,800
+2024-07-23,India,desktop,game shows,Bowling for Burgers,230,0.7746926475962204,631
+2024-07-24,India,desktop,game shows,Bowling for Burgers,158,0.6881627293141257,428
+2024-07-25,India,desktop,game shows,Bowling for Burgers,131,0.8342179142815976,379
+2024-07-26,India,desktop,game shows,Bowling for Burgers,121,0.9280561256805141,356
+2024-07-27,India,desktop,game shows,Bowling for Burgers,131,1.0849417653372457,359
+2024-07-28,India,desktop,game shows,Bowling for Burgers,163,1.247882298721279,456
+2024-07-29,India,desktop,game shows,Bowling for Burgers,227,1.3939705239503908,621
+2024-07-30,India,desktop,game shows,Bowling for Burgers,316,1.3930028387419846,892
+2024-07-31,India,desktop,game shows,Bowling for Burgers,371,1.1758065098879598,1058
+2024-08-01,India,desktop,game shows,Bowling for Burgers,300,0.810570625889614,822
+2024-08-02,India,desktop,game shows,Bowling for Burgers,177,0.5932722602894158,507
+2024-08-03,India,desktop,game shows,Bowling for Burgers,131,0.7430558211373731,374
+2024-08-04,India,desktop,game shows,Bowling for Burgers,112,0.8608025035357302,321
+2024-08-05,India,desktop,game shows,Bowling for Burgers,113,1.0150391048928957,307
+2024-08-06,India,desktop,game shows,Bowling for Burgers,137,1.217417584717518,380
+2024-08-07,India,desktop,game shows,Bowling for Burgers,176,1.2904134500145825,488
+2024-08-08,India,desktop,game shows,Bowling for Burgers,244,1.3900818682029685,676
+2024-08-09,India,desktop,game shows,Bowling for Burgers,331,1.3594960344169071,935
+2024-08-10,India,desktop,game shows,Bowling for Burgers,395,1.1943857811697813,1070
+2024-08-11,India,desktop,game shows,Bowling for Burgers,380,0.9630987376229441,1073
+2024-08-12,India,desktop,game shows,Bowling for Burgers,164,0.43391486195394363,469
+2024-08-13,India,desktop,game shows,Bowling for Burgers,82,0.5048053424929833,240
+2024-08-14,India,desktop,game shows,Bowling for Burgers,54,0.6622466484642988,157
+2024-08-15,India,desktop,game shows,Bowling for Burgers,46,0.8692314912969541,131
+2024-07-17,India,mobile,game shows,Underwater Bingo for Teens,188,1.0,602
+2024-07-18,India,mobile,game shows,Underwater Bingo for Teens,201,1.0738508169785312,470
+2024-07-19,India,mobile,game shows,Underwater Bingo for Teens,221,1.1025581665742297,516
+2024-07-20,India,mobile,game shows,Underwater Bingo for Teens,259,1.1736441903945614,580
+2024-07-21,India,mobile,game shows,Underwater Bingo for Teens,310,1.2005950705371293,689
+2024-07-22,India,mobile,game shows,Underwater Bingo for Teens,291,0.9389326051014868,651
+2024-07-23,India,mobile,game shows,Underwater Bingo for Teens,180,0.6188211773388723,391
+2024-07-24,India,mobile,game shows,Underwater Bingo for Teens,110,0.6135270127776632,242
+2024-07-25,India,mobile,game shows,Underwater Bingo for Teens,86,0.7830392731596776,200
+2024-07-26,India,mobile,game shows,Underwater Bingo for Teens,81,0.9444245208025351,183
+2024-07-27,India,mobile,game shows,Underwater Bingo for Teens,91,1.1272190983488226,208
+2024-07-28,India,mobile,game shows,Underwater Bingo for Teens,118,1.2989198914482447,264
+2024-07-29,India,mobile,game shows,Underwater Bingo for Teens,172,1.4631407059699972,406
+2024-07-30,India,mobile,game shows,Underwater Bingo for Teens,271,1.5781697052349288,626
+2024-07-31,India,mobile,game shows,Underwater Bingo for Teens,393,1.452989854743476,908
+2024-08-01,India,mobile,game shows,Underwater Bingo for Teens,408,1.0388149963065518,941
+2024-08-02,India,mobile,game shows,Underwater Bingo for Teens,155,0.3811721699214917,334
+2024-08-03,India,mobile,game shows,Underwater Bingo for Teens,86,0.5581983240778127,193
+2024-08-04,India,mobile,game shows,Underwater Bingo for Teens,61,0.7120456998958906,131
+2024-08-05,India,mobile,game shows,Underwater Bingo for Teens,55,0.908211895350526,122
+2024-08-06,India,mobile,game shows,Underwater Bingo for Teens,62,1.1393460211622302,145
+2024-08-07,India,mobile,game shows,Underwater Bingo for Teens,78,1.2737095695823069,169
+2024-08-08,India,mobile,game shows,Underwater Bingo for Teens,119,1.5266313312252435,263
+2024-08-09,India,mobile,game shows,Underwater Bingo for Teens,189,1.5895198553685899,427
+2024-08-10,India,mobile,game shows,Underwater Bingo for Teens,335,1.7731290249449736,750
+2024-08-11,India,mobile,game shows,Underwater Bingo for Teens,570,1.7016388760326318,1250
+2024-08-12,India,mobile,game shows,Underwater Bingo for Teens,250,0.44004522001453106,555
+2024-08-13,India,mobile,game shows,Underwater Bingo for Teens,0,-0.0695205803895722,0
+2024-08-14,India,mobile,game shows,Underwater Bingo for Teens,0,,0
+2024-08-15,India,mobile,game shows,Underwater Bingo for Teens,0,,0
+2024-07-17,India,desktop,game shows,Underwater Bingo for Teens,572,1.0,1831
+2024-07-18,India,desktop,game shows,Underwater Bingo for Teens,585,1.0236869293736672,1258
+2024-07-19,India,desktop,game shows,Underwater Bingo for Teens,631,1.079485681302816,1385
+2024-07-20,India,desktop,game shows,Underwater Bingo for Teens,688,1.0910743693640321,1557
+2024-07-21,India,desktop,game shows,Underwater Bingo for Teens,804,1.169687689696812,1838
+2024-07-22,India,desktop,game shows,Underwater Bingo for Teens,808,1.0050655959741228,1827
+2024-07-23,India,desktop,game shows,Underwater Bingo for Teens,659,0.8166030094812049,1537
+2024-07-24,India,desktop,game shows,Underwater Bingo for Teens,459,0.696751250571153,1080
+2024-07-25,India,desktop,game shows,Underwater Bingo for Teens,389,0.8476149765584746,862
+2024-07-26,India,desktop,game shows,Underwater Bingo for Teens,384,0.9882426391168702,895
+2024-07-27,India,desktop,game shows,Underwater Bingo for Teens,455,1.1862335612882693,1040
+2024-07-28,India,desktop,game shows,Underwater Bingo for Teens,590,1.298109385751223,1309
+2024-07-29,India,desktop,game shows,Underwater Bingo for Teens,818,1.3877737606245015,1907
+2024-07-30,India,desktop,game shows,Underwater Bingo for Teens,1011,1.2371187731460602,2334
+2024-07-31,India,desktop,game shows,Underwater Bingo for Teens,777,0.7686180328793781,1775
+2024-08-01,India,desktop,game shows,Underwater Bingo for Teens,487,0.6273735598653157,1135
+2024-08-02,India,desktop,game shows,Underwater Bingo for Teens,348,0.7161065512104609,820
+2024-08-03,India,desktop,game shows,Underwater Bingo for Teens,317,0.9132212752755537,704
+2024-08-04,India,desktop,game shows,Underwater Bingo for Teens,341,1.076576885386551,771
+2024-08-05,India,desktop,game shows,Underwater Bingo for Teens,415,1.2191283693804997,968
+2024-08-06,India,desktop,game shows,Underwater Bingo for Teens,570,1.373664510555564,1328
+2024-08-07,India,desktop,game shows,Underwater Bingo for Teens,758,1.3310825132040094,1698
+2024-08-08,India,desktop,game shows,Underwater Bingo for Teens,961,1.2682505517371676,2065
+2024-08-09,India,desktop,game shows,Underwater Bingo for Teens,984,1.0241722584858235,2292
+2024-08-10,India,desktop,game shows,Underwater Bingo for Teens,822,0.8353807756217797,1822
+2024-08-11,India,desktop,game shows,Underwater Bingo for Teens,639,0.7778381942813952,1417
+2024-08-12,India,desktop,game shows,Underwater Bingo for Teens,442,0.6920890872533251,950
+2024-08-13,India,desktop,game shows,Underwater Bingo for Teens,344,0.7794720619590616,802
+2024-08-14,India,desktop,game shows,Underwater Bingo for Teens,313,0.9119681517509659,716
+2024-08-15,India,desktop,game shows,Underwater Bingo for Teens,338,1.081661113454433,727
+2024-07-17,India,mobile,lifestyle,Druids on Parade,428,1.0,1370
+2024-07-18,India,mobile,lifestyle,Druids on Parade,438,1.0235402818042625,1003
+2024-07-19,India,mobile,lifestyle,Druids on Parade,450,1.0284992211469055,1073
+2024-07-20,India,mobile,lifestyle,Druids on Parade,503,1.1194014063347295,1200
+2024-07-21,India,mobile,lifestyle,Druids on Parade,607,1.2072784566058308,1336
+2024-07-22,India,mobile,lifestyle,Druids on Parade,618,1.0197478240589466,1404
+2024-07-23,India,mobile,lifestyle,Druids on Parade,502,0.8123552455731649,1150
+2024-07-24,India,mobile,lifestyle,Druids on Parade,359,0.7158176805839808,815
+2024-07-25,India,mobile,lifestyle,Druids on Parade,306,0.8550292104325513,710
+2024-07-26,India,mobile,lifestyle,Druids on Parade,290,0.9480755068007515,638
+2024-07-27,India,mobile,lifestyle,Druids on Parade,334,1.1538410522993163,759
+2024-07-28,India,mobile,lifestyle,Druids on Parade,429,1.2847304597075158,1003
+2024-07-29,India,mobile,lifestyle,Druids on Parade,584,1.3626504517081777,1272
+2024-07-30,India,mobile,lifestyle,Druids on Parade,707,1.211896301808588,1557
+2024-07-31,India,mobile,lifestyle,Druids on Parade,628,0.8887334585080597,1440
+2024-08-01,India,mobile,lifestyle,Druids on Parade,423,0.6749180603904275,990
+2024-08-02,India,mobile,lifestyle,Druids on Parade,286,0.6771724922892272,649
+2024-08-03,India,mobile,lifestyle,Druids on Parade,248,0.8699351280673644,581
+2024-08-04,India,mobile,lifestyle,Druids on Parade,264,1.0649165837972816,623
+2024-08-05,India,mobile,lifestyle,Druids on Parade,320,1.2139121499768641,712
+2024-08-06,India,mobile,lifestyle,Druids on Parade,415,1.2994221564863964,905
+2024-08-07,India,mobile,lifestyle,Druids on Parade,568,1.3695651979982482,1237
+2024-08-08,India,mobile,lifestyle,Druids on Parade,730,1.2853499804437518,1706
+2024-08-09,India,mobile,lifestyle,Druids on Parade,788,1.0802706076448416,1843
+2024-08-10,India,mobile,lifestyle,Druids on Parade,623,0.7912882347064645,1414
+2024-08-11,India,mobile,lifestyle,Druids on Parade,485,0.7787615523701137,1111
+2024-08-12,India,mobile,lifestyle,Druids on Parade,326,0.6741831668111528,764
+2024-08-13,India,mobile,lifestyle,Druids on Parade,248,0.7624115478889035,541
+2024-08-14,India,mobile,lifestyle,Druids on Parade,227,0.916227614783724,536
+2024-08-15,India,mobile,lifestyle,Druids on Parade,247,1.0895778954932362,544
+2024-07-17,India,desktop,lifestyle,Druids on Parade,131,1.0,420
+2024-07-18,India,desktop,lifestyle,Druids on Parade,140,1.0747297006531285,319
+2024-07-19,India,desktop,lifestyle,Druids on Parade,153,1.0936975621954033,357
+2024-07-20,India,desktop,lifestyle,Druids on Parade,166,1.0857109008452652,388
+2024-07-21,India,desktop,lifestyle,Druids on Parade,190,1.1465165301475275,444
+2024-07-22,India,desktop,lifestyle,Druids on Parade,183,0.9646908444638259,407
+2024-07-23,India,desktop,lifestyle,Druids on Parade,149,0.8173795475905777,353
+2024-07-24,India,desktop,lifestyle,Druids on Parade,99,0.6651609708344215,236
+2024-07-25,India,desktop,lifestyle,Druids on Parade,80,0.8117006367949324,186
+2024-07-26,India,desktop,lifestyle,Druids on Parade,75,0.9390035544943626,165
+2024-07-27,India,desktop,lifestyle,Druids on Parade,86,1.1572520197481062,188
+2024-07-28,India,desktop,lifestyle,Druids on Parade,111,1.3005432142029556,261
+2024-07-29,India,desktop,lifestyle,Druids on Parade,152,1.3735045966395543,342
+2024-07-30,India,desktop,lifestyle,Druids on Parade,208,1.3704592275800351,491
+2024-07-31,India,desktop,lifestyle,Druids on Parade,215,1.0380765789889776,499
+2024-08-01,India,desktop,lifestyle,Druids on Parade,185,0.8615383021621681,416
+2024-08-02,India,desktop,lifestyle,Druids on Parade,125,0.6760577136295609,295
+2024-08-03,India,desktop,lifestyle,Druids on Parade,102,0.8221073731481765,223
+2024-08-04,India,desktop,lifestyle,Druids on Parade,93,0.9199206766130587,219
+2024-08-05,India,desktop,lifestyle,Druids on Parade,94,1.012005019934421,209
+2024-08-06,India,desktop,lifestyle,Druids on Parade,109,1.1669993453405663,258
+2024-08-07,India,desktop,lifestyle,Druids on Parade,129,1.1910756192615704,306
+2024-08-08,India,desktop,lifestyle,Druids on Parade,166,1.290723123636011,366
+2024-08-09,India,desktop,lifestyle,Druids on Parade,208,1.2585222973915258,474
+2024-08-10,India,desktop,lifestyle,Druids on Parade,248,1.193852496594371,591
+2024-08-11,India,desktop,lifestyle,Druids on Parade,252,1.0190079920616426,579
+2024-08-12,India,desktop,lifestyle,Druids on Parade,113,0.45045051101359623,267
+2024-08-13,India,desktop,lifestyle,Druids on Parade,52,0.4683932652809917,121
+2024-08-14,India,desktop,lifestyle,Druids on Parade,33,0.6520466720857481,80
+2024-08-15,India,desktop,lifestyle,Druids on Parade,27,0.8372709142970256,64
+2024-07-17,India,mobile,comedy,My Three Mutants,285,1.0,914
+2024-07-18,India,mobile,comedy,My Three Mutants,294,1.0349322802143985,885
+2024-07-19,India,mobile,comedy,My Three Mutants,306,1.0433316989983359,968
+2024-07-20,India,mobile,comedy,My Three Mutants,351,1.1474650794471644,1075
+2024-07-21,India,mobile,comedy,My Three Mutants,406,1.1591940435405337,1208
+2024-07-22,India,mobile,comedy,My Three Mutants,392,0.96713188199269,1252
+2024-07-23,India,mobile,comedy,My Three Mutants,335,0.8561241286127013,1070
+2024-07-24,India,mobile,comedy,My Three Mutants,239,0.7150409532615263,734
+2024-07-25,India,mobile,comedy,My Three Mutants,192,0.8074554441229013,609
+2024-07-26,India,mobile,comedy,My Three Mutants,173,0.9030612949797437,563
+2024-07-27,India,mobile,comedy,My Three Mutants,192,1.114740135204573,609
+2024-07-28,India,mobile,comedy,My Three Mutants,237,1.2355381037532531,764
+2024-07-29,India,mobile,comedy,My Three Mutants,321,1.3564355238585317,995
+2024-07-30,India,mobile,comedy,My Three Mutants,435,1.3572729071764362,1348
+2024-07-31,India,mobile,comedy,My Three Mutants,487,1.1208574050080837,1539
+2024-08-01,India,mobile,comedy,My Three Mutants,441,0.9073130084679899,1395
+2024-08-02,India,mobile,comedy,My Three Mutants,262,0.5954279464242653,796
+2024-08-03,India,mobile,comedy,My Three Mutants,191,0.7322649763271207,593
+2024-08-04,India,mobile,comedy,My Three Mutants,167,0.8794548714217681,509
+2024-08-05,India,mobile,comedy,My Three Mutants,176,1.0574923157059897,552
+2024-08-06,India,mobile,comedy,My Three Mutants,208,1.1844321520972323,625
+2024-08-07,India,mobile,comedy,My Three Mutants,259,1.2478598882781209,787
+2024-08-08,India,mobile,comedy,My Three Mutants,364,1.4057996304835028,1161
+2024-08-09,India,mobile,comedy,My Three Mutants,473,1.2997234435584548,1434
+2024-08-10,India,mobile,comedy,My Three Mutants,577,1.2213228502804843,1878
+2024-08-11,India,mobile,comedy,My Three Mutants,518,0.8983447695236818,1539
+2024-08-12,India,mobile,comedy,My Three Mutants,214,0.41324663641005777,676
+2024-08-13,India,mobile,comedy,My Three Mutants,105,0.492104459201968,342
+2024-08-14,India,mobile,comedy,My Three Mutants,69,0.6641177525639503,213
+2024-08-15,India,mobile,comedy,My Three Mutants,61,0.897995549348021,195
+2024-07-17,India,desktop,comedy,My Three Mutants,416,1.0,1332
+2024-07-18,India,desktop,comedy,My Three Mutants,455,1.093992411777894,1423
+2024-07-19,India,desktop,comedy,My Three Mutants,498,1.0956160547815685,1543
+2024-07-20,India,desktop,comedy,My Three Mutants,560,1.1251402575821137,1664
+2024-07-21,India,desktop,comedy,My Three Mutants,651,1.1634614312258178,2016
+2024-07-22,India,desktop,comedy,My Three Mutants,590,0.9070181378132217,1864
+2024-07-23,India,desktop,comedy,My Three Mutants,403,0.6838928421583237,1286
+2024-07-24,India,desktop,comedy,My Three Mutants,260,0.6471715891173735,839
+2024-07-25,India,desktop,comedy,My Three Mutants,218,0.8411420778137978,663
+2024-07-26,India,desktop,comedy,My Three Mutants,210,0.9662634718023002,652
+2024-07-27,India,desktop,comedy,My Three Mutants,251,1.1962043909895796,777
+2024-07-28,India,desktop,comedy,My Three Mutants,343,1.3679553915794491,1073
+2024-07-29,India,desktop,comedy,My Three Mutants,489,1.4268432931729451,1591
+2024-07-30,India,desktop,comedy,My Three Mutants,693,1.4183199880415145,2168
+2024-07-31,India,desktop,comedy,My Three Mutants,732,1.0563349315291466,2311
+2024-08-01,India,desktop,comedy,My Three Mutants,598,0.8176745113257171,1815
+2024-08-02,India,desktop,comedy,My Three Mutants,359,0.6008079416561791,1168
+2024-08-03,India,desktop,comedy,My Three Mutants,255,0.7126064664561874,799
+2024-08-04,India,desktop,comedy,My Three Mutants,223,0.8750402323078489,725
+2024-08-05,India,desktop,comedy,My Three Mutants,222,0.9985635252535993,668
+2024-08-06,India,desktop,comedy,My Three Mutants,267,1.2034966853467448,860
+2024-08-07,India,desktop,comedy,My Three Mutants,340,1.2754570567910324,1064
+2024-08-08,India,desktop,comedy,My Three Mutants,473,1.3922642216941046,1524
+2024-08-09,India,desktop,comedy,My Three Mutants,666,1.4100142163415366,2043
+2024-08-10,India,desktop,comedy,My Three Mutants,914,1.3733436087230713,2745
+2024-08-11,India,desktop,comedy,My Three Mutants,909,0.99480561329097,2928
+2024-08-12,India,desktop,comedy,My Three Mutants,236,0.25983936887052794,723
+2024-08-13,India,desktop,comedy,My Three Mutants,97,0.41425298573816705,302
+2024-08-14,India,desktop,comedy,My Three Mutants,58,0.6070010150176368,182
+2024-08-15,India,desktop,comedy,My Three Mutants,48,0.8295060554899292,151
+2024-07-17,India,mobile,comedy,Mr. Ed,172,1.0,552
+2024-07-18,India,mobile,comedy,Mr. Ed,183,1.0652935749966153,1001
+2024-07-19,India,mobile,comedy,Mr. Ed,197,1.0805242110122715,1091
+2024-07-20,India,mobile,comedy,Mr. Ed,230,1.1681182215684696,1159
+2024-07-21,India,mobile,comedy,Mr. Ed,277,1.2045865347345148,1440
+2024-07-22,India,mobile,comedy,Mr. Ed,253,0.9137237409846078,1315
+2024-07-23,India,mobile,comedy,Mr. Ed,176,0.6980836844597003,899
+2024-07-24,India,mobile,comedy,Mr. Ed,104,0.592350991232044,558
+2024-07-25,India,mobile,comedy,Mr. Ed,80,0.7751602015904762,406
+2024-07-26,India,mobile,comedy,Mr. Ed,77,0.967752819279722,406
+2024-07-27,India,mobile,comedy,Mr. Ed,89,1.167362424574524,486
+2024-07-28,India,mobile,comedy,Mr. Ed,124,1.400248558628898,667
+2024-07-29,India,mobile,comedy,Mr. Ed,189,1.5272127523160886,994
+2024-07-30,India,mobile,comedy,Mr. Ed,284,1.5072717336184263,1511
+2024-07-31,India,mobile,comedy,Mr. Ed,326,1.1490805405653666,1644
+2024-08-01,India,mobile,comedy,Mr. Ed,258,0.7921120334299709,1383
+2024-08-02,India,mobile,comedy,Mr. Ed,137,0.5314126532264207,705
+2024-08-03,India,mobile,comedy,Mr. Ed,94,0.6897876033056184,491
+2024-08-04,India,mobile,comedy,Mr. Ed,80,0.8599983252514537,416
+2024-08-05,India,mobile,comedy,Mr. Ed,83,1.039648927044988,423
+2024-08-06,India,mobile,comedy,Mr. Ed,97,1.1689835150652357,530
+2024-08-07,India,mobile,comedy,Mr. Ed,125,1.2918307963587026,644
+2024-08-08,India,mobile,comedy,Mr. Ed,175,1.402892311846478,958
+2024-08-09,India,mobile,comedy,Mr. Ed,249,1.4229437945735992,1321
+2024-08-10,India,mobile,comedy,Mr. Ed,358,1.4379759584394982,1823
+2024-08-11,India,mobile,comedy,Mr. Ed,408,1.1413209897473962,2254
+2024-08-12,India,mobile,comedy,Mr. Ed,119,0.2939362385160571,661
+2024-08-13,India,mobile,comedy,Mr. Ed,42,0.35392411198108203,218
+2024-08-14,India,mobile,comedy,Mr. Ed,25,0.5977355616230038,129
+2024-08-15,India,mobile,comedy,Mr. Ed,19,0.7752037625707817,97
+2024-07-17,India,desktop,comedy,Mr. Ed,404,1.0,1293
+2024-07-18,India,desktop,comedy,Mr. Ed,445,1.1034289555467516,2412
+2024-07-19,India,desktop,comedy,Mr. Ed,479,1.0765400504994216,2592
+2024-07-20,India,desktop,comedy,Mr. Ed,542,1.1316115560802644,2933
+2024-07-21,India,desktop,comedy,Mr. Ed,628,1.1602116835321523,3269
+2024-07-22,India,desktop,comedy,Mr. Ed,537,0.8560243054400062,2823
+2024-07-23,India,desktop,comedy,Mr. Ed,359,0.6693297098398758,1983
+2024-07-24,India,desktop,comedy,Mr. Ed,238,0.6633807426744145,1225
+2024-07-25,India,desktop,comedy,Mr. Ed,196,0.8256891923103963,1084
+2024-07-26,India,desktop,comedy,Mr. Ed,190,0.9702175311967687,1019
+2024-07-27,India,desktop,comedy,Mr. Ed,229,1.207318419972026,1229
+2024-07-28,India,desktop,comedy,Mr. Ed,314,1.3716987296790586,1716
+2024-07-29,India,desktop,comedy,Mr. Ed,471,1.5009466345858256,2475
+2024-07-30,India,desktop,comedy,Mr. Ed,680,1.4442868540890348,3753
+2024-07-31,India,desktop,comedy,Mr. Ed,728,1.0708801762825806,3902
+2024-08-01,India,desktop,comedy,Mr. Ed,543,0.7461829797724137,2737
+2024-08-02,India,desktop,comedy,Mr. Ed,321,0.5921864993902113,1688
+2024-08-03,India,desktop,comedy,Mr. Ed,235,0.734082032541709,1237
+2024-08-04,India,desktop,comedy,Mr. Ed,210,0.8944537008089047,1092
+2024-08-05,India,desktop,comedy,Mr. Ed,222,1.0575918317845094,1131
+2024-08-06,India,desktop,comedy,Mr. Ed,278,1.253148323296674,1446
+2024-08-07,India,desktop,comedy,Mr. Ed,384,1.3842133031356654,2021
+2024-08-08,India,desktop,comedy,Mr. Ed,544,1.4180898631516048,2946
+2024-08-09,India,desktop,comedy,Mr. Ed,765,1.4064807637955374,4140
+2024-08-10,India,desktop,comedy,Mr. Ed,876,1.1460574950623843,4418
+2024-08-11,India,desktop,comedy,Mr. Ed,688,0.78544065365844,3613
+2024-08-12,India,desktop,comedy,Mr. Ed,178,0.258854882517379,916
+2024-08-13,India,desktop,comedy,Mr. Ed,89,0.5014993568389637,483
+2024-08-14,India,desktop,comedy,Mr. Ed,59,0.6733234864558885,311
+2024-08-15,India,desktop,comedy,Mr. Ed,53,0.8999410640149752,284
+2024-07-17,India,mobile,drama,Traffic Court,624,1.0,1997
+2024-07-18,India,mobile,drama,Traffic Court,663,1.0634823642831412,1255
+2024-07-19,India,mobile,drama,Traffic Court,680,1.026507275415033,1327
+2024-07-20,India,mobile,drama,Traffic Court,733,1.078265791647188,1502
+2024-07-21,India,mobile,drama,Traffic Court,847,1.1560195946330794,1652
+2024-07-22,India,mobile,drama,Traffic Court,843,0.9956103931270164,1578
+2024-07-23,India,mobile,drama,Traffic Court,725,0.8608448375641328,1443
+2024-07-24,India,mobile,drama,Traffic Court,533,0.7356624765159295,1040
+2024-07-25,India,mobile,drama,Traffic Court,452,0.849411624131934,900
+2024-07-26,India,mobile,drama,Traffic Court,443,0.9815466659230628,847
+2024-07-27,India,mobile,drama,Traffic Court,514,1.1615789407975452,963
+2024-07-28,India,mobile,drama,Traffic Court,670,1.3054182096002689,1255
+2024-07-29,India,mobile,drama,Traffic Court,862,1.286943337450032,1647
+2024-07-30,India,mobile,drama,Traffic Court,1027,1.1919029481392913,2105
+2024-07-31,India,mobile,drama,Traffic Court,882,0.8590712836439651,1651
+2024-08-01,India,mobile,drama,Traffic Court,677,0.7684368945482378,1281
+2024-08-02,India,mobile,drama,Traffic Court,497,0.7341232177659189,969
+2024-08-03,India,mobile,drama,Traffic Court,455,0.9173107273238068,898
+2024-08-04,India,mobile,drama,Traffic Court,466,1.0252336814199698,918
+2024-08-05,India,mobile,drama,Traffic Court,530,1.138215041946582,1034
+2024-08-06,India,mobile,drama,Traffic Court,660,1.2462486282473026,1314
+2024-08-07,India,mobile,drama,Traffic Court,767,1.1630504786702054,1481
+2024-08-08,India,mobile,drama,Traffic Court,909,1.185171366593739,1790
+2024-08-09,India,mobile,drama,Traffic Court,970,1.06772943192568,1931
+2024-08-10,India,mobile,drama,Traffic Court,958,0.9880285408245716,1850
+2024-08-11,India,mobile,drama,Traffic Court,855,0.8934088293329169,1669
+2024-08-12,India,mobile,drama,Traffic Court,578,0.676334796925335,1184
+2024-08-13,India,mobile,drama,Traffic Court,427,0.7396813773553609,825
+2024-08-14,India,mobile,drama,Traffic Court,340,0.7969772430492739,697
+2024-08-15,India,mobile,drama,Traffic Court,339,0.9997365125391535,656
+2024-07-17,India,desktop,drama,Traffic Court,0,1.0,0
+2024-07-18,India,desktop,drama,Traffic Court,0,,0
+2024-07-19,India,desktop,drama,Traffic Court,0,,0
+2024-07-20,India,desktop,drama,Traffic Court,0,,0
+2024-07-21,India,desktop,drama,Traffic Court,0,,0
+2024-07-22,India,desktop,drama,Traffic Court,0,,0
+2024-07-23,India,desktop,drama,Traffic Court,0,,0
+2024-07-24,India,desktop,drama,Traffic Court,0,,0
+2024-07-25,India,desktop,drama,Traffic Court,0,,0
+2024-07-26,India,desktop,drama,Traffic Court,0,,0
+2024-07-27,India,desktop,drama,Traffic Court,0,,0
+2024-07-28,India,desktop,drama,Traffic Court,0,,0
+2024-07-29,India,desktop,drama,Traffic Court,0,,0
+2024-07-30,India,desktop,drama,Traffic Court,0,,0
+2024-07-31,India,desktop,drama,Traffic Court,0,,0
+2024-08-01,India,desktop,drama,Traffic Court,0,,0
+2024-08-02,India,desktop,drama,Traffic Court,0,,0
+2024-08-03,India,desktop,drama,Traffic Court,0,,0
+2024-08-04,India,desktop,drama,Traffic Court,0,,0
+2024-08-05,India,desktop,drama,Traffic Court,0,,0
+2024-08-06,India,desktop,drama,Traffic Court,0,,0
+2024-08-07,India,desktop,drama,Traffic Court,0,,0
+2024-08-08,India,desktop,drama,Traffic Court,0,,0
+2024-08-09,India,desktop,drama,Traffic Court,0,,0
+2024-08-10,India,desktop,drama,Traffic Court,0,,0
+2024-08-11,India,desktop,drama,Traffic Court,0,,0
+2024-08-12,India,desktop,drama,Traffic Court,0,,0
+2024-08-13,India,desktop,drama,Traffic Court,0,,0
+2024-08-14,India,desktop,drama,Traffic Court,0,,0
+2024-08-15,India,desktop,drama,Traffic Court,0,,0
+2024-07-17,India,mobile,game shows,Name that Stain,220,1.0,704
+2024-07-18,India,mobile,game shows,Name that Stain,229,1.0435223917859604,959
+2024-07-19,India,mobile,game shows,Name that Stain,245,1.074132981566748,976
+2024-07-20,India,mobile,game shows,Name that Stain,275,1.1227958362415105,1171
+2024-07-21,India,mobile,game shows,Name that Stain,309,1.1261623734024977,1229
+2024-07-22,India,mobile,game shows,Name that Stain,293,0.9487648393888755,1224
+2024-07-23,India,mobile,game shows,Name that Stain,249,0.852666786951045,1033
+2024-07-24,India,mobile,game shows,Name that Stain,183,0.7376184575229483,767
+2024-07-25,India,mobile,game shows,Name that Stain,157,0.8604357010662611,670
+2024-07-26,India,mobile,game shows,Name that Stain,147,0.9392932093999746,579
+2024-07-27,India,mobile,game shows,Name that Stain,160,1.0907604811461693,636
+2024-07-28,India,mobile,game shows,Name that Stain,201,1.2571447163492515,856
+2024-07-29,India,mobile,game shows,Name that Stain,254,1.2669662375083526,1063
+2024-07-30,India,mobile,game shows,Name that Stain,307,1.2125954949111228,1299
+2024-07-31,India,mobile,game shows,Name that Stain,328,1.0688120553405387,1330
+2024-08-01,India,mobile,game shows,Name that Stain,284,0.8664538081491752,1198
+2024-08-02,India,mobile,game shows,Name that Stain,218,0.769306106778721,885
+2024-08-03,India,mobile,game shows,Name that Stain,189,0.8691393902758546,760
+2024-08-04,India,mobile,game shows,Name that Stain,187,0.9922387298734887,767
+2024-08-05,India,mobile,game shows,Name that Stain,204,1.0949141826058992,804
+2024-08-06,India,mobile,game shows,Name that Stain,228,1.1199575471249126,944
+2024-08-07,India,mobile,game shows,Name that Stain,247,1.086448803386482,1055
+2024-08-08,India,mobile,game shows,Name that Stain,277,1.1220938759101773,1111
+2024-08-09,India,mobile,game shows,Name that Stain,276,0.999727835925324,1156
+2024-08-10,India,mobile,game shows,Name that Stain,299,1.0844565002053146,1287
+2024-08-11,India,mobile,game shows,Name that Stain,318,1.0658630576454926,1370
+2024-08-12,India,mobile,game shows,Name that Stain,282,0.8886968922446447,1168
+2024-08-13,India,mobile,game shows,Name that Stain,215,0.7644696972482563,900
+2024-08-14,India,mobile,game shows,Name that Stain,154,0.7183917799797546,619
+2024-08-15,India,mobile,game shows,Name that Stain,131,0.8553458526712091,523
+2024-07-17,India,desktop,game shows,Name that Stain,282,1.0,904
+2024-07-18,India,desktop,game shows,Name that Stain,288,1.0243849967521221,1182
+2024-07-19,India,desktop,game shows,Name that Stain,320,1.1113124522368507,1284
+2024-07-20,India,desktop,game shows,Name that Stain,375,1.1749127396605714,1523
+2024-07-21,India,desktop,game shows,Name that Stain,447,1.1928383900373851,1757
+2024-07-22,India,desktop,game shows,Name that Stain,417,0.934083210744239,1709
+2024-07-23,India,desktop,game shows,Name that Stain,290,0.697450011736658,1166
+2024-07-24,India,desktop,game shows,Name that Stain,172,0.5947168706807927,684
+2024-07-25,India,desktop,game shows,Name that Stain,140,0.8183336046694475,564
+2024-07-26,India,desktop,game shows,Name that Stain,131,0.9363590223304864,547
+2024-07-27,India,desktop,game shows,Name that Stain,147,1.1242684863033732,621
+2024-07-28,India,desktop,game shows,Name that Stain,198,1.3491792940006255,820
+2024-07-29,India,desktop,game shows,Name that Stain,288,1.4570550323631664,1181
+2024-07-30,India,desktop,game shows,Name that Stain,432,1.501142473785807,1752
+2024-07-31,India,desktop,game shows,Name that Stain,542,1.2565247836389861,2267
+2024-08-01,India,desktop,game shows,Name that Stain,515,0.9514318748527123,2175
+2024-08-02,India,desktop,game shows,Name that Stain,270,0.5258034154511831,1142
+2024-08-03,India,desktop,game shows,Name that Stain,177,0.6561326788087857,725
+2024-08-04,India,desktop,game shows,Name that Stain,140,0.7951644090265693,570
+2024-08-05,India,desktop,game shows,Name that Stain,137,0.9812754917496246,556
+2024-08-06,India,desktop,game shows,Name that Stain,159,1.1674352143221574,687
+2024-08-07,India,desktop,game shows,Name that Stain,205,1.2947462415849331,808
+2024-08-08,India,desktop,game shows,Name that Stain,290,1.4154667342861067,1140
+2024-08-09,India,desktop,game shows,Name that Stain,441,1.521925789123774,1770
+2024-08-10,India,desktop,game shows,Name that Stain,597,1.3552070555494362,2348
+2024-08-11,India,desktop,game shows,Name that Stain,705,1.1824368187009437,2948
+2024-08-12,India,desktop,game shows,Name that Stain,145,0.20693470660842017,579
+2024-08-13,India,desktop,game shows,Name that Stain,53,0.3719958569571306,223
+2024-08-14,India,desktop,game shows,Name that Stain,31,0.5905606522297115,129
+2024-08-15,India,desktop,game shows,Name that Stain,24,0.8038329980053203,106
+2024-07-17,India,mobile,comedy,Leave it to Bigfoot,199,1.0,639
+2024-07-18,India,mobile,comedy,Leave it to Bigfoot,219,1.105370570797922,572
+2024-07-19,India,mobile,comedy,Leave it to Bigfoot,236,1.0799214158793324,660
+2024-07-20,India,mobile,comedy,Leave it to Bigfoot,275,1.1693272531701977,717
+2024-07-21,India,mobile,comedy,Leave it to Bigfoot,325,1.1849442513255328,927
+2024-07-22,India,mobile,comedy,Leave it to Bigfoot,281,0.8661641130822708,778
+2024-07-23,India,mobile,comedy,Leave it to Bigfoot,199,0.7115644008086432,536
+2024-07-24,India,mobile,comedy,Leave it to Bigfoot,133,0.67257416554901,359
+2024-07-25,India,mobile,comedy,Leave it to Bigfoot,107,0.8112603647570936,304
+2024-07-26,India,mobile,comedy,Leave it to Bigfoot,103,0.9629737091942854,287
+2024-07-27,India,mobile,comedy,Leave it to Bigfoot,116,1.1321828218099936,306
+2024-07-28,India,mobile,comedy,Leave it to Bigfoot,147,1.2721904545580234,416
+2024-07-29,India,mobile,comedy,Leave it to Bigfoot,213,1.4545764274479696,585
+2024-07-30,India,mobile,comedy,Leave it to Bigfoot,300,1.412893693294232,790
+2024-07-31,India,mobile,comedy,Leave it to Bigfoot,356,1.1887794053088405,927
+2024-08-01,India,mobile,comedy,Leave it to Bigfoot,308,0.8671705975088275,828
+2024-08-02,India,mobile,comedy,Leave it to Bigfoot,176,0.574351412974161,484
+2024-08-03,India,mobile,comedy,Leave it to Bigfoot,130,0.7410077858276108,353
+2024-08-04,India,mobile,comedy,Leave it to Bigfoot,116,0.8941675434221111,321
+2024-08-05,India,mobile,comedy,Leave it to Bigfoot,116,1.0076702444484675,307
+2024-08-06,India,mobile,comedy,Leave it to Bigfoot,138,1.1928739856203712,359
+2024-08-07,India,mobile,comedy,Leave it to Bigfoot,185,1.3428781405823662,507
+2024-08-08,India,mobile,comedy,Leave it to Bigfoot,256,1.386685860100126,723
+2024-08-09,India,mobile,comedy,Leave it to Bigfoot,340,1.3281797647488518,930
+2024-08-10,India,mobile,comedy,Leave it to Bigfoot,419,1.23487914043803,1195
+2024-08-11,India,mobile,comedy,Leave it to Bigfoot,382,0.9124804865673553,1015
+2024-08-12,India,mobile,comedy,Leave it to Bigfoot,106,0.2787071476655151,279
+2024-08-13,India,mobile,comedy,Leave it to Bigfoot,49,0.47063937729831323,140
+2024-08-14,India,mobile,comedy,Leave it to Bigfoot,31,0.639098013723888,81
+2024-08-15,India,mobile,comedy,Leave it to Bigfoot,27,0.894021584822096,75
+2024-07-17,India,desktop,comedy,Leave it to Bigfoot,366,1.0,1172
+2024-07-18,India,desktop,comedy,Leave it to Bigfoot,404,1.1038676372455027,1139
+2024-07-19,India,desktop,comedy,Leave it to Bigfoot,456,1.1291753088260903,1236
+2024-07-20,India,desktop,comedy,Leave it to Bigfoot,526,1.1536278120958656,1439
+2024-07-21,India,desktop,comedy,Leave it to Bigfoot,616,1.172200418847314,1653
+2024-07-22,India,desktop,comedy,Leave it to Bigfoot,481,0.7822381384285457,1279
+2024-07-23,India,desktop,comedy,Leave it to Bigfoot,298,0.6204332108967421,816
+2024-07-24,India,desktop,comedy,Leave it to Bigfoot,185,0.622836644336759,482
+2024-07-25,India,desktop,comedy,Leave it to Bigfoot,151,0.8189982592736127,431
+2024-07-26,India,desktop,comedy,Leave it to Bigfoot,146,0.9686387294385613,384
+2024-07-27,India,desktop,comedy,Leave it to Bigfoot,177,1.217304998847847,501
+2024-07-28,India,desktop,comedy,Leave it to Bigfoot,247,1.4007994880473364,665
+2024-07-29,India,desktop,comedy,Leave it to Bigfoot,373,1.5127047240033755,992
+2024-07-30,India,desktop,comedy,Leave it to Bigfoot,571,1.5321838499458846,1626
+2024-07-31,India,desktop,comedy,Leave it to Bigfoot,700,1.2263813657526328,1820
+2024-08-01,India,desktop,comedy,Leave it to Bigfoot,630,0.9002112456970945,1655
+2024-08-02,India,desktop,comedy,Leave it to Bigfoot,285,0.45388565260798275,767
+2024-08-03,India,desktop,comedy,Leave it to Bigfoot,190,0.6691852007482771,532
+2024-08-04,India,desktop,comedy,Leave it to Bigfoot,151,0.799226356227916,399
+2024-08-05,India,desktop,comedy,Leave it to Bigfoot,155,1.031087612270811,443
+2024-08-06,India,desktop,comedy,Leave it to Bigfoot,185,1.1963135745539153,507
+2024-08-07,India,desktop,comedy,Leave it to Bigfoot,246,1.3307140533163573,687
+2024-08-08,India,desktop,comedy,Leave it to Bigfoot,366,1.4907928693164716,1044
+2024-08-09,India,desktop,comedy,Leave it to Bigfoot,574,1.5698362869290103,1509
+2024-08-10,India,desktop,comedy,Leave it to Bigfoot,823,1.4351939061088819,2232
+2024-08-11,India,desktop,comedy,Leave it to Bigfoot,949,1.1542765817419711,2496
+2024-08-12,India,desktop,comedy,Leave it to Bigfoot,34,0.03602440522081074,93
+2024-08-13,India,desktop,comedy,Leave it to Bigfoot,13,0.3959905792554297,35
+2024-08-14,India,desktop,comedy,Leave it to Bigfoot,7,0.5414891127768748,19
+2024-08-15,India,desktop,comedy,Leave it to Bigfoot,5,0.8065594179541067,14
+2024-07-17,India,mobile,lifestyle,Stay Fit,306,1.0,980
+2024-07-18,India,mobile,lifestyle,Stay Fit,334,1.09398110381696,1228
+2024-07-19,India,mobile,lifestyle,Stay Fit,373,1.1171709517234918,1453
+2024-07-20,India,mobile,lifestyle,Stay Fit,438,1.1749981657017854,1575
+2024-07-21,India,mobile,lifestyle,Stay Fit,504,1.1509469570376338,1812
+2024-07-22,India,mobile,lifestyle,Stay Fit,444,0.8814201032017672,1580
+2024-07-23,India,mobile,lifestyle,Stay Fit,294,0.6638800748580522,1081
+2024-07-24,India,mobile,lifestyle,Stay Fit,173,0.5915229121838406,618
+2024-07-25,India,mobile,lifestyle,Stay Fit,134,0.7790886963313807,494
+2024-07-26,India,mobile,lifestyle,Stay Fit,126,0.944007185000094,468
+2024-07-27,India,mobile,lifestyle,Stay Fit,141,1.120242212888153,523
+2024-07-28,India,mobile,lifestyle,Stay Fit,181,1.2885707684522505,707
+2024-07-29,India,mobile,lifestyle,Stay Fit,256,1.4149995169879672,997
+2024-07-30,India,mobile,lifestyle,Stay Fit,378,1.4788755450614546,1417
+2024-07-31,India,mobile,lifestyle,Stay Fit,516,1.365522388200913,1836
+2024-08-01,India,mobile,lifestyle,Stay Fit,572,1.1096541040846108,2122
+2024-08-02,India,mobile,lifestyle,Stay Fit,439,0.7691390506033916,1696
+2024-08-03,India,mobile,lifestyle,Stay Fit,287,0.6558521863934799,1056
+2024-08-04,India,mobile,lifestyle,Stay Fit,214,0.7469783554920213,770
+2024-08-05,India,mobile,lifestyle,Stay Fit,178,0.833199506178027,634
+2024-08-06,India,mobile,lifestyle,Stay Fit,179,1.0088777028479927,645
+2024-08-07,India,mobile,lifestyle,Stay Fit,202,1.132007751678594,720
+2024-08-08,India,mobile,lifestyle,Stay Fit,255,1.2672706673343415,939
+2024-08-09,India,mobile,lifestyle,Stay Fit,352,1.3827793912147182,1293
+2024-08-10,India,mobile,lifestyle,Stay Fit,488,1.3863746936906918,1827
+2024-08-11,India,mobile,lifestyle,Stay Fit,693,1.4209113809777203,2518
+2024-08-12,India,mobile,lifestyle,Stay Fit,479,0.691828758302249,1777
+2024-08-13,India,mobile,lifestyle,Stay Fit,126,0.26348715604607664,482
+2024-08-14,India,mobile,lifestyle,Stay Fit,62,0.4955743071635402,233
+2024-08-15,India,mobile,lifestyle,Stay Fit,42,0.6836512226995567,158
+2024-07-17,India,desktop,lifestyle,Stay Fit,291,1.0,932
+2024-07-18,India,desktop,lifestyle,Stay Fit,309,1.0642493661904275,1194
+2024-07-19,India,desktop,lifestyle,Stay Fit,327,1.058829799371058,1163
+2024-07-20,India,desktop,lifestyle,Stay Fit,376,1.150538783135576,1380
+2024-07-21,India,desktop,lifestyle,Stay Fit,421,1.121189978296069,1562
+2024-07-22,India,desktop,lifestyle,Stay Fit,391,0.9305087121488311,1452
+2024-07-23,India,desktop,lifestyle,Stay Fit,292,0.7480348657690131,1117
+2024-07-24,India,desktop,lifestyle,Stay Fit,211,0.7234903157611212,806
+2024-07-25,India,desktop,lifestyle,Stay Fit,186,0.8828196151064975,711
+2024-07-26,India,desktop,lifestyle,Stay Fit,189,1.0193145043141065,702
+2024-07-27,India,desktop,lifestyle,Stay Fit,223,1.1825647859164494,811
+2024-07-28,India,desktop,lifestyle,Stay Fit,294,1.3186115145739674,1046
+2024-07-29,India,desktop,lifestyle,Stay Fit,395,1.346574059405075,1512
+2024-07-30,India,desktop,lifestyle,Stay Fit,498,1.2613898487588455,1921
+2024-07-31,India,desktop,lifestyle,Stay Fit,393,0.7900207537163887,1502
+2024-08-01,India,desktop,lifestyle,Stay Fit,274,0.6976046086587935,1006
+2024-08-02,India,desktop,lifestyle,Stay Fit,196,0.7162859363319977,720
+2024-08-03,India,desktop,lifestyle,Stay Fit,178,0.9093893976466702,634
+2024-08-04,India,desktop,lifestyle,Stay Fit,193,1.085262361984829,716
+2024-08-05,India,desktop,lifestyle,Stay Fit,229,1.1913967674382446,869
+2024-08-06,India,desktop,lifestyle,Stay Fit,303,1.326291864467057,1148
+2024-08-07,India,desktop,lifestyle,Stay Fit,409,1.3523681386468958,1519
+2024-08-08,India,desktop,lifestyle,Stay Fit,502,1.2297646943962355,1958
+2024-08-09,India,desktop,lifestyle,Stay Fit,490,0.9780171986140391,1820
+2024-08-10,India,desktop,lifestyle,Stay Fit,371,0.7580371774590355,1418
+2024-08-11,India,desktop,lifestyle,Stay Fit,297,0.8010762437646296,1146
+2024-08-12,India,desktop,lifestyle,Stay Fit,218,0.7350208608588349,841
+2024-08-13,India,desktop,lifestyle,Stay Fit,189,0.8679237031655519,708
+2024-08-14,India,desktop,lifestyle,Stay Fit,176,0.9322722992738771,672
+2024-08-15,India,desktop,lifestyle,Stay Fit,204,1.1636006768257898,736
+2024-07-17,India,mobile,comedy,Practical Jokes and Bloopers,491,1.0,1573
+2024-07-18,India,mobile,comedy,Practical Jokes and Bloopers,532,1.0839845547181943,526
+2024-07-19,India,mobile,comedy,Practical Jokes and Bloopers,592,1.114275628415559,586
+2024-07-20,India,mobile,comedy,Practical Jokes and Bloopers,675,1.1408286643980219,702
+2024-07-21,India,mobile,comedy,Practical Jokes and Bloopers,753,1.1156846093038832,722
+2024-07-22,India,mobile,comedy,Practical Jokes and Bloopers,663,0.8807356418648827,656
+2024-07-23,India,mobile,comedy,Practical Jokes and Bloopers,497,0.7509296495917641,512
+2024-07-24,India,mobile,comedy,Practical Jokes and Bloopers,324,0.6525273162597163,324
+2024-07-25,India,mobile,comedy,Practical Jokes and Bloopers,265,0.8187238792282808,275
+2024-07-26,India,mobile,comedy,Practical Jokes and Bloopers,259,0.9794154442028438,254
+2024-07-27,India,mobile,comedy,Practical Jokes and Bloopers,307,1.1870019067419642,292
+2024-07-28,India,mobile,comedy,Practical Jokes and Bloopers,415,1.3544032741685204,428
+2024-07-29,India,mobile,comedy,Practical Jokes and Bloopers,621,1.4965553067278479,633
+2024-07-30,India,mobile,comedy,Practical Jokes and Bloopers,841,1.3553656543693318,833
+2024-07-31,India,mobile,comedy,Practical Jokes and Bloopers,895,1.065014463740276,895
+2024-08-01,India,mobile,comedy,Practical Jokes and Bloopers,595,0.6654515034041767,595
+2024-08-02,India,mobile,comedy,Practical Jokes and Bloopers,328,0.5525052717039685,322
+2024-08-03,India,mobile,comedy,Practical Jokes and Bloopers,238,0.7273850717659217,229
+2024-08-04,India,mobile,comedy,Practical Jokes and Bloopers,213,0.8983408669963626,211
+2024-08-05,India,mobile,comedy,Practical Jokes and Bloopers,228,1.0731263839726337,235
+2024-08-06,India,mobile,comedy,Practical Jokes and Bloopers,275,1.2095906018493259,267
+2024-08-07,India,mobile,comedy,Practical Jokes and Bloopers,394,1.433100675947128,409
+2024-08-08,India,mobile,comedy,Practical Jokes and Bloopers,587,1.4900287425760532,569
+2024-08-09,India,mobile,comedy,Practical Jokes and Bloopers,895,1.5260975565167554,886
+2024-08-10,India,mobile,comedy,Practical Jokes and Bloopers,1248,1.3947247144273096,1235
+2024-08-11,India,mobile,comedy,Practical Jokes and Bloopers,1199,0.9613738843388927,1223
+2024-08-12,India,mobile,comedy,Practical Jokes and Bloopers,0,-0.2082156446611576,0
+2024-08-13,India,mobile,comedy,Practical Jokes and Bloopers,0,,0
+2024-08-14,India,mobile,comedy,Practical Jokes and Bloopers,0,,0
+2024-08-15,India,mobile,comedy,Practical Jokes and Bloopers,0,,0
+2024-07-17,India,desktop,comedy,Practical Jokes and Bloopers,63,1.0,204
+2024-07-18,India,desktop,comedy,Practical Jokes and Bloopers,68,1.091237208892007,67
+2024-07-19,India,desktop,comedy,Practical Jokes and Bloopers,76,1.1270103679499055,79
+2024-07-20,India,desktop,comedy,Practical Jokes and Bloopers,90,1.192813784230584,94
+2024-07-21,India,desktop,comedy,Practical Jokes and Bloopers,102,1.142530904340365,99
+2024-07-22,India,desktop,comedy,Practical Jokes and Bloopers,91,0.8924196653106036,88
+2024-07-23,India,desktop,comedy,Practical Jokes and Bloopers,64,0.7101314978193478,63
+2024-07-24,India,desktop,comedy,Practical Jokes and Bloopers,41,0.6529579971743616,40
+2024-07-25,India,desktop,comedy,Practical Jokes and Bloopers,34,0.8396823307764579,32
+2024-07-26,India,desktop,comedy,Practical Jokes and Bloopers,32,0.9494746332279834,33
+2024-07-27,India,desktop,comedy,Practical Jokes and Bloopers,36,1.132696448290992,37
+2024-07-28,India,desktop,comedy,Practical Jokes and Bloopers,46,1.2797633727589455,46
+2024-07-29,India,desktop,comedy,Practical Jokes and Bloopers,64,1.4044324513454924,62
+2024-07-30,India,desktop,comedy,Practical Jokes and Bloopers,93,1.4675133645645158,90
+2024-07-31,India,desktop,comedy,Practical Jokes and Bloopers,113,1.2238453729226308,109
+2024-08-01,India,desktop,comedy,Practical Jokes and Bloopers,116,1.0322659831007666,117
+2024-08-02,India,desktop,comedy,Practical Jokes and Bloopers,62,0.5392402673897992,63
+2024-08-03,India,desktop,comedy,Practical Jokes and Bloopers,43,0.6946550310409948,41
+2024-08-04,India,desktop,comedy,Practical Jokes and Bloopers,34,0.8053758881217831,34
+2024-08-05,India,desktop,comedy,Practical Jokes and Bloopers,33,0.9929673701728803,33
+2024-08-06,India,desktop,comedy,Practical Jokes and Bloopers,37,1.1234149258147033,36
+2024-08-07,India,desktop,comedy,Practical Jokes and Bloopers,48,1.3022374229696425,48
+2024-08-08,India,desktop,comedy,Practical Jokes and Bloopers,68,1.4268823283926402,65
+2024-08-09,India,desktop,comedy,Practical Jokes and Bloopers,104,1.5303311438198455,99
+2024-08-10,India,desktop,comedy,Practical Jokes and Bloopers,138,1.3343726742816078,133
+2024-08-11,India,desktop,comedy,Practical Jokes and Bloopers,151,1.0942753298071692,144
+2024-08-12,India,desktop,comedy,Practical Jokes and Bloopers,27,0.18095638231023403,26
+2024-08-13,India,desktop,comedy,Practical Jokes and Bloopers,9,0.35948984796196404,9
+2024-08-14,India,desktop,comedy,Practical Jokes and Bloopers,5,0.5663332004131114,4
+2024-08-15,India,desktop,comedy,Practical Jokes and Bloopers,3,0.7837508724143879,4
+2024-07-17,India,mobile,game shows,Beat the Loan Shark,0,1.0,0
+2024-07-18,India,mobile,game shows,Beat the Loan Shark,0,,0
+2024-07-19,India,mobile,game shows,Beat the Loan Shark,0,,0
+2024-07-20,India,mobile,game shows,Beat the Loan Shark,0,,0
+2024-07-21,India,mobile,game shows,Beat the Loan Shark,0,,0
+2024-07-22,India,mobile,game shows,Beat the Loan Shark,0,,0
+2024-07-23,India,mobile,game shows,Beat the Loan Shark,0,,0
+2024-07-24,India,mobile,game shows,Beat the Loan Shark,0,,0
+2024-07-25,India,mobile,game shows,Beat the Loan Shark,0,,0
+2024-07-26,India,mobile,game shows,Beat the Loan Shark,0,,0
+2024-07-27,India,mobile,game shows,Beat the Loan Shark,0,,0
+2024-07-28,India,mobile,game shows,Beat the Loan Shark,0,,0
+2024-07-29,India,mobile,game shows,Beat the Loan Shark,0,,0
+2024-07-30,India,mobile,game shows,Beat the Loan Shark,0,,0
+2024-07-31,India,mobile,game shows,Beat the Loan Shark,0,,0
+2024-08-01,India,mobile,game shows,Beat the Loan Shark,0,,0
+2024-08-02,India,mobile,game shows,Beat the Loan Shark,0,,0
+2024-08-03,India,mobile,game shows,Beat the Loan Shark,0,,0
+2024-08-04,India,mobile,game shows,Beat the Loan Shark,0,,0
+2024-08-05,India,mobile,game shows,Beat the Loan Shark,0,,0
+2024-08-06,India,mobile,game shows,Beat the Loan Shark,0,,0
+2024-08-07,India,mobile,game shows,Beat the Loan Shark,0,,0
+2024-08-08,India,mobile,game shows,Beat the Loan Shark,0,,0
+2024-08-09,India,mobile,game shows,Beat the Loan Shark,0,,0
+2024-08-10,India,mobile,game shows,Beat the Loan Shark,0,,0
+2024-08-11,India,mobile,game shows,Beat the Loan Shark,0,,0
+2024-08-12,India,mobile,game shows,Beat the Loan Shark,0,,0
+2024-08-13,India,mobile,game shows,Beat the Loan Shark,0,,0
+2024-08-14,India,mobile,game shows,Beat the Loan Shark,0,,0
+2024-08-15,India,mobile,game shows,Beat the Loan Shark,0,,0
+2024-07-17,India,desktop,game shows,Beat the Loan Shark,522,1.0,1672
+2024-07-18,India,desktop,game shows,Beat the Loan Shark,571,1.0939768125880223,1681
+2024-07-19,India,desktop,game shows,Beat the Loan Shark,613,1.074617549924564,1682
+2024-07-20,India,desktop,game shows,Beat the Loan Shark,673,1.0987863159602862,1963
+2024-07-21,India,desktop,game shows,Beat the Loan Shark,771,1.1470803605216404,2183
+2024-07-22,India,desktop,game shows,Beat the Loan Shark,682,0.8848191262246199,1890
+2024-07-23,India,desktop,game shows,Beat the Loan Shark,512,0.7508540384403942,1433
+2024-07-24,India,desktop,game shows,Beat the Loan Shark,362,0.7080307375446653,1077
+2024-07-25,India,desktop,game shows,Beat the Loan Shark,321,0.8885874467217904,937
+2024-07-26,India,desktop,game shows,Beat the Loan Shark,318,0.9924094534707201,882
+2024-07-27,India,desktop,game shows,Beat the Loan Shark,378,1.1904362401297786,1038
+2024-07-28,India,desktop,game shows,Beat the Loan Shark,515,1.3634499084444918,1472
+2024-07-29,India,desktop,game shows,Beat the Loan Shark,714,1.3876635086574542,2145
+2024-07-30,India,desktop,game shows,Beat the Loan Shark,895,1.2540209393207369,2688
+2024-07-31,India,desktop,game shows,Beat the Loan Shark,726,0.8114756032696222,1991
+2024-08-01,India,desktop,game shows,Beat the Loan Shark,512,0.7063836657348954,1495
+2024-08-02,India,desktop,game shows,Beat the Loan Shark,361,0.7059104639433589,1053
+2024-08-03,India,desktop,game shows,Beat the Loan Shark,321,0.8908845256532438,891
+2024-08-04,India,desktop,game shows,Beat the Loan Shark,324,1.0119870881250497,918
+2024-08-05,India,desktop,game shows,Beat the Loan Shark,392,1.2104997130134127,1098
+2024-08-06,India,desktop,game shows,Beat the Loan Shark,506,1.2930842700615712,1463
+2024-08-07,India,desktop,game shows,Beat the Loan Shark,658,1.301538118382169,1939
+2024-08-08,India,desktop,game shows,Beat the Loan Shark,878,1.3347276229679832,2585
+2024-08-09,India,desktop,game shows,Beat the Loan Shark,984,1.121137319351838,2869
+2024-08-10,India,desktop,game shows,Beat the Loan Shark,827,0.8408768845750645,2269
+2024-08-11,India,desktop,game shows,Beat the Loan Shark,605,0.7318596212296952,1677
+2024-08-12,India,desktop,game shows,Beat the Loan Shark,370,0.6129296785302766,1102
+2024-08-13,India,desktop,game shows,Beat the Loan Shark,268,0.7252475432866448,751
+2024-08-14,India,desktop,game shows,Beat the Loan Shark,231,0.8648512564231726,675
+2024-08-15,India,desktop,game shows,Beat the Loan Shark,242,1.0509459825205805,672
+2024-07-17,India,mobile,comedy,Buddha Knows Best,142,1.0,457
+2024-07-18,India,mobile,comedy,Buddha Knows Best,155,1.0965334190811842,463
+2024-07-19,India,mobile,comedy,Buddha Knows Best,170,1.1002984206880895,518
+2024-07-20,India,mobile,comedy,Buddha Knows Best,199,1.1759461695687567,607
+2024-07-21,India,mobile,comedy,Buddha Knows Best,228,1.1472942107077944,701
+2024-07-22,India,mobile,comedy,Buddha Knows Best,190,0.833751090069633,595
+2024-07-23,India,mobile,comedy,Buddha Knows Best,120,0.6339253754138777,388
+2024-07-24,India,mobile,comedy,Buddha Knows Best,82,0.689395582775013,266
+2024-07-25,India,mobile,comedy,Buddha Knows Best,68,0.8335528879433217,216
+2024-07-26,India,mobile,comedy,Buddha Knows Best,69,1.0279951379818026,216
+2024-07-27,India,mobile,comedy,Buddha Knows Best,80,1.1662583201659067,252
+2024-07-28,India,mobile,comedy,Buddha Knows Best,112,1.401403903494829,347
+2024-07-29,India,mobile,comedy,Buddha Knows Best,171,1.5337378981700798,522
+2024-07-30,India,mobile,comedy,Buddha Knows Best,255,1.492683539571946,823
+2024-07-31,India,mobile,comedy,Buddha Knows Best,293,1.1508295008478397,901
+2024-08-01,India,mobile,comedy,Buddha Knows Best,205,0.7013746478207016,618
+2024-08-02,India,mobile,comedy,Buddha Knows Best,95,0.4668523975138044,302
+2024-08-03,India,mobile,comedy,Buddha Knows Best,62,0.6538832087857264,188
+2024-08-04,India,mobile,comedy,Buddha Knows Best,50,0.8090606664224722,152
+2024-08-05,India,mobile,comedy,Buddha Knows Best,49,0.9867376981052964,159
+2024-08-06,India,mobile,comedy,Buddha Knows Best,60,1.231225517140621,187
+2024-08-07,India,mobile,comedy,Buddha Knows Best,84,1.4159749987231913,255
+2024-08-08,India,mobile,comedy,Buddha Knows Best,128,1.5353974982519139,404
+2024-08-09,India,mobile,comedy,Buddha Knows Best,208,1.6308367516866265,621
+2024-08-10,India,mobile,comedy,Buddha Knows Best,331,1.5919864080716044,1047
+2024-08-11,India,mobile,comedy,Buddha Knows Best,433,1.3096071958652613,1358
+2024-08-12,India,mobile,comedy,Buddha Knows Best,0,-0.11764696016702914,0
+2024-08-13,India,mobile,comedy,Buddha Knows Best,0,,0
+2024-08-14,India,mobile,comedy,Buddha Knows Best,0,,0
+2024-08-15,India,mobile,comedy,Buddha Knows Best,0,,0
+2024-07-17,India,desktop,comedy,Buddha Knows Best,299,1.0,958
+2024-07-18,India,desktop,comedy,Buddha Knows Best,306,1.0241684306337375,940
+2024-07-19,India,desktop,comedy,Buddha Knows Best,311,1.0193100339207017,928
+2024-07-20,India,desktop,comedy,Buddha Knows Best,338,1.0876098531142573,1059
+2024-07-21,India,desktop,comedy,Buddha Knows Best,401,1.187700170602363,1282
+2024-07-22,India,desktop,comedy,Buddha Knows Best,415,1.0371755089694048,1264
+2024-07-23,India,desktop,comedy,Buddha Knows Best,378,0.9126924443704333,1221
+2024-07-24,India,desktop,comedy,Buddha Knows Best,284,0.7531594499682456,900
+2024-07-25,India,desktop,comedy,Buddha Knows Best,237,0.8363974679427416,744
+2024-07-26,India,desktop,comedy,Buddha Knows Best,224,0.9476442592841868,675
+2024-07-27,India,desktop,comedy,Buddha Knows Best,236,1.0574730313684186,764
+2024-07-28,India,desktop,comedy,Buddha Knows Best,279,1.1851860403500374,867
+2024-07-29,India,desktop,comedy,Buddha Knows Best,356,1.2774572932715083,1083
+2024-07-30,India,desktop,comedy,Buddha Knows Best,437,1.2283631812543134,1302
+2024-07-31,India,desktop,comedy,Buddha Knows Best,448,1.026945896006398,1364
+2024-08-01,India,desktop,comedy,Buddha Knows Best,400,0.8940154515090981,1192
+2024-08-02,India,desktop,comedy,Buddha Knows Best,297,0.7429469152814967,940
+2024-08-03,India,desktop,comedy,Buddha Knows Best,242,0.8168740251900392,775
+2024-08-04,India,desktop,comedy,Buddha Knows Best,238,0.984785416845885,768
+2024-08-05,India,desktop,comedy,Buddha Knows Best,252,1.0607433118931942,775
+2024-08-06,India,desktop,comedy,Buddha Knows Best,299,1.1865359371702873,936
+2024-08-07,India,desktop,comedy,Buddha Knows Best,351,1.174852720221352,1046
+2024-08-08,India,desktop,comedy,Buddha Knows Best,419,1.196016198537192,1276
+2024-08-09,India,desktop,comedy,Buddha Knows Best,449,1.0724979780276735,1379
+2024-08-10,India,desktop,comedy,Buddha Knows Best,438,0.976232055985934,1373
+2024-08-11,India,desktop,comedy,Buddha Knows Best,405,0.9259658805060718,1283
+2024-08-12,India,desktop,comedy,Buddha Knows Best,284,0.7019790608141401,890
+2024-08-13,India,desktop,comedy,Buddha Knows Best,220,0.7758051106566581,690
+2024-08-14,India,desktop,comedy,Buddha Knows Best,185,0.8435708015803374,587
+2024-08-15,India,desktop,comedy,Buddha Knows Best,185,1.0033675769584105,587
+2024-07-17,India,mobile,lifestyle,The Flying Pope,0,1.0,0
+2024-07-18,India,mobile,lifestyle,The Flying Pope,0,,0
+2024-07-19,India,mobile,lifestyle,The Flying Pope,0,,0
+2024-07-20,India,mobile,lifestyle,The Flying Pope,0,,0
+2024-07-21,India,mobile,lifestyle,The Flying Pope,0,,0
+2024-07-22,India,mobile,lifestyle,The Flying Pope,0,,0
+2024-07-23,India,mobile,lifestyle,The Flying Pope,0,,0
+2024-07-24,India,mobile,lifestyle,The Flying Pope,0,,0
+2024-07-25,India,mobile,lifestyle,The Flying Pope,0,,0
+2024-07-26,India,mobile,lifestyle,The Flying Pope,0,,0
+2024-07-27,India,mobile,lifestyle,The Flying Pope,0,,0
+2024-07-28,India,mobile,lifestyle,The Flying Pope,0,,0
+2024-07-29,India,mobile,lifestyle,The Flying Pope,0,,0
+2024-07-30,India,mobile,lifestyle,The Flying Pope,0,,0
+2024-07-31,India,mobile,lifestyle,The Flying Pope,0,,0
+2024-08-01,India,mobile,lifestyle,The Flying Pope,0,,0
+2024-08-02,India,mobile,lifestyle,The Flying Pope,0,,0
+2024-08-03,India,mobile,lifestyle,The Flying Pope,0,,0
+2024-08-04,India,mobile,lifestyle,The Flying Pope,0,,0
+2024-08-05,India,mobile,lifestyle,The Flying Pope,0,,0
+2024-08-06,India,mobile,lifestyle,The Flying Pope,0,,0
+2024-08-07,India,mobile,lifestyle,The Flying Pope,0,,0
+2024-08-08,India,mobile,lifestyle,The Flying Pope,0,,0
+2024-08-09,India,mobile,lifestyle,The Flying Pope,0,,0
+2024-08-10,India,mobile,lifestyle,The Flying Pope,0,,0
+2024-08-11,India,mobile,lifestyle,The Flying Pope,0,,0
+2024-08-12,India,mobile,lifestyle,The Flying Pope,0,,0
+2024-08-13,India,mobile,lifestyle,The Flying Pope,0,,0
+2024-08-14,India,mobile,lifestyle,The Flying Pope,0,,0
+2024-08-15,India,mobile,lifestyle,The Flying Pope,0,,0
+2024-07-17,India,desktop,lifestyle,The Flying Pope,437,1.0,1400
+2024-07-18,India,desktop,lifestyle,The Flying Pope,443,1.0141555625932819,1461
+2024-07-19,India,desktop,lifestyle,The Flying Pope,486,1.0977371868679775,1604
+2024-07-20,India,desktop,lifestyle,The Flying Pope,553,1.1379392602706486,1701
+2024-07-21,India,desktop,lifestyle,The Flying Pope,625,1.1311087736710386,1924
+2024-07-22,India,desktop,lifestyle,The Flying Pope,625,1.001550027843614,2064
+2024-07-23,India,desktop,lifestyle,The Flying Pope,466,0.7469262507780237,1510
+2024-07-24,India,desktop,lifestyle,The Flying Pope,321,0.6897491014121608,978
+2024-07-25,India,desktop,lifestyle,The Flying Pope,260,0.8118650801867171,834
+2024-07-26,India,desktop,lifestyle,The Flying Pope,247,0.9501731469639482,744
+2024-07-27,India,desktop,lifestyle,The Flying Pope,285,1.1571133372616849,870
+2024-07-28,India,desktop,lifestyle,The Flying Pope,375,1.3177174346865272,1167
+2024-07-29,India,desktop,lifestyle,The Flying Pope,545,1.454372658961158,1764
+2024-07-30,India,desktop,lifestyle,The Flying Pope,779,1.4304800443402754,2349
+2024-07-31,India,desktop,lifestyle,The Flying Pope,789,1.0131412872840353,2478
+2024-08-01,India,desktop,lifestyle,The Flying Pope,581,0.737636375340485,1901
+2024-08-02,India,desktop,lifestyle,The Flying Pope,297,0.5123168597815819,906
+2024-08-03,India,desktop,lifestyle,The Flying Pope,219,0.7400578338955957,662
+2024-08-04,India,desktop,lifestyle,The Flying Pope,201,0.9194123505743322,644
+2024-08-05,India,desktop,lifestyle,The Flying Pope,219,1.0926105161802477,724
+2024-08-06,India,desktop,lifestyle,The Flying Pope,276,1.260408687317903,840
+2024-08-07,India,desktop,lifestyle,The Flying Pope,393,1.42677693133579,1286
+2024-08-08,India,desktop,lifestyle,The Flying Pope,602,1.532648682389122,1872
+2024-08-09,India,desktop,lifestyle,The Flying Pope,881,1.4641770534894138,2739
+2024-08-10,India,desktop,lifestyle,The Flying Pope,1049,1.191254866461265,3162
+2024-08-11,India,desktop,lifestyle,The Flying Pope,828,0.78935604835476,2521
+2024-08-12,India,desktop,lifestyle,The Flying Pope,59,0.07224102989343817,193
+2024-08-13,India,desktop,lifestyle,The Flying Pope,27,0.4741672485265746,85
+2024-08-14,India,desktop,lifestyle,The Flying Pope,16,0.5951237768376006,48
+2024-08-15,India,desktop,lifestyle,The Flying Pope,14,0.8887131082879931,45
+2024-07-17,India,mobile,comedy,The Beverly Hillbillies,318,1.0,1020
+2024-07-18,India,mobile,comedy,The Beverly Hillbillies,344,1.0846084238450788,1303
+2024-07-19,India,mobile,comedy,The Beverly Hillbillies,365,1.063646235270392,1369
+2024-07-20,India,mobile,comedy,The Beverly Hillbillies,420,1.1529484765889004,1543
+2024-07-21,India,mobile,comedy,The Beverly Hillbillies,462,1.1019199745816637,1697
+2024-07-22,India,mobile,comedy,The Beverly Hillbillies,451,0.9777806382732429,1623
+2024-07-23,India,mobile,comedy,The Beverly Hillbillies,323,0.7179858303684883,1187
+2024-07-24,India,mobile,comedy,The Beverly Hillbillies,231,0.7153034764122151,873
+2024-07-25,India,mobile,comedy,The Beverly Hillbillies,202,0.8747456519372203,718
+2024-07-26,India,mobile,comedy,The Beverly Hillbillies,205,1.0197010024266782,755
+2024-07-27,India,mobile,comedy,The Beverly Hillbillies,245,1.1990800584242256,919
+2024-07-28,India,mobile,comedy,The Beverly Hillbillies,336,1.3714881537471009,1207
+2024-07-29,India,mobile,comedy,The Beverly Hillbillies,481,1.4329189880659352,1819
+2024-07-30,India,mobile,comedy,The Beverly Hillbillies,564,1.1740771374229155,2050
+2024-07-31,India,mobile,comedy,The Beverly Hillbillies,388,0.6890354397220178,1497
+2024-08-01,India,mobile,comedy,The Beverly Hillbillies,268,0.6907377474898087,973
+2024-08-02,India,mobile,comedy,The Beverly Hillbillies,190,0.709732877988883,697
+2024-08-03,India,mobile,comedy,The Beverly Hillbillies,167,0.8833869035505003,590
+2024-08-04,India,mobile,comedy,The Beverly Hillbillies,180,1.079060135210608,694
+2024-08-05,India,mobile,comedy,The Beverly Hillbillies,213,1.1855025553627663,806
+2024-08-06,India,mobile,comedy,The Beverly Hillbillies,290,1.3632450528582158,1086
+2024-08-07,India,mobile,comedy,The Beverly Hillbillies,417,1.4384256687372283,1560
+2024-08-08,India,mobile,comedy,The Beverly Hillbillies,584,1.402096492470731,2252
+2024-08-09,India,mobile,comedy,The Beverly Hillbillies,643,1.1021226348058983,2432
+2024-08-10,India,mobile,comedy,The Beverly Hillbillies,512,0.796402285547358,1973
+2024-08-11,India,mobile,comedy,The Beverly Hillbillies,351,0.686127649650019,1340
+2024-08-12,India,mobile,comedy,The Beverly Hillbillies,198,0.5649894138198284,712
+2024-08-13,India,mobile,comedy,The Beverly Hillbillies,149,0.7557924071131819,532
+2024-08-14,India,mobile,comedy,The Beverly Hillbillies,130,0.8751555765079502,497
+2024-08-15,India,mobile,comedy,The Beverly Hillbillies,146,1.1297130029063025,560
+2024-07-17,India,desktop,comedy,The Beverly Hillbillies,103,1.0,332
+2024-07-18,India,desktop,comedy,The Beverly Hillbillies,105,1.0284137762614225,408
+2024-07-19,India,desktop,comedy,The Beverly Hillbillies,113,1.0774516241137018,410
+2024-07-20,India,desktop,comedy,The Beverly Hillbillies,125,1.1094855442386242,483
+2024-07-21,India,desktop,comedy,The Beverly Hillbillies,142,1.1374956104586196,521
+2024-07-22,India,desktop,comedy,The Beverly Hillbillies,137,0.966841156659095,513
+2024-07-23,India,desktop,comedy,The Beverly Hillbillies,108,0.7944490080820817,395
+2024-07-24,India,desktop,comedy,The Beverly Hillbillies,79,0.7337430372972755,299
+2024-07-25,India,desktop,comedy,The Beverly Hillbillies,68,0.8638428830372256,260
+2024-07-26,India,desktop,comedy,The Beverly Hillbillies,69,1.0291772976842812,248
+2024-07-27,India,desktop,comedy,The Beverly Hillbillies,80,1.1640775559529364,291
+2024-07-28,India,desktop,comedy,The Beverly Hillbillies,104,1.3117806746947183,369
+2024-07-29,India,desktop,comedy,The Beverly Hillbillies,146,1.4094232996631146,526
+2024-07-30,India,desktop,comedy,The Beverly Hillbillies,192,1.3160323730854357,726
+2024-07-31,India,desktop,comedy,The Beverly Hillbillies,159,0.8291912846414143,595
+2024-08-01,India,desktop,comedy,The Beverly Hillbillies,94,0.5939212067437842,360
+2024-08-02,India,desktop,comedy,The Beverly Hillbillies,59,0.6310629236988479,228
+2024-08-03,India,desktop,comedy,The Beverly Hillbillies,49,0.8434251536463793,189
+2024-08-04,India,desktop,comedy,The Beverly Hillbillies,50,1.0273831140167073,179
+2024-08-05,India,desktop,comedy,The Beverly Hillbillies,58,1.179489638115012,211
+2024-08-06,India,desktop,comedy,The Beverly Hillbillies,81,1.4002245653710346,303
+2024-08-07,India,desktop,comedy,The Beverly Hillbillies,114,1.409787477973959,431
+2024-08-08,India,desktop,comedy,The Beverly Hillbillies,169,1.4869067385241554,602
+2024-08-09,India,desktop,comedy,The Beverly Hillbillies,209,1.2382502374419915,806
+2024-08-10,India,desktop,comedy,The Beverly Hillbillies,191,0.9178472275430025,717
+2024-08-11,India,desktop,comedy,The Beverly Hillbillies,132,0.6961763946606767,497
+2024-08-12,India,desktop,comedy,The Beverly Hillbillies,61,0.4648294722174116,222
+2024-08-13,India,desktop,comedy,The Beverly Hillbillies,38,0.6387611879609103,140
+2024-08-14,India,desktop,comedy,The Beverly Hillbillies,30,0.7985548493701945,114
+2024-08-15,India,desktop,comedy,The Beverly Hillbillies,30,1.0303112144953603,112
+2024-07-17,India,mobile,game shows,You Bet Your Pink Slip.,252,1.0,806
+2024-07-18,India,mobile,game shows,You Bet Your Pink Slip.,273,1.0834405054219878,1037
+2024-07-19,India,mobile,game shows,You Bet Your Pink Slip.,298,1.0926183277301333,1110
+2024-07-20,India,mobile,game shows,You Bet Your Pink Slip.,338,1.1350655390320579,1258
+2024-07-21,India,mobile,game shows,You Bet Your Pink Slip.,369,1.0930260045113251,1490
+2024-07-22,India,mobile,game shows,You Bet Your Pink Slip.,342,0.9274283711708058,1340
+2024-07-23,India,mobile,game shows,You Bet Your Pink Slip.,245,0.7181094283772627,1000
+2024-07-24,India,mobile,game shows,You Bet Your Pink Slip.,162,0.6629814602795697,636
+2024-07-25,India,mobile,game shows,You Bet Your Pink Slip.,140,0.8685925385937748,540
+2024-07-26,India,mobile,game shows,You Bet Your Pink Slip.,138,0.9869000455211532,541
+2024-07-27,India,mobile,game shows,You Bet Your Pink Slip.,158,1.1468290860847608,595
+2024-07-28,India,mobile,game shows,You Bet Your Pink Slip.,212,1.3462191242625192,866
+2024-07-29,India,mobile,game shows,You Bet Your Pink Slip.,298,1.4094702602069493,1170
+2024-07-30,India,mobile,game shows,You Bet Your Pink Slip.,430,1.446300515652722,1637
+2024-07-31,India,mobile,game shows,You Bet Your Pink Slip.,452,1.0517426730991979,1771
+2024-08-01,India,mobile,game shows,You Bet Your Pink Slip.,358,0.7932787900620764,1446
+2024-08-02,India,mobile,game shows,You Bet Your Pink Slip.,203,0.5679607838108041,764
+2024-08-03,India,mobile,game shows,You Bet Your Pink Slip.,148,0.7307898246595543,592
+2024-08-04,India,mobile,game shows,You Bet Your Pink Slip.,131,0.8918048430910385,537
+2024-08-05,India,mobile,game shows,You Bet Your Pink Slip.,135,1.0375854309861199,553
+2024-08-06,India,mobile,game shows,You Bet Your Pink Slip.,158,1.1761404093621763,590
+2024-08-07,India,mobile,game shows,You Bet Your Pink Slip.,202,1.2833108202725763,826
+2024-08-08,India,mobile,game shows,You Bet Your Pink Slip.,275,1.3638722450060932,1100
+2024-08-09,India,mobile,game shows,You Bet Your Pink Slip.,370,1.3489949852581218,1467
+2024-08-10,India,mobile,game shows,You Bet Your Pink Slip.,505,1.3651476276257148,1919
+2024-08-11,India,mobile,game shows,You Bet Your Pink Slip.,588,1.166200766543155,2283
+2024-08-12,India,mobile,game shows,You Bet Your Pink Slip.,178,0.30437559027071825,722
+2024-08-13,India,mobile,game shows,You Bet Your Pink Slip.,71,0.3998988137053386,264
+2024-08-14,India,mobile,game shows,You Bet Your Pink Slip.,42,0.593577697559096,171
+2024-08-15,India,mobile,game shows,You Bet Your Pink Slip.,34,0.8115371022913778,132
+2024-07-17,India,desktop,game shows,You Bet Your Pink Slip.,184,1.0,590
+2024-07-18,India,desktop,game shows,You Bet Your Pink Slip.,188,1.024627597902587,745
+2024-07-19,India,desktop,game shows,You Bet Your Pink Slip.,191,1.0204525309783041,721
+2024-07-20,India,desktop,game shows,You Bet Your Pink Slip.,210,1.0998773475807153,781
+2024-07-21,India,desktop,game shows,You Bet Your Pink Slip.,246,1.1719300100377317,983
+2024-07-22,India,desktop,game shows,You Bet Your Pink Slip.,245,0.999859155983525,934
+2024-07-23,India,desktop,game shows,You Bet Your Pink Slip.,223,0.9109199317217361,856
+2024-07-24,India,desktop,game shows,You Bet Your Pink Slip.,167,0.7522003194378998,624
+2024-07-25,India,desktop,game shows,You Bet Your Pink Slip.,142,0.854783918924067,542
+2024-07-26,India,desktop,game shows,You Bet Your Pink Slip.,139,0.979513545800998,523
+2024-07-27,India,desktop,game shows,You Bet Your Pink Slip.,160,1.1576862625747695,642
+2024-07-28,India,desktop,game shows,You Bet Your Pink Slip.,196,1.2253172904677578,737
+2024-07-29,India,desktop,game shows,You Bet Your Pink Slip.,247,1.2614529216797739,1007
+2024-07-30,India,desktop,game shows,You Bet Your Pink Slip.,279,1.132823593101808,1139
+2024-07-31,India,desktop,game shows,You Bet Your Pink Slip.,241,0.8646957164334721,907
+2024-08-01,India,desktop,game shows,You Bet Your Pink Slip.,198,0.8255332199959385,794
+2024-08-02,India,desktop,game shows,You Bet Your Pink Slip.,152,0.7707010100616394,609
+2024-08-03,India,desktop,game shows,You Bet Your Pink Slip.,141,0.930572614103302,531
+2024-08-04,India,desktop,game shows,You Bet Your Pink Slip.,150,1.0656785068450818,582
+2024-08-05,India,desktop,game shows,You Bet Your Pink Slip.,180,1.2033614801589492,707
+2024-08-06,India,desktop,game shows,You Bet Your Pink Slip.,221,1.228432476883849,866
+2024-08-07,India,desktop,game shows,You Bet Your Pink Slip.,255,1.1553311783878684,1010
+2024-08-08,India,desktop,game shows,You Bet Your Pink Slip.,283,1.1114038086816798,1121
+2024-08-09,India,desktop,game shows,You Bet Your Pink Slip.,265,0.9377262248164855,1049
+2024-08-10,India,desktop,game shows,You Bet Your Pink Slip.,218,0.8244715278674667,855
+2024-08-11,India,desktop,game shows,You Bet Your Pink Slip.,190,0.8753604998216489,769
+2024-08-12,India,desktop,game shows,You Bet Your Pink Slip.,158,0.8359563114684048,597
+2024-08-13,India,desktop,game shows,You Bet Your Pink Slip.,139,0.8799570040723582,555
+2024-08-14,India,desktop,game shows,You Bet Your Pink Slip.,137,0.9923718071778939,540
+2024-08-15,India,desktop,game shows,You Bet Your Pink Slip.,146,1.071542542497408,557
+2024-07-17,India,mobile,news,News,81,1.0,260
+2024-07-18,India,mobile,news,News,89,1.1067614869366396,296
+2024-07-19,India,mobile,news,News,98,1.103697878106766,302
+2024-07-20,India,mobile,news,News,108,1.1118561192498144,366
+2024-07-21,India,mobile,news,News,124,1.1528539982855446,391
+2024-07-22,India,mobile,news,News,115,0.9302979105115959,384
+2024-07-23,India,mobile,news,News,81,0.7111934354239378,272
+2024-07-24,India,mobile,news,News,55,0.6805479421425049,182
+2024-07-25,India,mobile,news,News,44,0.8134971906423007,146
+2024-07-26,India,mobile,news,News,44,1.0032135106249158,145
+2024-07-27,India,mobile,news,News,51,1.1766810701527808,164
+2024-07-28,India,mobile,news,News,70,1.3814192272260521,230
+2024-07-29,India,mobile,news,News,102,1.4636684079831983,318
+2024-07-30,India,mobile,news,News,137,1.3517885253142823,459
+2024-07-31,India,mobile,news,News,148,1.0810708019430293,484
+2024-08-01,India,mobile,news,News,101,0.6882320707945007,326
+2024-08-02,India,mobile,news,News,58,0.579366839074068,191
+2024-08-03,India,mobile,news,News,43,0.7549094560315894,136
+2024-08-04,India,mobile,news,News,39,0.9151731332434544,132
+2024-08-05,India,mobile,news,News,43,1.1167768296001028,133
+2024-08-06,India,mobile,news,News,52,1.222832419685682,166
+2024-08-07,India,mobile,news,News,70,1.3548698773633272,223
+2024-08-08,India,mobile,news,News,103,1.4838896614665247,326
+2024-08-09,India,mobile,news,News,141,1.3777421027393844,477
+2024-08-10,India,mobile,news,News,172,1.2214451294639164,563
+2024-08-11,India,mobile,news,News,164,0.9548713537210505,526
+2024-08-12,India,mobile,news,News,52,0.318283596907717,163
+2024-08-13,India,mobile,news,News,22,0.43207620683646153,73
+2024-08-14,India,mobile,news,News,13,0.6285885300384679,46
+2024-08-15,India,mobile,news,News,11,0.8671328092423054,35
+2024-07-17,India,desktop,news,News,315,1.0,1008
+2024-07-18,India,desktop,news,News,319,1.0138337374421846,1044
+2024-07-19,India,desktop,news,News,350,1.0975250309529883,1076
+2024-07-20,India,desktop,news,News,379,1.0850725592677821,1254
+2024-07-21,India,desktop,news,News,424,1.1194738144475775,1414
+2024-07-22,India,desktop,news,News,432,1.0198193688438242,1371
+2024-07-23,India,desktop,news,News,386,0.8944793132112304,1301
+2024-07-24,India,desktop,news,News,281,0.7295656675548149,893
+2024-07-25,India,desktop,news,News,241,0.8595116030366968,813
+2024-07-26,India,desktop,news,News,221,0.9190160870033137,724
+2024-07-27,India,desktop,news,News,237,1.0761416648288946,769
+2024-07-28,India,desktop,news,News,289,1.2220252176395183,909
+2024-07-29,India,desktop,news,News,357,1.2370964644539792,1099
+2024-07-30,India,desktop,news,News,428,1.1997369028947575,1386
+2024-07-31,India,desktop,news,News,458,1.0717299801122269,1425
+2024-08-01,India,desktop,news,News,428,0.9360455987819803,1415
+2024-08-02,India,desktop,news,News,361,0.8443554583034761,1146
+2024-08-03,India,desktop,news,News,328,0.9098040230039994,1084
+2024-08-04,India,desktop,news,News,329,1.0041067962933539,1044
+2024-08-05,India,desktop,news,News,331,1.0067637365674904,1029
+2024-08-06,India,desktop,news,News,318,0.9607657181419322,1039
+2024-08-07,India,desktop,news,News,303,0.9541736848205251,992
+2024-08-08,India,desktop,news,News,308,1.0193737304451052,979
+2024-08-09,India,desktop,news,News,313,1.0172791677848618,963
+2024-08-10,India,desktop,news,News,358,1.1454342805306696,1183
+2024-08-11,India,desktop,news,News,414,1.1591311085857703,1370
+2024-08-12,India,desktop,news,News,452,1.0924589678187673,1493
+2024-08-13,India,desktop,news,News,404,0.894886134262826,1322
+2024-08-14,India,desktop,news,News,275,0.6829536781159273,884
+2024-08-15,India,desktop,news,News,231,0.840757974320925,726
+2024-07-17,India,mobile,game shows,The Lice is Right,0,1.0,0
+2024-07-18,India,mobile,game shows,The Lice is Right,0,,0
+2024-07-19,India,mobile,game shows,The Lice is Right,0,,0
+2024-07-20,India,mobile,game shows,The Lice is Right,0,,0
+2024-07-21,India,mobile,game shows,The Lice is Right,0,,0
+2024-07-22,India,mobile,game shows,The Lice is Right,0,,0
+2024-07-23,India,mobile,game shows,The Lice is Right,0,,0
+2024-07-24,India,mobile,game shows,The Lice is Right,0,,0
+2024-07-25,India,mobile,game shows,The Lice is Right,0,,0
+2024-07-26,India,mobile,game shows,The Lice is Right,0,,0
+2024-07-27,India,mobile,game shows,The Lice is Right,0,,0
+2024-07-28,India,mobile,game shows,The Lice is Right,0,,0
+2024-07-29,India,mobile,game shows,The Lice is Right,0,,0
+2024-07-30,India,mobile,game shows,The Lice is Right,0,,0
+2024-07-31,India,mobile,game shows,The Lice is Right,0,,0
+2024-08-01,India,mobile,game shows,The Lice is Right,0,,0
+2024-08-02,India,mobile,game shows,The Lice is Right,0,,0
+2024-08-03,India,mobile,game shows,The Lice is Right,0,,0
+2024-08-04,India,mobile,game shows,The Lice is Right,0,,0
+2024-08-05,India,mobile,game shows,The Lice is Right,0,,0
+2024-08-06,India,mobile,game shows,The Lice is Right,0,,0
+2024-08-07,India,mobile,game shows,The Lice is Right,0,,0
+2024-08-08,India,mobile,game shows,The Lice is Right,0,,0
+2024-08-09,India,mobile,game shows,The Lice is Right,0,,0
+2024-08-10,India,mobile,game shows,The Lice is Right,0,,0
+2024-08-11,India,mobile,game shows,The Lice is Right,0,,0
+2024-08-12,India,mobile,game shows,The Lice is Right,0,,0
+2024-08-13,India,mobile,game shows,The Lice is Right,0,,0
+2024-08-14,India,mobile,game shows,The Lice is Right,0,,0
+2024-08-15,India,mobile,game shows,The Lice is Right,0,,0
+2024-07-17,India,desktop,game shows,The Lice is Right,390,1.0,1248
+2024-07-18,India,desktop,game shows,The Lice is Right,395,1.0134274964075853,669
+2024-07-19,India,desktop,game shows,The Lice is Right,433,1.0968712350095893,719
+2024-07-20,India,desktop,game shows,The Lice is Right,492,1.1371214217954075,777
+2024-07-21,India,desktop,game shows,The Lice is Right,556,1.1308806715726545,924
+2024-07-22,India,desktop,game shows,The Lice is Right,538,0.9687513381256442,859
+2024-07-23,India,desktop,game shows,The Lice is Right,444,0.8263280284119618,731
+2024-07-24,India,desktop,game shows,The Lice is Right,308,0.693743066868934,501
+2024-07-25,India,desktop,game shows,The Lice is Right,261,0.8500934468301031,413
+2024-07-26,India,desktop,game shows,The Lice is Right,259,0.9924975123225179,421
+2024-07-27,India,desktop,game shows,The Lice is Right,306,1.1831287105657127,524
+2024-07-28,India,desktop,game shows,The Lice is Right,411,1.3445565317097632,643
+2024-07-29,India,desktop,game shows,The Lice is Right,552,1.343832662535955,917
+2024-07-30,India,desktop,game shows,The Lice is Right,681,1.2351130791898657,1132
+2024-07-31,India,desktop,game shows,The Lice is Right,511,0.751468722005372,825
+2024-08-01,India,desktop,game shows,The Lice is Right,345,0.6764173786447295,551
+2024-08-02,India,desktop,game shows,The Lice is Right,236,0.6865139396798946,393
+2024-08-03,India,desktop,game shows,The Lice is Right,211,0.8978508948389049,359
+2024-08-04,India,desktop,game shows,The Lice is Right,229,1.0877244811891997,373
+2024-08-05,India,desktop,game shows,The Lice is Right,293,1.2799453328968349,462
+2024-08-06,India,desktop,game shows,The Lice is Right,412,1.406902911623409,705
+2024-08-07,India,desktop,game shows,The Lice is Right,567,1.3776713194806287,971
+2024-08-08,India,desktop,game shows,The Lice is Right,761,1.3421937627974243,1189
+2024-08-09,India,desktop,game shows,The Lice is Right,651,0.856485904337551,1093
+2024-08-10,India,desktop,game shows,The Lice is Right,435,0.6687102792659463,680
+2024-08-11,India,desktop,game shows,The Lice is Right,308,0.709707611098796,507
+2024-08-12,India,desktop,game shows,The Lice is Right,231,0.7500672024818773,364
+2024-08-13,India,desktop,game shows,The Lice is Right,217,0.9423090814917562,350
+2024-08-14,India,desktop,game shows,The Lice is Right,228,1.0526733184122947,372
+2024-08-15,India,desktop,game shows,The Lice is Right,281,1.2329993527828451,471
+2024-07-17,India,mobile,education,Fun with Dirt,287,1.0,920
+2024-07-18,India,mobile,education,Fun with Dirt,302,1.0546015496780752,1415
+2024-07-19,India,mobile,education,Fun with Dirt,331,1.0982196072204096,1597
+2024-07-20,India,mobile,education,Fun with Dirt,362,1.096592019091495,1663
+2024-07-21,India,mobile,education,Fun with Dirt,411,1.1367720381822046,1924
+2024-07-22,India,mobile,education,Fun with Dirt,395,0.9626504736149076,1740
+2024-07-23,India,mobile,education,Fun with Dirt,318,0.8064335331324095,1430
+2024-07-24,India,mobile,education,Fun with Dirt,216,0.6794341718440278,1020
+2024-07-25,India,mobile,education,Fun with Dirt,188,0.8734016492097731,891
+2024-07-26,India,mobile,education,Fun with Dirt,183,0.9766267467767538,824
+2024-07-27,India,mobile,education,Fun with Dirt,218,1.1933172457301167,1051
+2024-07-28,India,mobile,education,Fun with Dirt,284,1.3055262082054948,1331
+2024-07-29,India,mobile,education,Fun with Dirt,391,1.3772120635175809,1720
+2024-07-30,India,mobile,education,Fun with Dirt,478,1.2226905583042342,2280
+2024-07-31,India,mobile,education,Fun with Dirt,398,0.8338726654963524,1771
+2024-08-01,India,mobile,education,Fun with Dirt,284,0.715151459390996,1370
+2024-08-02,India,mobile,education,Fun with Dirt,206,0.7284745094579181,996
+2024-08-03,India,mobile,education,Fun with Dirt,189,0.9221728113149885,835
+2024-08-04,India,mobile,education,Fun with Dirt,203,1.0785357345232245,915
+2024-08-05,India,mobile,education,Fun with Dirt,237,1.1683398729408379,1142
+2024-08-06,India,mobile,education,Fun with Dirt,303,1.2818052462399192,1350
+2024-08-07,India,mobile,education,Fun with Dirt,368,1.215774798757105,1688
+2024-08-08,India,mobile,education,Fun with Dirt,424,1.1524520472164588,1885
+2024-08-09,India,mobile,education,Fun with Dirt,446,1.0531935318769021,2129
+2024-08-10,India,mobile,education,Fun with Dirt,388,0.8708056666888453,1726
+2024-08-11,India,mobile,education,Fun with Dirt,342,0.882121392475051,1553
+2024-08-12,India,mobile,education,Fun with Dirt,253,0.7400870345065694,1148
+2024-08-13,India,mobile,education,Fun with Dirt,206,0.81637661058036,908
+2024-08-14,India,mobile,education,Fun with Dirt,191,0.9305480602153254,861
+2024-08-15,India,mobile,education,Fun with Dirt,204,1.0695098073807379,964
+2024-07-17,India,desktop,education,Fun with Dirt,9,1.0,31
+2024-07-18,India,desktop,education,Fun with Dirt,10,1.13163703156226,45
+2024-07-19,India,desktop,education,Fun with Dirt,11,1.141480191921598,50
+2024-07-20,India,desktop,education,Fun with Dirt,13,1.2091434666992895,60
+2024-07-21,India,desktop,education,Fun with Dirt,15,1.18793355148238,70
+2024-07-22,India,desktop,education,Fun with Dirt,15,1.0074069170566766,72
+2024-07-23,India,desktop,education,Fun with Dirt,11,0.7486511460236882,49
+2024-07-24,India,desktop,education,Fun with Dirt,7,0.6754322382321906,33
+2024-07-25,India,desktop,education,Fun with Dirt,5,0.837919557532758,25
+2024-07-26,India,desktop,education,Fun with Dirt,4,0.9839107825609503,22
+2024-07-27,India,desktop,education,Fun with Dirt,4,1.162006875551232,22
+2024-07-28,India,desktop,education,Fun with Dirt,5,1.354421970476194,24
+2024-07-29,India,desktop,education,Fun with Dirt,7,1.523541536674141,34
+2024-07-30,India,desktop,education,Fun with Dirt,12,1.7206979695988398,57
+2024-07-31,India,desktop,education,Fun with Dirt,19,1.6180557876601138,91
+2024-08-01,India,desktop,education,Fun with Dirt,24,1.2950667265854026,112
+2024-08-02,India,desktop,education,Fun with Dirt,13,0.5538515502444888,63
+2024-08-03,India,desktop,education,Fun with Dirt,6,0.520609432518528,30
+2024-08-04,India,desktop,education,Fun with Dirt,4,0.677537471701905,18
+2024-08-05,India,desktop,education,Fun with Dirt,3,0.8460097973829985,15
+2024-08-06,India,desktop,education,Fun with Dirt,3,1.0808098784038591,15
+2024-08-07,India,desktop,education,Fun with Dirt,3,1.256698057515719,18
+2024-08-08,India,desktop,education,Fun with Dirt,4,1.4540792995149185,19
+2024-08-09,India,desktop,education,Fun with Dirt,6,1.6416399806598487,31
+2024-08-10,India,desktop,education,Fun with Dirt,11,1.8710793539479296,52
+2024-08-11,India,desktop,education,Fun with Dirt,20,1.8821138728360127,96
+2024-08-12,India,desktop,education,Fun with Dirt,30,1.5148358354389417,133
+2024-08-13,India,desktop,education,Fun with Dirt,3,0.1024152971125798,13
+2024-08-14,India,desktop,education,Fun with Dirt,0,0.2543707084638325,3
+2024-08-15,India,desktop,education,Fun with Dirt,0,,0
+2024-07-17,India,mobile,news,Eye On Toxic Waste,250,1.0,800
+2024-07-18,India,mobile,news,Eye On Toxic Waste,258,1.03378141661535,1054
+2024-07-19,India,mobile,news,Eye On Toxic Waste,271,1.0516396441312161,1096
+2024-07-20,India,mobile,news,Eye On Toxic Waste,308,1.1371100502457967,1281
+2024-07-21,India,mobile,news,Eye On Toxic Waste,359,1.1657509484042508,1393
+2024-07-22,India,mobile,news,Eye On Toxic Waste,360,1.0050811019513695,1472
+2024-07-23,India,mobile,news,Eye On Toxic Waste,300,0.8337037354728141,1236
+2024-07-24,India,mobile,news,Eye On Toxic Waste,204,0.6820835531591952,851
+2024-07-25,India,mobile,news,Eye On Toxic Waste,159,0.7794502967253967,604
+2024-07-26,India,mobile,news,Eye On Toxic Waste,150,0.9439489199678504,612
+2024-07-27,India,mobile,news,Eye On Toxic Waste,163,1.0927176716282319,655
+2024-07-28,India,mobile,news,Eye On Toxic Waste,203,1.247761819899255,813
+2024-07-29,India,mobile,news,Eye On Toxic Waste,264,1.300628705585393,1045
+2024-07-30,India,mobile,news,Eye On Toxic Waste,369,1.3979476732219895,1490
+2024-07-31,India,mobile,news,Eye On Toxic Waste,429,1.162749031999891,1733
+2024-08-01,India,mobile,news,Eye On Toxic Waste,419,0.9782886649539966,1695
+2024-08-02,India,mobile,news,Eye On Toxic Waste,249,0.5963931702776939,1029
+2024-08-03,India,mobile,news,Eye On Toxic Waste,174,0.6994324218155284,703
+2024-08-04,India,mobile,news,Eye On Toxic Waste,145,0.8343138320522566,598
+2024-08-05,India,mobile,news,Eye On Toxic Waste,146,1.0134931636866877,593
+2024-08-06,India,mobile,news,Eye On Toxic Waste,162,1.1098741178734512,674
+2024-08-07,India,mobile,news,Eye On Toxic Waste,208,1.2899752245708078,827
+2024-08-08,India,mobile,news,Eye On Toxic Waste,275,1.3256551413995887,1091
+2024-08-09,India,mobile,news,Eye On Toxic Waste,367,1.3373019206022372,1470
+2024-08-10,India,mobile,news,Eye On Toxic Waste,495,1.3507996131704783,1963
+2024-08-11,India,mobile,news,Eye On Toxic Waste,574,1.1613474720990673,2345
+2024-08-12,India,mobile,news,Eye On Toxic Waste,190,0.3321517335131733,747
+2024-08-13,India,mobile,news,Eye On Toxic Waste,72,0.3827471994940464,285
+2024-08-14,India,mobile,news,Eye On Toxic Waste,43,0.6065583483216364,169
+2024-08-15,India,mobile,news,Eye On Toxic Waste,33,0.7889941721514012,128
+2024-07-17,India,desktop,news,Eye On Toxic Waste,106,1.0,342
+2024-07-18,India,desktop,news,Eye On Toxic Waste,113,1.0679728541327715,470
+2024-07-19,India,desktop,news,Eye On Toxic Waste,124,1.1048258964050435,484
+2024-07-20,India,desktop,news,Eye On Toxic Waste,140,1.1347896633758288,562
+2024-07-21,India,desktop,news,Eye On Toxic Waste,158,1.133781322838199,622
+2024-07-22,India,desktop,news,Eye On Toxic Waste,143,0.9092695070430363,574
+2024-07-23,India,desktop,news,Eye On Toxic Waste,113,0.7927835284015396,448
+2024-07-24,India,desktop,news,Eye On Toxic Waste,83,0.7406963014486843,324
+2024-07-25,India,desktop,news,Eye On Toxic Waste,70,0.8502534963213545,276
+2024-07-26,India,desktop,news,Eye On Toxic Waste,68,0.9746862151589961,264
+2024-07-27,India,desktop,news,Eye On Toxic Waste,77,1.1346277748270919,314
+2024-07-28,India,desktop,news,Eye On Toxic Waste,101,1.3228773611944038,387
+2024-07-29,India,desktop,news,Eye On Toxic Waste,135,1.3381531609228714,562
+2024-07-30,India,desktop,news,Eye On Toxic Waste,166,1.2329539189503256,679
+2024-07-31,India,desktop,news,Eye On Toxic Waste,165,0.9970452244749821,675
+2024-08-01,India,desktop,news,Eye On Toxic Waste,139,0.8460576773926715,563
+2024-08-02,India,desktop,news,Eye On Toxic Waste,98,0.7092378893357093,382
+2024-08-03,India,desktop,news,Eye On Toxic Waste,78,0.7980196760555912,303
+2024-08-04,India,desktop,news,Eye On Toxic Waste,76,0.9750277774656269,307
+2024-08-05,India,desktop,news,Eye On Toxic Waste,81,1.0709666999017962,338
+2024-08-06,India,desktop,news,Eye On Toxic Waste,96,1.1950743000860375,371
+2024-08-07,India,desktop,news,Eye On Toxic Waste,119,1.2493208831669018,455
+2024-08-08,India,desktop,news,Eye On Toxic Waste,146,1.2337192016292498,581
+2024-08-09,India,desktop,news,Eye On Toxic Waste,165,1.1353972261325695,663
+2024-08-10,India,desktop,news,Eye On Toxic Waste,176,1.0696284317719096,670
+2024-08-11,India,desktop,news,Eye On Toxic Waste,159,0.903948471764538,649
+2024-08-12,India,desktop,news,Eye On Toxic Waste,96,0.6081782378628466,386
+2024-08-13,India,desktop,news,Eye On Toxic Waste,60,0.6337539721088143,253
+2024-08-14,India,desktop,news,Eye On Toxic Waste,47,0.789328938082363,185
+2024-08-15,India,desktop,news,Eye On Toxic Waste,45,0.9701616494571929,180
+2024-07-17,India,mobile,lifestyle,That's Disgusting,460,1.0,1473
+2024-07-18,India,mobile,lifestyle,That's Disgusting,489,1.0638414264385878,1546
+2024-07-19,India,mobile,lifestyle,That's Disgusting,532,1.0888238670575578,1650
+2024-07-20,India,mobile,lifestyle,That's Disgusting,598,1.1245960981732204,1909
+2024-07-21,India,mobile,lifestyle,That's Disgusting,705,1.17984267924025,2165
+2024-07-22,India,mobile,lifestyle,That's Disgusting,641,0.9104074719560629,1910
+2024-07-23,India,mobile,lifestyle,That's Disgusting,447,0.6974884110763069,1344
+2024-07-24,India,mobile,lifestyle,That's Disgusting,314,0.7041287012571409,946
+2024-07-25,India,mobile,lifestyle,That's Disgusting,262,0.835734859902252,821
+2024-07-26,India,mobile,lifestyle,That's Disgusting,255,0.9745304084848743,744
+2024-07-27,India,mobile,lifestyle,That's Disgusting,302,1.1862345438484694,881
+2024-07-28,India,mobile,lifestyle,That's Disgusting,409,1.3559206048575714,1307
+2024-07-29,India,mobile,lifestyle,That's Disgusting,574,1.405321800841705,1728
+2024-07-30,India,mobile,lifestyle,That's Disgusting,796,1.3868584745159767,2467
+2024-07-31,India,mobile,lifestyle,That's Disgusting,833,1.0474882484679908,2507
+2024-08-01,India,mobile,lifestyle,That's Disgusting,537,0.6447345422232136,1582
+2024-08-02,India,mobile,lifestyle,That's Disgusting,303,0.5649216500504404,921
+2024-08-03,India,mobile,lifestyle,That's Disgusting,220,0.7282976484661895,670
+2024-08-04,India,mobile,lifestyle,That's Disgusting,200,0.9129970008653523,597
+2024-08-05,India,mobile,lifestyle,That's Disgusting,212,1.0649893912220278,666
+2024-08-06,India,mobile,lifestyle,That's Disgusting,259,1.2228819062853375,795
+2024-08-07,India,mobile,lifestyle,That's Disgusting,360,1.3900668972696382,1149
+2024-08-08,India,mobile,lifestyle,That's Disgusting,555,1.5439395996377492,1757
+2024-08-09,India,mobile,lifestyle,That's Disgusting,843,1.519095942320031,2613
+2024-08-10,India,mobile,lifestyle,That's Disgusting,1073,1.273995914412377,3427
+2024-08-11,India,mobile,lifestyle,That's Disgusting,910,0.8483462756960913,2681
+2024-08-12,India,mobile,lifestyle,That's Disgusting,148,0.16369564202869002,448
+2024-08-13,India,mobile,lifestyle,That's Disgusting,65,0.43938765948432873,203
+2024-08-14,India,mobile,lifestyle,That's Disgusting,39,0.601964086404774,123
+2024-08-15,India,mobile,lifestyle,That's Disgusting,32,0.8401518980995067,96
+2024-07-17,India,desktop,lifestyle,That's Disgusting,0,1.0,0
+2024-07-18,India,desktop,lifestyle,That's Disgusting,0,,0
+2024-07-19,India,desktop,lifestyle,That's Disgusting,0,,0
+2024-07-20,India,desktop,lifestyle,That's Disgusting,0,,0
+2024-07-21,India,desktop,lifestyle,That's Disgusting,0,,0
+2024-07-22,India,desktop,lifestyle,That's Disgusting,0,,0
+2024-07-23,India,desktop,lifestyle,That's Disgusting,0,,0
+2024-07-24,India,desktop,lifestyle,That's Disgusting,0,,0
+2024-07-25,India,desktop,lifestyle,That's Disgusting,0,,0
+2024-07-26,India,desktop,lifestyle,That's Disgusting,0,,0
+2024-07-27,India,desktop,lifestyle,That's Disgusting,0,,0
+2024-07-28,India,desktop,lifestyle,That's Disgusting,0,,0
+2024-07-29,India,desktop,lifestyle,That's Disgusting,0,,0
+2024-07-30,India,desktop,lifestyle,That's Disgusting,0,,0
+2024-07-31,India,desktop,lifestyle,That's Disgusting,0,,0
+2024-08-01,India,desktop,lifestyle,That's Disgusting,0,,0
+2024-08-02,India,desktop,lifestyle,That's Disgusting,0,,0
+2024-08-03,India,desktop,lifestyle,That's Disgusting,0,,0
+2024-08-04,India,desktop,lifestyle,That's Disgusting,0,,0
+2024-08-05,India,desktop,lifestyle,That's Disgusting,0,,0
+2024-08-06,India,desktop,lifestyle,That's Disgusting,0,,0
+2024-08-07,India,desktop,lifestyle,That's Disgusting,0,,0
+2024-08-08,India,desktop,lifestyle,That's Disgusting,0,,0
+2024-08-09,India,desktop,lifestyle,That's Disgusting,0,,0
+2024-08-10,India,desktop,lifestyle,That's Disgusting,0,,0
+2024-08-11,India,desktop,lifestyle,That's Disgusting,0,,0
+2024-08-12,India,desktop,lifestyle,That's Disgusting,0,,0
+2024-08-13,India,desktop,lifestyle,That's Disgusting,0,,0
+2024-08-14,India,desktop,lifestyle,That's Disgusting,0,,0
+2024-08-15,India,desktop,lifestyle,That's Disgusting,0,,0
+2024-07-17,India,mobile,sports,Wide World of Tractor Pulls,84,1.0,271
+2024-07-18,India,mobile,sports,Wide World of Tractor Pulls,93,1.1085117565950457,148
+2024-07-19,India,mobile,sports,Wide World of Tractor Pulls,102,1.1041764424080984,160
+2024-07-20,India,mobile,sports,Wide World of Tractor Pulls,111,1.0894983303752,171
+2024-07-21,India,mobile,sports,Wide World of Tractor Pulls,123,1.1126155337137498,190
+2024-07-22,India,mobile,sports,Wide World of Tractor Pulls,118,0.9646651724823736,200
+2024-07-23,India,mobile,sports,Wide World of Tractor Pulls,93,0.7889067720666503,146
+2024-07-24,India,mobile,sports,Wide World of Tractor Pulls,60,0.6505591504791626,101
+2024-07-25,India,mobile,sports,Wide World of Tractor Pulls,49,0.8262258141337255,82
+2024-07-26,India,mobile,sports,Wide World of Tractor Pulls,47,0.9750160167163344,76
+2024-07-27,India,mobile,sports,Wide World of Tractor Pulls,55,1.1805019136883415,91
+2024-07-28,India,mobile,sports,Wide World of Tractor Pulls,73,1.343301202591293,116
+2024-07-29,India,mobile,sports,Wide World of Tractor Pulls,100,1.3784111885208044,155
+2024-07-30,India,mobile,sports,Wide World of Tractor Pulls,135,1.3558152447609801,220
+2024-07-31,India,mobile,sports,Wide World of Tractor Pulls,135,1.0060485310222418,223
+2024-08-01,India,mobile,sports,Wide World of Tractor Pulls,115,0.8538740466166639,183
+2024-08-02,India,mobile,sports,Wide World of Tractor Pulls,76,0.6675668436557844,123
+2024-08-03,India,mobile,sports,Wide World of Tractor Pulls,59,0.7807358907854323,96
+2024-08-04,India,mobile,sports,Wide World of Tractor Pulls,54,0.9242499696737462,89
+2024-08-05,India,mobile,sports,Wide World of Tractor Pulls,58,1.0745415729186767,92
+2024-08-06,India,mobile,sports,Wide World of Tractor Pulls,67,1.172333404842071,106
+2024-08-07,India,mobile,sports,Wide World of Tractor Pulls,86,1.2870088496923855,136
+2024-08-08,India,mobile,sports,Wide World of Tractor Pulls,115,1.3433613097407766,184
+2024-08-09,India,mobile,sports,Wide World of Tractor Pulls,147,1.2825937147468973,244
+2024-08-10,India,mobile,sports,Wide World of Tractor Pulls,161,1.1008865249995126,271
+2024-08-11,India,mobile,sports,Wide World of Tractor Pulls,138,0.8592824983859,220
+2024-08-12,India,mobile,sports,Wide World of Tractor Pulls,62,0.454979923854698,106
+2024-08-13,India,mobile,sports,Wide World of Tractor Pulls,36,0.5877467520670225,61
+2024-08-14,India,mobile,sports,Wide World of Tractor Pulls,25,0.7173780134824324,43
+2024-08-15,India,mobile,sports,Wide World of Tractor Pulls,23,0.9379308811848803,37
+2024-07-17,India,desktop,sports,Wide World of Tractor Pulls,163,1.0,524
+2024-07-18,India,desktop,sports,Wide World of Tractor Pulls,168,1.0361313889662267,261
+2024-07-19,India,desktop,sports,Wide World of Tractor Pulls,179,1.0657571921783586,285
+2024-07-20,India,desktop,sports,Wide World of Tractor Pulls,199,1.1130641028306036,324
+2024-07-21,India,desktop,sports,Wide World of Tractor Pulls,235,1.1841639545846219,379
+2024-07-22,India,desktop,sports,Wide World of Tractor Pulls,239,1.0198638400034077,401
+2024-07-23,India,desktop,sports,Wide World of Tractor Pulls,185,0.7763739363343687,314
+2024-07-24,India,desktop,sports,Wide World of Tractor Pulls,131,0.7093552508069092,213
+2024-07-25,India,desktop,sports,Wide World of Tractor Pulls,111,0.8474232550087899,177
+2024-07-26,India,desktop,sports,Wide World of Tractor Pulls,108,0.9800472056747846,177
+2024-07-27,India,desktop,sports,Wide World of Tractor Pulls,121,1.1291369820750667,198
+2024-07-28,India,desktop,sports,Wide World of Tractor Pulls,151,1.2541802460539624,242
+2024-07-29,India,desktop,sports,Wide World of Tractor Pulls,203,1.350895993999406,331
+2024-07-30,India,desktop,sports,Wide World of Tractor Pulls,269,1.3258364407135104,420
+2024-07-31,India,desktop,sports,Wide World of Tractor Pulls,267,0.9935653670182091,430
+2024-08-01,India,desktop,sports,Wide World of Tractor Pulls,190,0.7127219515292895,306
+2024-08-02,India,desktop,sports,Wide World of Tractor Pulls,122,0.6443204117253654,197
+2024-08-03,India,desktop,sports,Wide World of Tractor Pulls,102,0.8367268725356345,164
+2024-08-04,India,desktop,sports,Wide World of Tractor Pulls,101,0.9936553833824925,163
+2024-08-05,India,desktop,sports,Wide World of Tractor Pulls,112,1.1174599641822927,189
+2024-08-06,India,desktop,sports,Wide World of Tractor Pulls,144,1.2941666615864027,240
+2024-08-07,India,desktop,sports,Wide World of Tractor Pulls,199,1.3839565202597914,334
+2024-08-08,India,desktop,sports,Wide World of Tractor Pulls,273,1.3765986809574196,432
+2024-08-09,India,desktop,sports,Wide World of Tractor Pulls,311,1.1396787028012834,521
+2024-08-10,India,desktop,sports,Wide World of Tractor Pulls,290,0.9331264476027527,458
+2024-08-11,India,desktop,sports,Wide World of Tractor Pulls,205,0.7079902506434459,330
+2024-08-12,India,desktop,sports,Wide World of Tractor Pulls,110,0.537843313882622,177
+2024-08-13,India,desktop,sports,Wide World of Tractor Pulls,71,0.6486786446513735,111
+2024-08-14,India,desktop,sports,Wide World of Tractor Pulls,60,0.8486351504184325,99
+2024-08-15,India,desktop,sports,Wide World of Tractor Pulls,60,1.016383881546127,97
+2024-07-17,India,mobile,education,Wonderful World of Phlegm,39,1.0,126
+2024-07-18,India,mobile,education,Wonderful World of Phlegm,42,1.0885337400192294,58
+2024-07-19,India,mobile,education,Wonderful World of Phlegm,43,1.039826351667938,62
+2024-07-20,India,mobile,education,Wonderful World of Phlegm,47,1.0950615508612485,66
+2024-07-21,India,mobile,education,Wonderful World of Phlegm,55,1.1773040544200897,79
+2024-07-22,India,mobile,education,Wonderful World of Phlegm,58,1.0621404748975227,84
+2024-07-23,India,mobile,education,Wonderful World of Phlegm,47,0.8148638464676803,69
+2024-07-24,India,mobile,education,Wonderful World of Phlegm,32,0.6888114612546967,45
+2024-07-25,India,mobile,education,Wonderful World of Phlegm,26,0.8285748898652167,40
+2024-07-26,India,mobile,education,Wonderful World of Phlegm,23,0.9152642795847896,34
+2024-07-27,India,mobile,education,Wonderful World of Phlegm,25,1.1276076864753994,37
+2024-07-28,India,mobile,education,Wonderful World of Phlegm,32,1.31577410701433,47
+2024-07-29,India,mobile,education,Wonderful World of Phlegm,45,1.4258318887699197,64
+2024-07-30,India,mobile,education,Wonderful World of Phlegm,62,1.3907885437521266,87
+2024-07-31,India,mobile,education,Wonderful World of Phlegm,67,1.0842022917722884,99
+2024-08-01,India,mobile,education,Wonderful World of Phlegm,55,0.8341720690513832,81
+2024-08-02,India,mobile,education,Wonderful World of Phlegm,35,0.6543022036151782,50
+2024-08-03,India,mobile,education,Wonderful World of Phlegm,27,0.7936542978460582,41
+2024-08-04,India,mobile,education,Wonderful World of Phlegm,24,0.9194075220016841,35
+2024-08-05,India,mobile,education,Wonderful World of Phlegm,26,1.0937891181601551,39
+2024-08-06,India,mobile,education,Wonderful World of Phlegm,30,1.16903683290882,41
+2024-08-07,India,mobile,education,Wonderful World of Phlegm,39,1.3188671040249278,59
+2024-08-08,India,mobile,education,Wonderful World of Phlegm,51,1.3078702701473355,76
+2024-08-09,India,mobile,education,Wonderful World of Phlegm,66,1.3072918700378215,94
+2024-08-10,India,mobile,education,Wonderful World of Phlegm,78,1.1877458975479176,110
+2024-08-11,India,mobile,education,Wonderful World of Phlegm,72,0.929157239890336,106
+2024-08-12,India,mobile,education,Wonderful World of Phlegm,29,0.41249646523994576,44
+2024-08-13,India,mobile,education,Wonderful World of Phlegm,14,0.5122071495710154,20
+2024-08-14,India,mobile,education,Wonderful World of Phlegm,9,0.7102029202193412,14
+2024-08-15,India,mobile,education,Wonderful World of Phlegm,8,0.9092901082828827,11
+2024-07-17,India,desktop,education,Wonderful World of Phlegm,259,1.0,830
+2024-07-18,India,desktop,education,Wonderful World of Phlegm,273,1.0544768578982935,396
+2024-07-19,India,desktop,education,Wonderful World of Phlegm,299,1.0975308840183677,448
+2024-07-20,India,desktop,education,Wonderful World of Phlegm,353,1.1814407639777382,528
+2024-07-21,India,desktop,education,Wonderful World of Phlegm,407,1.1542324981903316,609
+2024-07-22,India,desktop,education,Wonderful World of Phlegm,389,0.9574588453027559,560
+2024-07-23,India,desktop,education,Wonderful World of Phlegm,246,0.6329259137674854,346
+2024-07-24,India,desktop,education,Wonderful World of Phlegm,145,0.5899695757919935,210
+2024-07-25,India,desktop,education,Wonderful World of Phlegm,111,0.7671387836936565,164
+2024-07-26,India,desktop,education,Wonderful World of Phlegm,101,0.9122937512047772,142
+2024-07-27,India,desktop,education,Wonderful World of Phlegm,118,1.1694207398279834,164
+2024-07-28,India,desktop,education,Wonderful World of Phlegm,156,1.3304096618224714,237
+2024-07-29,India,desktop,education,Wonderful World of Phlegm,237,1.52052270163408,337
+2024-07-30,India,desktop,education,Wonderful World of Phlegm,366,1.5445612955431833,515
+2024-07-31,India,desktop,education,Wonderful World of Phlegm,490,1.3394574125996004,740
+2024-08-01,India,desktop,education,Wonderful World of Phlegm,488,0.9978923291735387,738
+2024-08-02,India,desktop,education,Wonderful World of Phlegm,288,0.5903731048334229,401
+2024-08-03,India,desktop,education,Wonderful World of Phlegm,185,0.6446949956862034,280
+2024-08-04,India,desktop,education,Wonderful World of Phlegm,151,0.8198930658060687,226
+2024-08-05,India,desktop,education,Wonderful World of Phlegm,144,0.9598302679730647,202
+2024-08-06,India,desktop,education,Wonderful World of Phlegm,160,1.1176784370496962,240
+2024-08-07,India,desktop,education,Wonderful World of Phlegm,204,1.2785425322930386,303
+2024-08-08,India,desktop,education,Wonderful World of Phlegm,292,1.434628200920235,412
+2024-08-09,India,desktop,education,Wonderful World of Phlegm,409,1.4027169326067925,612
+2024-08-10,India,desktop,education,Wonderful World of Phlegm,550,1.3450834534172564,759
+2024-08-11,India,desktop,education,Wonderful World of Phlegm,587,1.0672987620912056,844
+2024-08-12,India,desktop,education,Wonderful World of Phlegm,122,0.20800427302361013,179
+2024-08-13,India,desktop,education,Wonderful World of Phlegm,51,0.4256453105239101,71
+2024-08-14,India,desktop,education,Wonderful World of Phlegm,30,0.5972941786172806,42
+2024-08-15,India,desktop,education,Wonderful World of Phlegm,25,0.8382290579305782,37
+2024-07-17,India,mobile,lifestyle,Volcano Worshippers Hour,152,1.0,488
+2024-07-18,India,mobile,lifestyle,Volcano Worshippers Hour,157,1.0354877696944607,514
+2024-07-19,India,mobile,lifestyle,Volcano Worshippers Hour,173,1.1048808052656796,555
+2024-07-20,India,mobile,lifestyle,Volcano Worshippers Hour,190,1.0998668809851395,640
+2024-07-21,India,mobile,lifestyle,Volcano Worshippers Hour,226,1.1925457813972382,724
+2024-07-22,India,mobile,lifestyle,Volcano Worshippers Hour,228,1.0123646327985465,747
+2024-07-23,India,mobile,lifestyle,Volcano Worshippers Hour,186,0.8179724156094125,634
+2024-07-24,India,mobile,lifestyle,Volcano Worshippers Hour,113,0.6077750602730893,361
+2024-07-25,India,mobile,lifestyle,Volcano Worshippers Hour,85,0.7585848109570851,280
+2024-07-26,India,mobile,lifestyle,Volcano Worshippers Hour,75,0.8823944996358287,247
+2024-07-27,India,mobile,lifestyle,Volcano Worshippers Hour,81,1.0925044373972468,262
+2024-07-28,India,mobile,lifestyle,Volcano Worshippers Hour,102,1.2619277191118041,327
+2024-07-29,India,mobile,lifestyle,Volcano Worshippers Hour,144,1.413489594232615,485
+2024-07-30,India,mobile,lifestyle,Volcano Worshippers Hour,220,1.5302111885001755,727
+2024-07-31,India,mobile,lifestyle,Volcano Worshippers Hour,276,1.257507488668757,941
+2024-08-01,India,mobile,lifestyle,Volcano Worshippers Hour,264,0.9584200527872835,908
+2024-08-02,India,mobile,lifestyle,Volcano Worshippers Hour,169,0.6404831415043158,569
+2024-08-03,India,mobile,lifestyle,Volcano Worshippers Hour,120,0.7156788595197183,387
+2024-08-04,India,mobile,lifestyle,Volcano Worshippers Hour,103,0.8636556915905602,359
+2024-08-05,India,mobile,lifestyle,Volcano Worshippers Hour,101,0.9867697276036252,356
+2024-08-06,India,mobile,lifestyle,Volcano Worshippers Hour,108,1.0786411154667952,366
+2024-08-07,India,mobile,lifestyle,Volcano Worshippers Hour,130,1.2097438416726352,444
+2024-08-08,India,mobile,lifestyle,Volcano Worshippers Hour,173,1.336240641967428,579
+2024-08-09,India,mobile,lifestyle,Volcano Worshippers Hour,225,1.3020494878662883,766
+2024-08-10,India,mobile,lifestyle,Volcano Worshippers Hour,286,1.2730602814751997,974
+2024-08-11,India,mobile,lifestyle,Volcano Worshippers Hour,316,1.1082106713148832,1078
+2024-08-12,India,mobile,lifestyle,Volcano Worshippers Hour,145,0.46172156545414506,506
+2024-08-13,India,mobile,lifestyle,Volcano Worshippers Hour,60,0.4201169840049992,203
+2024-08-14,India,mobile,lifestyle,Volcano Worshippers Hour,37,0.6238830257031139,127
+2024-08-15,India,mobile,lifestyle,Volcano Worshippers Hour,29,0.8019636129157077,100
+2024-07-17,India,desktop,lifestyle,Volcano Worshippers Hour,14,1.0,44
+2024-07-18,India,desktop,lifestyle,Volcano Worshippers Hour,14,1.0652796505992488,48
+2024-07-19,India,desktop,lifestyle,Volcano Worshippers Hour,15,1.097919475898873,50
+2024-07-20,India,desktop,lifestyle,Volcano Worshippers Hour,17,1.1448466621101152,60
+2024-07-21,India,desktop,lifestyle,Volcano Worshippers Hour,19,1.1667284875285915,65
+2024-07-22,India,desktop,lifestyle,Volcano Worshippers Hour,19,1.0460117591432816,69
+2024-07-23,India,desktop,lifestyle,Volcano Worshippers Hour,17,0.9147825270256121,57
+2024-07-24,India,desktop,lifestyle,Volcano Worshippers Hour,13,0.7666821443074036,45
+2024-07-25,India,desktop,lifestyle,Volcano Worshippers Hour,11,0.8915729522577496,38
+2024-07-26,India,desktop,lifestyle,Volcano Worshippers Hour,10,0.9986885839874774,36
+2024-07-27,India,desktop,lifestyle,Volcano Worshippers Hour,11,1.1916575995048824,40
+2024-07-28,India,desktop,lifestyle,Volcano Worshippers Hour,14,1.356653148013897,52
+2024-07-29,India,desktop,lifestyle,Volcano Worshippers Hour,19,1.3937979523621071,65
+2024-07-30,India,desktop,lifestyle,Volcano Worshippers Hour,23,1.254742813921374,77
+2024-07-31,India,desktop,lifestyle,Volcano Worshippers Hour,20,0.9130101533248388,73
+2024-08-01,India,desktop,lifestyle,Volcano Worshippers Hour,14,0.7308332639802304,47
+2024-08-02,India,desktop,lifestyle,Volcano Worshippers Hour,10,0.7271357536900195,33
+2024-08-03,India,desktop,lifestyle,Volcano Worshippers Hour,9,0.9287190410675364,31
+2024-08-04,India,desktop,lifestyle,Volcano Worshippers Hour,9,1.0507091727265787,31
+2024-08-05,India,desktop,lifestyle,Volcano Worshippers Hour,10,1.1627844476331868,35
+2024-08-06,India,desktop,lifestyle,Volcano Worshippers Hour,13,1.3143855285874206,44
+2024-08-07,India,desktop,lifestyle,Volcano Worshippers Hour,17,1.3610105234185756,60
+2024-08-08,India,desktop,lifestyle,Volcano Worshippers Hour,22,1.3499396922642144,78
+2024-08-09,India,desktop,lifestyle,Volcano Worshippers Hour,26,1.1823253715407158,86
+2024-08-10,India,desktop,lifestyle,Volcano Worshippers Hour,23,0.8851265128233676,80
+2024-08-11,India,desktop,lifestyle,Volcano Worshippers Hour,17,0.7556307910411949,56
+2024-08-12,India,desktop,lifestyle,Volcano Worshippers Hour,10,0.6312750127132066,37
+2024-08-13,India,desktop,lifestyle,Volcano Worshippers Hour,7,0.7714137598648663,26
+2024-08-14,India,desktop,lifestyle,Volcano Worshippers Hour,6,0.9197027622662025,21
+2024-08-15,India,desktop,lifestyle,Volcano Worshippers Hour,6,1.0788317012664324,20

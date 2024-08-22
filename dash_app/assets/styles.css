@@ -1,0 +1,433 @@
+.global-container {
+    font-family:Ubuntu;
+}
+
+.directory-row {
+    height:400px;
+    width:100%;
+    max-width:1000px;
+}
+.directory-image {
+    height: 200px;
+    width: 200px;
+    padding: 1rem;
+}
+.directory-link {
+    font-size:1.2rem;
+    font-weight:bold;
+    color:white;
+}
+.quote-card {
+    background-color:#3A434B;
+    color:#FFFFFF;
+    max-width:600px;
+}
+.quote-card-text {
+    font-size:1.5rem;
+    font-style: italic;
+    font-weight: bold;
+    width:75%;
+}
+.quote-card-quotee {
+    font-size:1rem;
+}
+.quote-card-image {
+    padding:.1rem;
+}
+.quote-card-source-media {
+    font-size: .75rem;
+    font-style: italic;
+}
+.ag-theme-quartz .ag-header {
+    font-family: sans-serif;
+}
+
+.ag-theme-quartz .ag-header-group-cell {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.ag-theme-quartz .ag-header-cell {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.crossover-main-vertical-tag {
+    font-weight: bold;
+    color: black;
+    font-size: 16px;
+    width: 200px;
+}
+
+.crossover-genres-tag {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display:block;
+    width: 200px;
+}
+
+.crossover-tag {
+    color: black;
+    font-size: 16px;
+    width: 200px;
+    text-align: left;
+}
+
+.list-group-item {
+    border: none;
+}
+
+.crossover-threshold-slider {
+    width: 100%;
+}
+
+.crossover-summary-tag {
+   padding: .375rem .75rem;
+   border-radius: 0.4rem
+}
+
+.crossover-summary-tag-theme-name {
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}
+.crossover-summary-tag-rel-index {
+    font-size:.75rem;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    color: #520044;
+    background: radial-gradient(ellipse at center, rgb(255 197 0 / 100%) 0%, rgb(255 197 0 / 100%) 50%, rgb(255 197 0 / 0%) 50%)
+}
+
+.loading-modal {
+/*    position:fixed;*/
+    top:30%;
+/*    left:30%;*/
+    margin: 1rem auto;
+}
+
+.loading-card {
+    background-color: #838D86;
+}
+.loading-list {
+/*    background: url(https://static.wikia.nocookie.net/0dfbc1cb-6311-45e0-8b74-fc965ca9afc7),-webkit-linear-gradient(298.53deg,#fa005a -21.32%,#280033 77.37%),#520044;*/
+    background-color: #3A434B;
+    color:white;
+
+}
+
+.grid-cell-bar-chart {
+    color: white;
+    font-weight: bold;
+    padding-left:.25rem;
+}
+.grid-cell-bar-chart-primary {
+    font-size:1.2rem;
+    background: linear-gradient(90deg, #86D7DC 20%, transparent 100%, transparent 100%)
+}
+.grid-cell-bar-chart-100 {
+    background: linear-gradient(90deg, #FA005A 20%, transparent 100%, transparent 100%)
+}
+.grid-cell-bar-chart-95 {
+    background: linear-gradient(90deg, #FA005A 20%, transparent 95%, transparent 95%)
+}
+.grid-cell-bar-chart-90 {
+    background: linear-gradient(90deg, #FA005A 20%, transparent 90%, transparent 90%)
+}
+.grid-cell-bar-chart-85 {
+    background: linear-gradient(90deg, #FA005A 20%, transparent 85%, transparent 85%)
+}
+.grid-cell-bar-chart-80 {
+    background: linear-gradient(90deg, #FA005A 20%, transparent 80%, transparent 80%)
+}
+.grid-cell-bar-chart-75 {
+    background: linear-gradient(90deg, #FA005A 20%, transparent 75%, transparent 75%)
+}
+.grid-cell-bar-chart-70 {
+    background: linear-gradient(90deg, #FA005A 20%, transparent 70%, transparent 70%)
+}
+.grid-cell-bar-chart-65 {
+    background: linear-gradient(90deg, #FA005A 20%, transparent 65%, transparent 65%)
+}
+.grid-cell-bar-chart-60 {
+    background: linear-gradient(90deg, #FA005A 20%, transparent 60%, transparent 60%)
+}
+.grid-cell-bar-chart-55 {
+    background: linear-gradient(90deg, #FA005A 20%, transparent 55%, transparent 55%)
+}
+.grid-cell-bar-chart-50 {
+    background: linear-gradient(90deg, #FA005A 20%, transparent 50%, transparent 50%)
+}
+.grid-cell-bar-chart-45 {
+    background: linear-gradient(90deg, #FA005A 20%, transparent 45%, transparent 45%)
+}
+.grid-cell-bar-chart-40 {
+    background: linear-gradient(90deg, #FA005A 20%, transparent 40%, transparent 40%)
+}
+.grid-cell-bar-chart-35 {
+    background: linear-gradient(90deg, #FA005A 20%, transparent 35%, transparent 35%)
+}
+.grid-cell-bar-chart-30 {
+    background: linear-gradient(90deg, #FA005A 20%, transparent 30%, transparent 30%)
+}
+.grid-cell-bar-chart-25 {
+    background: linear-gradient(90deg, #FA005A 20%, transparent 25%, transparent 25%)
+}
+.grid-cell-bar-chart-20 {
+    background: linear-gradient(90deg, #FA005A 20%, transparent 25%, transparent 25%)
+}
+.grid-cell-bar-chart-15 {
+    background: linear-gradient(90deg, #FA005A 20%, transparent 25%, transparent 25%)
+}
+.grid-cell-bar-chart-10 {
+    background: linear-gradient(90deg, #FA005A 20%, transparent 25%, transparent 25%)
+}
+.grid-cell-bar-chart-5 {
+    background: linear-gradient(90deg, #FA005A 20%, transparent 25%, transparent 25%)
+}
+.grid-cell-bar-chart-0 {
+    background: linear-gradient(90deg, #FA005A 20%, transparent 25%, transparent 25%)
+}
+
+.grid-cell-bar-chart-secondary-100 {
+    background: linear-gradient(90deg, #FFC500 20%, transparent 100%, transparent 100%)
+}
+.grid-cell-bar-chart-secondary-95 {
+    background: linear-gradient(90deg, #FFC500 20%, transparent 95%, transparent 95%)
+}
+.grid-cell-bar-chart-secondary-90 {
+    background: linear-gradient(90deg, #FFC500 20%, transparent 90%, transparent 90%)
+}
+.grid-cell-bar-chart-secondary-85 {
+    background: linear-gradient(90deg, #FFC500 20%, transparent 85%, transparent 85%)
+}
+.grid-cell-bar-chart-secondary-80 {
+    background: linear-gradient(90deg, #FFC500 20%, transparent 80%, transparent 80%)
+}
+.grid-cell-bar-chart-secondary-75 {
+    background: linear-gradient(90deg, #FFC500 20%, transparent 75%, transparent 75%)
+}
+.grid-cell-bar-chart-secondary-70 {
+    background: linear-gradient(90deg, #FFC500 20%, transparent 70%, transparent 70%)
+}
+.grid-cell-bar-chart-secondary-65 {
+    background: linear-gradient(90deg, #FFC500 20%, transparent 65%, transparent 65%)
+}
+.grid-cell-bar-chart-secondary-60 {
+    background: linear-gradient(90deg, #FFC500 20%, transparent 60%, transparent 60%)
+}
+.grid-cell-bar-chart-secondary-55 {
+    background: linear-gradient(90deg, #FFC500 20%, transparent 55%, transparent 55%)
+}
+.grid-cell-bar-chart-secondary-50 {
+    background: linear-gradient(90deg, #FFC500 20%, transparent 50%, transparent 50%)
+}
+.grid-cell-bar-chart-secondary-45 {
+    background: linear-gradient(90deg, #FFC500 20%, transparent 45%, transparent 45%)
+}
+.grid-cell-bar-chart-secondary-40 {
+    background: linear-gradient(90deg, #FFC500 20%, transparent 40%, transparent 40%)
+}
+.grid-cell-bar-chart-secondary-35 {
+    background: linear-gradient(90deg, #FFC500 20%, transparent 35%, transparent 35%)
+}
+.grid-cell-bar-chart-secondary-30 {
+    background: linear-gradient(90deg, #FFC500 20%, transparent 30%, transparent 30%)
+}
+.grid-cell-bar-chart-secondary-25 {
+    background: linear-gradient(90deg, #FFC500 20%, transparent 25%, transparent 25%)
+}
+.grid-cell-bar-chart-secondary-20 {
+    background: linear-gradient(90deg, #FFC500 20%, transparent 25%, transparent 25%)
+}
+.grid-cell-bar-chart-secondary-15 {
+    background: linear-gradient(90deg, #FFC500 20%, transparent 25%, transparent 25%)
+}
+.grid-cell-bar-chart-secondary-10 {
+    background: linear-gradient(90deg, #FFC500 20%, transparent 25%, transparent 25%)
+}
+.grid-cell-bar-chart-secondary-5 {
+    background: linear-gradient(90deg, #FFC500 20%, transparent 25%, transparent 25%)
+}
+.grid-cell-bar-chart-secondary-0 {
+    background: linear-gradient(90deg, #FFC500 20%, transparent 25%, transparent 25%)
+}
+
+.home-panel {
+    max-width:1000px;
+    min-width:600px;
+/*    height:500px;*/
+}
+
+.home-panel-feature {
+    padding:1rem;
+}
+
+.home-panel-text {
+    color:black;
+    padding:3rem;
+    font-size:1.2rem;
+}
+
+.intro-text {
+    padding:3rem;
+}
+.intro-image {
+    max-width:450px;
+    padding:3rem;
+}
+
+.intro-link {
+    font-size:1.2rem;
+    font-weight: bold;
+    width: 400px;
+    height:2rem;
+    padding-left: 6rem;
+}
+.carousel-link {
+    font-size:1.2rem;
+    font-weight: bold;
+    width: 400px;
+    height:2rem;
+}
+.carousel-image {
+    height:100%;
+    width:500px;
+}
+.header {
+}
+.footer {
+    width:1000px;
+    background-color: #95a5a6;
+}
+.footer-text {
+    font-size: .9rem;
+    font-weight:normal;
+    color:white;
+}
+.carousel-inner .item {
+    height:100%;
+    width:500px;
+
+}
+.carousel-item .item {
+    height:100%;
+    max-height:700px;
+    width:500px;
+
+}
+.carousel-item {
+    max-height:700px;
+
+}
+.btn {
+    padding: 0rem;
+}
+
+
+.carousel {
+    width:500px;
+    min-height:700px;
+}
+
+.a-list-item {
+    background-color: #ecf0f1;
+}
+.a-list-button {
+    width:100%;
+}
+.analysis-text {
+    font-size:1rem;
+    width:100%;
+}
+
+.filter-dropdown {
+    height:50px;
+    width:200px;
+}
+
+.viz-background-card {
+    background-color:#ecf0f1;
+    padding:1rem;
+}
+
+.viz-markdown-card {
+    background-color:white;
+    padding:1rem;
+}
+
+.help-icon {
+    max-width:500px;
+}
+
+.tab-label {
+    font-ize:1.1rem;
+    font-weight:bold !important;
+    background-color:#ecf0f1;
+    border:1px solid #95a5a6 !important;
+}
+
+.tab-label-active {
+    size:1.1rem;
+    font-weight: bold !important;
+    border:1px solid #95a5a6 !important;
+}
+
+.kpi-box-header {
+    background-color: #ecf0f1;
+    font-size:1.1rem;
+}
+
+.kpi-box-body {
+/*    background: radial-gradient(ellipse at center,  #86d7dc 35%,#f0f9ff 100%,#fd486d 100%);*/
+}
+
+.kpi-box-footer {
+    background-color: #ecf0f1;
+    padding:0;
+    
+}
+.kpi-box-value {
+    font-size:2rem;
+    font-weight:bold;
+}
+.percent-comp {
+    font-size:.8rem;
+    border:1px rgb(0 0 0 / 17%) solid;
+}
+
+.percent-comp-val {
+    font-size:1rem;
+    font-weight:bold !important;
+    background-color:white;
+    width:100%;
+}
+
+.percent-comp-text {
+}
+
+.hz-rule {
+    height:1px;
+    width:100%;
+    border:1px darkgray solid;
+}
+.vt-rule {
+    height:100%;
+    width:1px;
+    border:1px darkgray solid;
+}
+
+blockquote {
+    border-left: 4px grey solid;
+    background-color: whitesmoke;
+    padding: 1rem;
+    font-style:italic;
+}
+
+.alert-warning {
+    color: black;
+}
