@@ -135,7 +135,7 @@ class UInterface:
 									dbc.CardFooter([
 										dbc.Stack([
 											dbc.Stack([
-												dbc.Textarea(className="mb-3", placeholder='"Create a color theme representing the corporate colors of the American logistics company FedEx"',id='ai-input-colors-text'),
+												dbc.Textarea(className="mb-3", placeholder='i.e., "Create a color theme representing the corporate colors of the American logistics company FedEx"',id='ai-input-colors-text'),
 												dbc.FormText('Describe the color scheme you would like in a few sentences.'),
 											],gap=0),
 											dbc.Stack([
@@ -221,7 +221,7 @@ class UInterface:
 									dbc.CardFooter([
 										dbc.Stack([
 											dbc.Stack([
-												dbc.Textarea(className="mb-3", placeholder='"Create an image of..."',id='ai-input-image-text'),
+												dbc.Textarea(className="mb-3", placeholder='i.e., "Create an image of..."',id='ai-input-image-text'),
 												dbc.FormText('Describe the image you would like in a few sentences.'),
 											],gap=0),
 											dbc.Stack([
