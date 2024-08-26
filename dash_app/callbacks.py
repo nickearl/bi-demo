@@ -33,7 +33,9 @@ def register_callbacks(app):
 			(Output('ai-input-image-submit', 'disabled'), True, False),
 			(Output('ai-input-image-submit', 'children'), [dbc.Spinner(size='sm'),' Asking ChatGPT...'], [html.I(className='bi bi-robot'),' Submit']),
 		],
-		prevent_initial_call=True
+		prevent_initial_call=True,
+		background=True,
+    	manager=BACKGROUND_CALLBACK_MANAGER,
 	)
 	def ai_retrowave_image(n_clicks,input_prompt):
 		print('[' + str(datetime.now()) + '] | '+ '[ai_custom_colors] | ' + str(dash.ctx.triggered_id))
@@ -60,7 +62,9 @@ def register_callbacks(app):
 			(Output('ai-input-colors-submit', 'disabled'), True, False),
 			(Output('ai-input-colors-submit', 'children'), [dbc.Spinner(size='sm'),' Asking ChatGPT...'], [html.I(className='bi bi-robot'),' Submit']),
 		],
-		prevent_initial_call=True
+		prevent_initial_call=True,
+		background=True,
+    	manager=BACKGROUND_CALLBACK_MANAGER,
 	)
 	def ai_custom_colors(n_clicks,input_prompt):
 		print('[' + str(datetime.now()) + '] | '+ '[ai_custom_colors] | ' + str(dash.ctx.triggered_id))

@@ -84,7 +84,7 @@ class UInterface:
 
 		#### I build data teams & platforms capable of delivering powerful insights & data applications (like the one powering this portfolio)
 
-		#### I also guide executives, product owners, marketers and other stakeholders towards fully understanding every insight from their data
+		#### I also guide executives, product owners, marketers and other stakeholders towards finding ways to create and use data to drive informed decision making, increase revenue and audience growth, and power engaging user experiences.
 		"""
 		# analysis_text = """
 		# #### Press coverage of analyses my teams and I have performed

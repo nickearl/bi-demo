@@ -28,11 +28,7 @@ LOGO_PATHS = {
             'dark': 'assets/images/retro_chart.png',
             'light': 'assets/images/retro_chart.png',
         }
-# HEADER_STYLE = {
-#             #"padding": "2rem 1rem",
-#             'background': 'url(https://static.wikia.nocookie.net/0dfbc1cb-6311-45e0-8b74-fc965ca9afc7),-webkit-linear-gradient(298.53deg,#fa005a -21.32%,#280033 77.37%),#520044',
-#             'background-size': 'contain',
-#         }
+
 
 def create_dash_app(server, url_base_pathname, assets_folder, meta_tags, use_pages=False, pages_folder=''):
 
@@ -69,7 +65,6 @@ def create_dash_app(server, url_base_pathname, assets_folder, meta_tags, use_pag
                                 dbc.Col(dbc.NavbarBrand(PRODUCT_NAME, className='ms-2'))
                             ]),
                             html.Hr(className='dash-bootstrap', style={'borderWidth': '1vh', 'width': '100%', 'backgroundColor': 'primary', 'opacity':'1'}),
-                            #dbc.NavbarBrand('FanDNA Helix Suite', className='ms-2'),
                             dbc.Nav([
                                 dbc.NavLink(PRODUCT_NAME, href=f'{url_base_pathname}', active='exact',style={'color': '#280033','border-radius':'10px'}),
                                 dbc.NavLink('Dashboard', href=f'{url_base_pathname}/dashboard/', active='exact',style={'color': '#280033','border-radius':'10px'}),

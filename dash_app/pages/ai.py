@@ -139,7 +139,7 @@ class UInterface:
 												dbc.FormText('Describe the color scheme you would like in a few sentences.'),
 											],gap=0),
 											dbc.Stack([
-												dbc.Button(children=[html.I(className='bi bi-robot'),' Submit'], id='ai-input-colors-submit', color='success'),
+												dbc.Button(children=[html.I(className='bi bi-stars'),' Submit'], id='ai-input-colors-submit', className='p-1', color='success'),
 											],gap=3,className='d-flex justify-content-end align-items-center'),
 										],gap=3)
 
@@ -225,7 +225,7 @@ class UInterface:
 												dbc.FormText('Describe the image you would like in a few sentences.'),
 											],gap=0),
 											dbc.Stack([
-												dbc.Button(children=[html.I(className='bi bi-robot'),' Submit'], id='ai-input-image-submit', color='success'),
+												dbc.Button(children=[html.I(className='bi bi-stars'),' Submit'], id='ai-input-image-submit', className='p-1',color='success'),
 											],gap=3,className='d-flex justify-content-end align-items-center'),
 										],gap=3)
 

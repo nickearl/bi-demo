@@ -19,18 +19,23 @@ PORT = os.environ['PORT']
 APP_NAME = os.environ['APP_NAME']
 cache_uuid = uuid.uuid4().hex
 
-if 'REDISCLOUD_URL' in os.environ:
-    print('Using Redis for background callbacks')
-    from celery import Celery
-    #celery_app = Celery(__name__, broker=os.environ['REDIS_URL'], backend=os.environ['REDIS_URL'])
-    celery_app = Celery(__name__, broker=os.environ['REDISCLOUD_URL'], backend=os.environ['REDISCLOUD_URL'])
-    BACKGROUND_CALLBACK_MANAGER = CeleryManager(celery_app, cache_by=[lambda: cache_uuid], expire=60)
+print('Using Redis for background callbacks')
+from celery import Celery
+celery_app = Celery(__name__, broker=os.environ['REDISCLOUD_URL'], backend=os.environ['REDISCLOUD_URL'])
+BACKGROUND_CALLBACK_MANAGER = CeleryManager(celery_app, cache_by=[lambda: cache_uuid], expire=60)
 
-else:
-    print('Using DiskCache for background callbacks')
-    import diskcache
-    cache = diskcache.Cache("./cache",timeout=1200)
-    BACKGROUND_CALLBACK_MANAGER = DiskcacheManager(cache)
+# if 'REDISCLOUD_URL' in os.environ:
+#     print('Using Redis for background callbacks')
+#     from celery import Celery
+#     #celery_app = Celery(__name__, broker=os.environ['REDIS_URL'], backend=os.environ['REDIS_URL'])
+#     celery_app = Celery(__name__, broker=os.environ['REDISCLOUD_URL'], backend=os.environ['REDISCLOUD_URL'])
+#     BACKGROUND_CALLBACK_MANAGER = CeleryManager(celery_app, cache_by=[lambda: cache_uuid], expire=60)
+
+# else:
+#     print('Using DiskCache for background callbacks')
+#     import diskcache
+#     cache = diskcache.Cache("./cache",timeout=1200)
+#     BACKGROUND_CALLBACK_MANAGER = DiskcacheManager(cache)
 
 def create_server():
     server = create_flask_server(port=PORT)
