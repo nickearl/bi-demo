@@ -94,26 +94,29 @@ class UInterface:
 		carousel_images = []
 		articles = {
 			'Variety': {
+				'logo': 'variety_logo.png',
 				'url': 'https://variety.com/lists/video-game-tv-series-ideas-study/',
 				'text': 'What Video Games Should Streamers Adapt?',
 				'images': ['variety_1.png','variety_2.png'],
 			},
-			'TheWrap': {
-				'url': 'https://www.thewrap.com/fandom-avatar-top-gun-oscars-fan-vote/',
-				'text': 'What if Fans Voted for the Oscars?',
-				'images': ['thewrap_1.png'],
-			},
-			'LA Times': {
-				'url': 'https://www.latimes.com/entertainment-arts/tv/newsletter/2024-08-09/the-boys-bridgerton-house-of-the-dragon-the-bear-weekly-binge-screen-gab',
-				'text': "Weekly Episode Drops are Better Than Binge.  And There's Data to Back it Up.",
-				'images': ['latimes_1.png','latimes_2.png'],
-			},
 			'Ad Week': {
+				'logo': 'adweek_logo.png',
 				'url': 'https://www.adweek.com/convergent-tv/streamer-releases-weekly-binge/',
 				'text': "Binge or Weekly? Here's the Best Way for Streamers to Release Shows",
 				'images': ['adweek_1.png'],
 			},
-
+			'LA Times': {
+				'logo': 'latimes_logo.png',
+				'url': 'https://www.latimes.com/entertainment-arts/tv/newsletter/2024-08-09/the-boys-bridgerton-house-of-the-dragon-the-bear-weekly-binge-screen-gab',
+				'text': "Weekly Episode Drops are Better Than Binge.  And There's Data to Back it Up.",
+				'images': ['latimes_1.png','latimes_2.png'],
+			},
+			'TheWrap': {
+				'logo': 'thewrap_logo.png',
+				'url': 'https://www.thewrap.com/fandom-avatar-top-gun-oscars-fan-vote/',
+				'text': 'What if Fans Voted for the Oscars?',
+				'images': ['thewrap_1.png'],
+			},
 		}
 		a_count = 0
 		i_count = 0
@@ -121,13 +124,14 @@ class UInterface:
 			o = dbc.NavItem([
 				dbc.Button([
 					dbc.Stack([
-						html.Span([
-							html.H5(k),
-						],className='d-flex align-items-start justify-content-center ps-2 h-100',style={'min-width':'100px'}),
-						html.Span([
+						dbc.Stack([
+							#html.H5(k),
+							html.Img(src=f'assets/images/{v['logo']}', className='a-list-logo')
+						],className='d-flex align-items-start justify-content-center w-100 ps-2',style={'min-width':'100px'}),
+						dbc.Stack([
 							html.A(v['text'],href=v['url'],target='_blank',className='carousel-link'),
-						],className='bg-primary w-100 p-3'),
-					],direction='horizontal',gap=1,className='d-flex justify-content-start align-items-center'),
+						],className='bg-light d-flex align-items-center justify-content-center w-100',style={'border-top-right-radius':'.5rem','border-bottom-right-radius':'.5rem'}),
+					],direction='horizontal',gap=1,className='d-flex justify-content-start align-items-center',style={'min-height':'6rem'}),
 				],className='bg-dark a-list-button',id=f'a-list-button-{a_count}',style={'background':'none'})
 			])
 			alist_buttons.append(o)
