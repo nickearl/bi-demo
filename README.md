@@ -34,7 +34,22 @@ This example uses AI to generate images based on user input, subject to whatever
 
 ## Dataset Generator
 
-The `scripts/gen_datasets.ipynb` Jupyter Notebook works as a standalone script to generate the fictional datasets used in this app.
+The `scripts/gen_datasets.ipynb` Jupyter Notebook works as a standalone script to generate the fictional datasets used in this app, subject to these configurable constraints:
+
+    DAYS = 30                                           # Number of days of data to generate 
+    COUNTRIES = 20                                      # Number of countries to generate data for
+    BASELINE_USERS_DAILY = 1200000                      # Average total users across all dimensions
+    DAILY_USER_CHANGE = 0.05                            # Determines how much user count can vary day to day
+    DAILY_VARIANCE_LAG = 3                              # How many preceding days to consider when calculating day over day growth
+    MEAN_VIDEO_ENGAGEMENT = 2.2                         # Mean number of video plays per user across all shows
+    VAR_VIDEO_ENGAGEMENT = 1                            # Used as one std dev when assiging engagement rates to shows based on a normal distribution
+    DAILY_ENGAGEMENT_CHANGE = .05                       # Soft limit on how much video engagement can change by day to day for each simulated 
+    MOBILE_SHARE = .55                                  # Baseline percentage of mobile traffic
+    VAR_MOBILE_SHARE = .5                               # Used as one std dev when assiging device type values to records based on a normal distribution
+    DOW_INDEX = [1.0, 0.95, 0.9, 1.0, 1.0, 1.1, 1.2]    # Simulate weekly cyclicality, DOW_INDEX[0] is weight for Monday, DOW_INDEX[6] is weight for Sunday
+    VAR_DOW_INDEX = .1                                  # Used as one std dev when weighting traffic by day of the week based on a normal distribution
+
+
 
 
 ## About This App
