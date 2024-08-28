@@ -125,7 +125,7 @@ class UInterface:
 									html.Span("I didn't want to just use a boring generic sample dataset for this app, so I wrote an algorithm to generate a reasonably realistic dummy dataset that might be interesting to visualize."),
 									html.Span([
 										'You can ',
-										html.A('view the script in my Github repo',href='https://github.com/nickearl/bi-demo',target='_blank',style={'font-weight':'bold'}),
+										html.A('view the script in my Github repo',href='https://github.com/nickearl/bi-demo/scripts/gen_datasets.ipynb',target='_blank',style={'font-weight':'bold'}),
 										'.',
 									]),
 								],gap=3),
@@ -667,15 +667,10 @@ class UInterface:
 		engagement_fig = go.Figure()
 		_df = df.groupby(['date','video_category','video_title'],as_index=False).agg({'users':'sum','video_plays':'sum'})
 		_df = _df.sort_values(by='video_plays',ascending=False)
-		_df['plays_per_user'] = _df['video_plays'] / _df['users']
-		_df = df.groupby(['video_category','video_title'],as_index=False).agg({'plays_per_user':'mean'})
+		_df['plays_per_user'] = _df.apply(lambda x: (x['video_plays'] / x['users']) if (x['video_plays'] > 0) and (x['users'] > 0) else 0 , axis=1)
+		_df = _df.groupby(['video_category','video_title'],as_index=False).agg({'plays_per_user':'mean'})
 		_df = _df.sort_values(by='plays_per_user',ascending=True).head(item_limit)
 		engagement_colors = []
-		# color_map = {}
-		# i = 0
-		# for cat in self.data['traffic_daily']['video_category'].unique():
-		# 	color_map[cat] = self.styles['color_sequence'][i]
-		# 	i = i+1
 		for i in range(len(_df)):
 			engagement_colors.append(self.styles['category_color_map'].get(_df['video_category'].iloc[i])) 
 		engagement_fig.add_trace(
