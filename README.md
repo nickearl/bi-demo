@@ -34,7 +34,7 @@ This example uses AI to generate images based on user input, subject to whatever
 
 ## Dataset Generator
 
-The `scripts/gen_datasets.ipynb` Jupyter Notebook works as a standalone script to generate the fictional datasets used in this app, subject to these configurable constraints:
+The [`scripts/gen_datasets.ipynb`](https://github.com/nickearl/bi-demo/blob/main/scripts/gen_datasets.ipynb) Jupyter Notebook works as a standalone script to generate the fictional datasets used in this app, subject to these configurable constraints:
 
     DAYS = 30                                           # Number of days of data to generate 
     COUNTRIES = 20                                      # Number of countries to generate data for
