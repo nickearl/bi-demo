@@ -125,7 +125,7 @@ class UInterface:
 									html.Span("I didn't want to just use a boring generic sample dataset for this app, so I wrote an algorithm to generate a reasonably realistic dummy dataset that might be interesting to visualize."),
 									html.Span([
 										'You can ',
-										html.A('view the script in my Github repo',href='https://github.com/nickearl/bi-demo/scripts/gen_datasets.ipynb',target='_blank',style={'font-weight':'bold'}),
+										html.A('view the script in my Github repo',href='https://github.com/nickearl/bi-demo/blob/main/scripts/gen_datasets.ipynb',target='_blank',style={'font-weight':'bold'}),
 										'.',
 									]),
 								],gap=3),

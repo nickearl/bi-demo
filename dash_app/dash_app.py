@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
 import os, json, random, re, base64, io, uuid, time, socket
 from dotenv import load_dotenv
 import dash
@@ -33,7 +30,6 @@ LOGO_PATHS = {
 def create_dash_app(server, url_base_pathname, assets_folder, meta_tags, use_pages=False, pages_folder=''):
 
     print('root path: {}'.format(get_root_path('dash_app')))
-    #print('uri: {}'.format(dash.get_asset_url('favicon.ico')))
     pd.options.mode.copy_on_write = True
     pd.options.display.float_format = '{:.2f}'.format
     pd.options.display.precision = 4
@@ -46,7 +42,18 @@ def create_dash_app(server, url_base_pathname, assets_folder, meta_tags, use_pag
     # }
 
 
-    app = dash.Dash(server=server, assets_folder=assets_folder, meta_tags=meta_tags, routes_pathname_prefix=url_base_pathname,suppress_callback_exceptions=True, prevent_initial_callbacks='initial_duplicate', update_title=None, use_pages=use_pages,pages_folder=pages_folder,external_stylesheets=[dbc.themes.FLATLY, dbc.icons.BOOTSTRAP,dbc.icons.FONT_AWESOME])
+    app = dash.Dash(
+        server=server,
+        assets_folder=assets_folder,
+        meta_tags=meta_tags,
+        routes_pathname_prefix=url_base_pathname,
+        suppress_callback_exceptions=True,
+        prevent_initial_callbacks='initial_duplicate',
+        update_title=None,
+        use_pages=use_pages,
+        pages_folder=pages_folder,
+        external_stylesheets=[dbc.themes.FLATLY, dbc.icons.BOOTSTRAP,dbc.icons.FONT_AWESOME]
+    )
     print('host ip: ' + str(socket.gethostbyname(socket.gethostname())))
     print('environment: ' + str(os.environ['DEPLOY_ENV']))
     # if os.environ['DEPLOY_ENV'] == 'prod':
