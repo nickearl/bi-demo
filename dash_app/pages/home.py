@@ -47,10 +47,10 @@ class UInterface:
 			},
 			'ai': {
 				'path': '/portfolio/ai',
-				'name': 'Fun with Gen AI',
+				'name': 'AI: ML, LLM / RAG',
 				'image': 'assets/images/robot_and_human.png',
 				'content': dbc.Stack([
-					html.H5('Practical integration of gen AI tools into data & visualization workflows'),
+					html.H5('Practical integration of ML- and LLM-based tools into data & visualization workflows'),
 					dbc.Stack([
 						html.Img(src='assets/images/ai_screenshot.png',style={'max-height':'300px','max-width':'400px'}),
 						dcc.Markdown("""
