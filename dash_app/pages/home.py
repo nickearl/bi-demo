@@ -52,13 +52,23 @@ class UInterface:
 				'content': dbc.Stack([
 					html.H5('Practical integration of ML- and LLM-based tools into data & visualization workflows'),
 					dbc.Stack([
+						dbc.Stack([
 						html.Img(src='assets/images/ai_screenshot.png',style={'max-height':'300px','max-width':'400px'}),
 						dcc.Markdown("""
-							- Using python to integrate gen AI APIs with data visualization tools
-							- Using ChatGPT to generate design elements, color themes & branding
-							- Prompt engineering
-							- Image generation
+							- **Integrating LLMs / Generative AI with Data Visualization**  
+							Utilizing Python to seamlessly integrate **LLM APIs** (such as GPT) with **data visualization tools**, enabling dynamic, AI-enhanced analytics and visual storytelling.
+
+							- **AI-Generated Design Elements & Theming**  
+							Using **ChatGPT** to generate **color themes, branding elements, and UX designs**, allowing for AI-assisted customization of dashboards and business intelligence reports.
+
+							- **Prompt Engineering for Business Applications**  
+							Developing structured **prompt templates** that optimize LLM outputs for various business needs, ensuring consistency, reliability, and adaptability across different workflows.
+
+							- **AI-Assisted Image Generation**  
+							Leveraging **LLMs and diffusion models** to create custom images based on user prompts, enabling scalable visual content generation for marketing, reports, and presentations.
 						""",style={'text-align':'left'}),
+						],gap=3,className='align-items-center justify-content-center'),
+
 					],direction='horizontal',gap=3),
 				],gap=1, className='d-flex align-items-center justify-content-center p-2',style={'color':'black','min-width':'275px'}),
 			},
@@ -82,7 +92,7 @@ class UInterface:
 		intro_text = """
 		### Hi, I'm Nick Earl
 
-		#### I build data teams & platforms capable of delivering powerful insights & data applications (like the one powering this portfolio)
+		#### I build data teams & platforms to deliver powerful insights & data applications (like the one powering this portfolio), integrated directly into business workflows.
 
 		#### I also guide executives, product owners, marketers and other stakeholders towards finding ways to create and use data to drive informed decision making, increase revenue and audience growth, and power engaging user experiences.
 		"""
