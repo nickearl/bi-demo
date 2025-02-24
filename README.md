@@ -13,23 +13,32 @@ A demonstration of a complete dashboard app for a fictional new streaming servic
 * Stakeholder guidance
 
 
-## AI Demo
-### Integrating AI with BI
+## **AI Demo**
+### **Integrating LLMs with Business Intelligence (BI)**
 
+This section showcases practical applications of **Large Language Models (LLMs)** in **data-driven decision-making and visualization workflows**. These examples illustrate how generative AI can enhance business intelligence tools by enabling **context-aware automation, dynamic styling, and AI-assisted content creation**. 
 
-Some simple but practical examples of integrating generative AI with data & visualization.  For these I'm using ChatGPT (3.5 Turbo) via the OpenAI API to do the following:
+For this demonstration, I am using **OpenAI’s ChatGPT-3.5 Turbo** via the **OpenAI API** to enhance BI functionality in the following ways:
 
-#### Color & Theming
+---
 
-Uses AI to generate color themes to apply to a data visualization based on a brief description typed out by the user. This example simply changes some colors, but the implementation can be easily scaled up further to generate more complex themes and UX customization via HTML/CSS styling and dynamic page layouts.
+### **1. AI-Driven Theming & UX Customization**  
+This implementation leverages LLMs to generate **dynamic color themes** for data visualizations based on a natural language description provided by the user. By interpreting user intent, the model suggests and applies color palettes that align with the specified context.
 
-**Use Case:** Creation of sales collateral, exportable PNG images of visualizations for use in presentation slides or publication.
+- **Scalability:** While this demo focuses on basic color adjustments, the approach can be extended to **comprehensive UI/UX customization**, including **adaptive HTML/CSS styling, real-time component layout adjustments, and theme consistency across dashboards**.
 
+**Use Case:** Automating the creation of branded sales collateral by generating export-ready **PNG images** of customized visualizations for presentation slides, reports, or publications.
 
+---
 
-#### Image Generation
+### **2. AI-Assisted Image Generation**  
+This feature enables the automatic generation of images based on user-defined prompts. The AI model adheres to a structured **prompt engineering framework**, ensuring that outputs remain consistent with the application’s defined **visual style** and business constraints.
 
-This example uses AI to generate images based on user input, subject to whatever constraints are built in to the prompt template. The template here is the same one used to generate most of the artwork in this app. Specify what you'd like the image to depict, and the app should generate that image in a similar artstyle to the rest of the images in use here.
+#### **Implementation Details:**  
+- The model processes **semantic descriptions** and converts them into visual content that aligns with predefined branding and aesthetic guidelines.  
+- A structured **prompt template** ensures reproducibility, maintaining stylistic coherence with other AI-generated assets used in the application.
+
+**Use Case:** Enhancing marketing and design workflows by allowing teams to quickly generate **tailored visual assets** without requiring manual graphic design intervention.
 
 
 ## Dataset Generator

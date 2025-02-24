@@ -1,5 +1,5 @@
 #*.ipynb
-#.python-version
+.python-version
 venv*
 *.pyc
 .DS_Store
