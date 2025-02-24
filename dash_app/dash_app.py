@@ -75,7 +75,7 @@ def create_dash_app(server, url_base_pathname, assets_folder, meta_tags, use_pag
                             dbc.Nav([
                                 dbc.NavLink(PRODUCT_NAME, href=f'{url_base_pathname}', active='exact',style={'color': '#280033','border-radius':'10px'}),
                                 dbc.NavLink('Dashboard', href=f'{url_base_pathname}/dashboard/', active='exact',style={'color': '#280033','border-radius':'10px'}),
-                                dbc.NavLink('Gen AI', href=f'{url_base_pathname}/ai', active='exact',style={'color': '#280033','border-radius':'10px'}),
+                                dbc.NavLink('AI: ML, LLM', href=f'{url_base_pathname}/ai', active='exact',style={'color': '#280033','border-radius':'10px'}),
                             ],
                             vertical=True,
                             pills=True
@@ -127,13 +127,6 @@ def create_dash_app(server, url_base_pathname, assets_folder, meta_tags, use_pag
     ],fluid=True)
 
     return app
-
-if __name__ == '__main__':
-    app.run(debug=True,jupyter_mode='tab')
-
-
-
-
 
 
 
