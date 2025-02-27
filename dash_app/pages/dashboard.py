@@ -24,7 +24,7 @@ load_dotenv()
 
 class UInterface:
 	def __init__(self):
-		print('Initializing Home')
+		print('Initializing Dashboard UI')
 		self.init_time = datetime.now()
 		self.product_name = 'BI Demo | Dashboard | Nick Earl'
 		self.styles = {

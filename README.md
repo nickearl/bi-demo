@@ -23,7 +23,7 @@ For this demonstration, I am using **OpenAI’s ChatGPT-3.5 Turbo** via the **Op
 ---
 
 ### **1. AI-Driven Theming & UX Customization**  
-This implementation leverages LLMs to generate **dynamic color themes** for data visualizations based on a natural language description provided by the user. By interpreting user intent, the model suggests and applies color palettes that align with the specified context.
+This implementation leverages LLMs to generate **dynamic color themes** for data visualizations based on a natural language description provided by the user. The model suggests and applies color palettes that align with the specified context.
 
 - **Scalability:** While this demo focuses on basic color adjustments, the approach can be extended to **comprehensive UI/UX customization**, including **adaptive HTML/CSS styling, real-time component layout adjustments, and theme consistency across dashboards**.
 
@@ -64,5 +64,5 @@ The [`scripts/gen_datasets.ipynb`](https://github.com/nickearl/bi-demo/blob/main
 ## About This App
 * Written in Plotly Dash/Flask
 * Design: Bootstrap "Flatly" theme, custom CSS, GIMP image editor, various python image libraries
-* Integrates ChatGPT 3.5 Turbo via OpenAI API with custom assistants, prompt templates
+* Integrates ChatGPT 3.5 Turbo and 4.0 models via OpenAI API with custom assistants, prompt templates
 * Cloud hosted on Heroku, using Redis as cache and Redis/Celery for background processing

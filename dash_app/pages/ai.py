@@ -16,16 +16,19 @@ import pandas as pd
 import numpy as np
 from datetime import date, datetime
 from openai import OpenAI
+from conf import global_config
 
 # Get environment variables
 load_dotenv()
-
+PAGE = 'ai'
+REDISCLOUD_URL = os.environ['REDISCLOUD_URL']
+pd.set_option('future.no_silent_downcasting', True)
 
 class UInterface:
 	def __init__(self):
-		print('Initializing AI Demo')
+		self.conf = global_config['pages'][PAGE]
+		print(f'Initializing {self.conf['display_name']} UI')
 		self.init_time = datetime.now()
-		self.product_name = 'Fun with Gen AI | Nick Earl'
 		self.styles = {
 			'color_sequence': ['#FD486D', '#9F4A86', '#F5D107', '#86D7DC', '#333D79', '#E5732D', '#4CAF8E', '#722B5C', '#FFC10A', '#005580'],
 			'portrait_colors': ['#86D7DC', '#9B004E','#FA005A','#FFC500','#520044'],
@@ -37,11 +40,12 @@ class UInterface:
 		self.layout = {
 			'header': dbc.Stack([
 				dbc.Stack([
-					html.Img(src='assets/images/robot_and_human.png',style={'width':'150px','height':'150px'}),
-					html.H3(['Fun with Gen AI']),
+					# html.Img(src='assets/images/robot_and_human.png',style={'width':'150px','height':'150px'}),
+					html.Img(src=self.conf['image'],style={'width':'150px','height':'150px'}),
+					html.H3(self.conf['display_name']),
 				],direction='horizontal',gap=3,className='justify-content-end',style={'width':'50%','max-width':'500px'}),
 				dbc.Stack([
-					html.Span('A few simple example applications of gen ai integration. '),
+					html.Span(self.conf['summary_header'],style={'font-weight':'bold'}),
 					html.Span("For these examples I'm using the OpenAI python client to programatically prompt ChatGPT and parse the responses. "),
 					html.Span('>More Info<',id='ai-more-info',style={'font-weight':'bold','color':self.styles['color_sequence'][1]}),
 					dbc.Popover(
@@ -50,12 +54,12 @@ class UInterface:
 							dbc.PopoverBody([
 								dbc.Stack([
 									dcc.Markdown("""
-										1. Define a template prompt that returns some useful information.  The prompt should be tested to ensure it returns a predictably formatted reponse.
-										2. Get user input values from the UI, insert them into the prompt template.
-										3. Use the python `requests` library to send the payload to the OpenAI api
+										1. Define a template prompt with system instructions and base knowledge that returns some useful information.  The prompt should be tested to ensure it returns a predictably formatted reponse.
+										2. Get user input values from the UI or external data source (Retrieval Augmented Generation aka RAG), inject them into the prompt template.
+										3. Send the payload to the LLM
 										4. Parse response from AI, for example a list of records to insert into a dataframe, or a list of color hex codes.
-									""",style={'min-width':'400px'}),
-									html.Img(src='assets/images/ai_screenshot.png', style={'max-width':'600px'}),
+									"""),
+									html.Img(src='assets/images/ai_screenshot.png', style={'max-width':'65vw'}),
 									html.Span([
 										'You can ',
 										html.A('view the source code in my Github repo',href='https://github.com/nickearl/bi-demo',target='_blank',style={'font-weight':'bold'}),
@@ -67,7 +71,7 @@ class UInterface:
 						placement='bottom',
 						target='ai-more-info',
 						trigger='hover',
-						style={'min-width':'800px'},
+						style={'min-width':'50vw'},
 					),
 
 				],gap=1,className='justify-content-start',style={'width':'50%','max-width':'500px'}),
@@ -267,12 +271,12 @@ class UInterface:
 		  """
 		)
 		if run.status == 'completed': 
-		  messages = client.beta.threads.messages.list(
+			messages = client.beta.threads.messages.list(
 			thread_id=thread.id
 		  )
-		  print(messages)
+			print(messages)
 		else:
-		  print(run.status)
+			print(run.status)
 
 		m = messages.data[0].content[0].text.value
 		ex = re.search(r'\[(.*)\]',m)

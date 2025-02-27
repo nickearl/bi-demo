@@ -1,141 +1,139 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-import os, json, random, re, base64, io, uuid, time, socket, calendar
+import os
 from dotenv import load_dotenv
-import dash
 import dash_bootstrap_components as dbc
-import dash_auth
-from dash import Dash, html, dcc, Input, Output, State, ALL, MATCH, Patch, callback
-from dash.exceptions import PreventUpdate
-import dash_ag_grid as dag
+from dash import html, dcc
 import plotly.io as pio
 import plotly.graph_objects as go
 import plotly.express as px
 import pandas as pd
 import numpy as np
 from datetime import date, datetime
+from dash_app import VirtualInterview
+from conf import global_config
 
-# Get environment variables
 load_dotenv()
-
 
 class UInterface:
 	def __init__(self):
 		print('Initializing Home')
 		self.init_time = datetime.now()
-		self.product_name = 'Portfolio | Nick Earl'
-		self.styles = {
-			'color_sequence': ["#FA005A", "#86D7DC", "#FFC500", "#520044", "#9B004E","#FA005A", "#86D7DC", "#FFC500", "#520044", "#9B004E"],
+		self.conf = {
+			'panel_width': '80vw',
+			'panels': {},
+			'articles': {
+				'Variety': {
+					'logo': 'variety_logo.png',
+					'url': 'https://variety.com/lists/video-game-tv-series-ideas-study/',
+					'text': 'What Video Games Should Streamers Adapt?',
+					'images': ['variety_1.png','variety_2.png'],
+				},
+				'Ad Week': {
+					'logo': 'adweek_logo.png',
+					'url': 'https://www.adweek.com/convergent-tv/streamer-releases-weekly-binge/',
+					'text': "Binge or Weekly? Here's the Best Way for Streamers to Release Shows",
+					'images': ['adweek_1.png'],
+				},
+				'LA Times': {
+					'logo': 'latimes_logo.png',
+					'url': 'https://www.latimes.com/entertainment-arts/tv/newsletter/2024-08-09/the-boys-bridgerton-house-of-the-dragon-the-bear-weekly-binge-screen-gab',
+					'text': "Weekly Episode Drops are Better Than Binge.  And There's Data to Back it Up.",
+					'images': ['latimes_1.png','latimes_2.png'],
+				},
+				'TheWrap': {
+					'logo': 'thewrap_logo.png',
+					'url': 'https://www.thewrap.com/fandom-avatar-top-gun-oscars-fan-vote/',
+					'text': 'What if Fans Voted for the Oscars?',
+					'images': ['thewrap_1.png'],
+				},
+			}
 		}
-		links = {
-			'dashboard': {
-				'path': '/portfolio/dashboard',
-				'name': 'Dashboards & Visualization',
-				'image': 'assets/images/retro_chart.png',
-				'content': dbc.Stack([
-					html.H5('An interactive demo dashboard for a fictional new streaming service'),
+		self.conf['panels']['virtual_interview'] = {
+			'display_name': 'Demo: Virtual Interview',
+			'summary_header': "An AI agent trained to answer questions about my background, experience, and interests.",
+			'summary_text': """
+				Hi, I'm Nick's AI clone!  Nick created me using LLM/RAG models to answer your questions about his background, experience, and interests.
+				I have been trained on a structured dataset of details about Nick, and I can reference that information to have a natural conversation with you.
+
+				Try asking me something like:
+				
+				- "Tell me a little about yourself."
+
+				- "Describe your experience with ETL pipelines."
+
+				- "Talk about a time you overcame a challenge, but pretend to be a pirate while doing it."
+			""",
+			'image': 'assets/images/ai_interview.png',
+			'enabled': True,
+			# 'link': 'chatbot',
+			}
+		for k,v in global_config['pages'].items():
+			if v['enabled']:
+				self.conf['panels'][k] = v
+		analyses_content = self.create_article_content()
+		self.conf['panels']['analyses'] = {
+			'display_name': 'Analyses',
+			'summary_header': 'Press coverage of analyses my teams and I have performed',
+			'summary_text': None,
+			'image': None,
+			'enabled': True,
+			'content_left': analyses_content[0],
+			'content_right': analyses_content[1],
+			# 'link': 'analyses',
+			}
+		vi = VirtualInterview()
+		self.layout = {
+			'intro': dbc.Card([
+				dbc.Stack([
+					dcc.Markdown(global_config['intro_text'],className='intro-text px-2'),
 					dbc.Stack([
-						html.Img(src='assets/images/dashboard_screenshot.png',style={'max-height':'300px','max-width':'500px'}),
-						dcc.Markdown("""
-							- BI & data visualization best practices
-							- Stakeholder guidance
-							- Procedural dataset generation via python
-						""",style={'text-align':'left'}),
-					],direction='horizontal',gap=3),
-				],gap=1, className='d-flex align-items-center justify-content-center p-2',style={'color':'black','min-width':'275px'}),
-			},
-			'ai': {
-				'path': '/portfolio/ai',
-				'name': 'AI: ML, LLM / RAG',
-				'image': 'assets/images/robot_and_human.png',
-				'content': dbc.Stack([
-					html.H5('Practical integration of ML- and LLM-based tools into data & visualization workflows'),
+						html.Img(src='assets/images/spock_sunglasses.png',className='intro-image'),
+						html.A([html.I(className='bi bi-linkedin'),' linkedin.com/in/nickearl'],href='https://www.linkedin.com/in/nickearl/',target='_blank',className='intro-link'),
+						html.A([html.I(className='bi bi-github'),' github.com/nickearl'],href='https://github.com/nickearl/',target='_blank',className='intro-link'),
+						html.A([html.I(className='bi bi-at'),' nickearl.net'],href='https://www.nickearl.net',target='_blank',className='intro-link'),
+					],gap=3, className='align-items-center justify-content-start'),
+				],direction='horizontal', gap=3)
+			],color='light',className='shadow-lg align-items-center justify-content-center',style={'flex':'1','border-radius':'1rem','border-width':'3px','max-width': self.conf['panel_width'],'padding':'1rem'}),
+			'virtual_interview': dbc.Card([
+				dbc.CardHeader([
 					dbc.Stack([
-						dbc.Stack([
-						html.Img(src='assets/images/ai_screenshot.png',style={'max-height':'300px','max-width':'400px'}),
-						dcc.Markdown("""
-							- **Integrating LLMs / Generative AI with Data Visualization**  
-							Utilizing Python to seamlessly integrate **LLM APIs** (such as GPT) with **data visualization tools**, enabling dynamic, AI-enhanced analytics and visual storytelling.
-
-							- **AI-Generated Design Elements & Theming**  
-							Using **ChatGPT** to generate **color themes, branding elements, and UX designs**, allowing for AI-assisted customization of dashboards and business intelligence reports.
-
-							- **Prompt Engineering for Business Applications**  
-							Developing structured **prompt templates** that optimize LLM outputs for various business needs, ensuring consistency, reliability, and adaptability across different workflows.
-
-							- **AI-Assisted Image Generation**  
-							Leveraging **LLMs and diffusion models** to create custom images based on user prompts, enabling scalable visual content generation for marketing, reports, and presentations.
-						""",style={'text-align':'left'}),
-						],gap=3,className='align-items-center justify-content-center'),
-
-					],direction='horizontal',gap=3),
-				],gap=1, className='d-flex align-items-center justify-content-center p-2',style={'color':'black','min-width':'275px'}),
-			},
+						html.Span(self.conf['panels']['virtual_interview']['summary_header'],style={'font-weight':'bold','font-size':'1.2rem'}),
+					],gap=3,className='align-items-center justify-content-start'),
+				]),
+				dbc.CardBody([
+					dbc.Stack([
+						dcc.Loading([
+							dbc.Stack([
+								vi.render_chat_response(response_text=self.conf['panels']['virtual_interview']['summary_text'],role='assistant'),
+							],gap=3,className='align-items-center justify-content-center',style={'flex':'1','border-radius':'1rem','height':'65vh','overlow':'scroll'},id='vi-chat-history'),
+						],parent_style={'flex':'1','border-radius':'1rem'},overlay_style={'visibility':'visible', 'filter': 'blur(2px)'}),
+					],gap=3,className='align-items-center justify-content-center',style={'flex':'2','border-radius':'1rem'}),
+				]),
+				dbc.CardFooter([
+					dbc.Stack([
+						dbc.Textarea(id='vi-user-input',placeholder='ie, "Why should I hire you?"',style={'width':'100%'}),
+						dbc.Button([html.I(className='bi bi-arrow-up-circle-fill')],id='vi-submit-button',n_clicks=0,style={'width':'5vw','height':'3vw'}),
+					],direction='horizontal',gap=3,className='align-items-center justify-content-start'),
+				]),
+			],style={'flex':'2','align-self':'stretch','border-top-right-radius':'1rem','border-bottom-right-radius':'1rem'}),
 		}
-
+		self.conf['panels']['virtual_interview']['content_right'] = self.layout['virtual_interview']
 		toc_links = []
-		for k,v in links.items():
-			p = dbc.Stack([
-				html.H3(v['name']),
-				dbc.Button([
-					dbc.Stack([
-						dbc.Stack([
-							html.Img(src=v['image'],className='directory-image'),
-							dcc.Link(f'{v['name']}', href=v['path'],className='directory-link'),
-						],gap=1, className='bg-dark d-flex align-items-center justify-content-center p-2',style={'width':'400px'}),
-						v['content'],
-					],direction='horizontal',gap=3,className='d-flex align-items-start justify-content-center'),
-				],href=v['path'],className='bg-light directory-row d-flex align-items-center justify-content-start',style={'background':'none'})
-			])
-			toc_links.append(p)
-		intro_text = """
-		### Hi, I'm Nick Earl
+		for k,v in self.conf['panels'].items():
+			if v['enabled'] and k != 'home':
+				p = self.create_home_content_panel(v)
+				toc_links.append(p)
+		self.layout['toc'] = dbc.Stack(toc_links,gap=5,className='align-items-center justify-content-center')
 
-		#### I build data teams & platforms to deliver powerful insights & data applications (like the one powering this portfolio), integrated directly into business workflows.
-
-		#### I also guide executives, product owners, marketers and other stakeholders towards finding ways to create and use data to drive informed decision making, increase revenue and audience growth, and power engaging user experiences.
-		"""
-		# analysis_text = """
-		# #### Press coverage of analyses my teams and I have performed
-
-		# """
+	def create_article_content(self):
 		alist_buttons = []
 		carousel_images = []
-		articles = {
-			'Variety': {
-				'logo': 'variety_logo.png',
-				'url': 'https://variety.com/lists/video-game-tv-series-ideas-study/',
-				'text': 'What Video Games Should Streamers Adapt?',
-				'images': ['variety_1.png','variety_2.png'],
-			},
-			'Ad Week': {
-				'logo': 'adweek_logo.png',
-				'url': 'https://www.adweek.com/convergent-tv/streamer-releases-weekly-binge/',
-				'text': "Binge or Weekly? Here's the Best Way for Streamers to Release Shows",
-				'images': ['adweek_1.png'],
-			},
-			'LA Times': {
-				'logo': 'latimes_logo.png',
-				'url': 'https://www.latimes.com/entertainment-arts/tv/newsletter/2024-08-09/the-boys-bridgerton-house-of-the-dragon-the-bear-weekly-binge-screen-gab',
-				'text': "Weekly Episode Drops are Better Than Binge.  And There's Data to Back it Up.",
-				'images': ['latimes_1.png','latimes_2.png'],
-			},
-			'TheWrap': {
-				'logo': 'thewrap_logo.png',
-				'url': 'https://www.thewrap.com/fandom-avatar-top-gun-oscars-fan-vote/',
-				'text': 'What if Fans Voted for the Oscars?',
-				'images': ['thewrap_1.png'],
-			},
-		}
 		a_count = 0
 		i_count = 0
-		for k,v in articles.items():
+		for k,v in self.conf['articles'].items():
 			o = dbc.NavItem([
 				dbc.Button([
 					dbc.Stack([
 						dbc.Stack([
-							#html.H5(k),
 							html.Img(src=f'assets/images/{v['logo']}', className='a-list-logo')
 						],className='d-flex align-items-start justify-content-center w-100 ps-2',style={'min-width':'100px'}),
 						dbc.Stack([
@@ -147,93 +145,84 @@ class UInterface:
 			alist_buttons.append(o)
 			alist_buttons.append(html.Br())
 			for image in v['images']:
-				image_val = {'key': f'{i_count + 1}', 'src': f'assets/images/{image}', 'img_className': 'carousel-image',}
+				image_val = {
+					'key': f'{i_count + 1}',
+					'src': f'assets/images/{image}',
+					'img_className': 'carousel-image',
+					'img_style': {'border-radius':'1rem','height':'100%'},
+				}
 				carousel_images.append(image_val)
 				i_count = i_count + 1
 			a_count = a_count + 1
+			content_left = dbc.Stack([
+				dbc.Nav(
+					alist_buttons,
+					vertical=True,pills=True
+				)
+			],gap=3,className='bg-light align-items-center justify-content-center',style={'flex':'1','border-radius':'1rem','width':'100%','padding':'1rem'})
+			content_right = dbc.Stack([
+				dbc.Carousel(
+					items=carousel_images,
+					controls=True,
+					indicators=True,
+					ride='carousel',
+					variant='dark',
+					interval=5000,
+					id='article-carousel',
+					style={'border-radius':'1rem'}
+				)
+			],gap=3,className='align-items-center justify-content-center',style={'flex':'2','border-radius':'1rem','width':'100%'})
+		return content_left, content_right
 
-		self.layout = {
-			# 'table_of_contents': dbc.Card([
-			# 	dbc.Stack(toc_links)
-			# ],color='light',className='home-panel d-flex align-items-center justify-content-center'),
-			'intro': dbc.Card([
+	def create_home_content_panel(self,config:dict)->dbc.Card:
+		"""
+			config:
+			{
+				'prefix':'dash',
+				'image': 'assets/images/dashboard_screenshot.png',
+				'display_name': 'Interactive Data Visualization',
+				'summary_header': 'An interactive demo dashboard for a fictional new streaming service',
+				'summary_text': ""
+				'enabled': True,
+				'content_left': [] # Optional list of dbc components to replace default left side content
+				'content_right': [] # Optional list of dbc components to replace default right side content
+			}
+		"""
+		
+		content_left = config['content_left'] if 'content_left' in config.keys() and config['content_left'] != None else dbc.Stack([
+			html.Img(src=config['image'],style={'width':'80%','border-radius':'1rem'}),
+			dcc.Link(f'{config['display_name']}', href=config['full_path'] if 'full_path' in config.keys() and config['full_path'] else None, className='directory-link',style={'border-bottom-left-radius':'1rem'}),
+		],gap=3,className='bg-dark align-items-center justify-content-center',style={'flex':'1','border-radius':'1rem'})
+		content_right = config['content_right'] if 'content_right' in config.keys() else dbc.Stack([
+			html.Span(config['summary_header'],style={'font-weight':'bold','font-size':'1.1rem'}) if config['summary_header'] else None,
+			dcc.Markdown(config['summary_text'],style={'text-align':'left','font-size':'1rem'}) if config['summary_text'] else None,
+		],gap=3,className='align-items-center justify-content-center',style={'flex':'2','border-radius':'1rem'})
+
+		card = dbc.Stack([
+			dbc.Stack([
+				html.Span(config['display_name'],style={'font-weight':'bold','font-size':'1.6rem'}),
+			],direction='horizontal',gap=3,className='align-items-center justify-content-start'),
+			dbc.Button([
+
 				dbc.Stack([
-					dcc.Markdown(intro_text,className='intro-text'),
-					dbc.Stack([
-						html.Img(src='assets/images/spock_sunglasses.png',className='intro-image'),
-						html.A([html.I(className='bi bi-linkedin'),' linkedin.com/in/nickearl'],href='https://www.linkedin.com/in/nickearl/',target='_blank',className='intro-link'),
-						html.A([html.I(className='bi bi-github'),' github.com/nickearl'],href='https://github.com/nickearl/',target='_blank',className='intro-link'),
-						html.A([html.I(className='bi bi-at'),' nickearl.net'],href='https://www.nickearl.net',target='_blank',className='intro-link'),
-					], className='d-flex flex-column justify-content-start align-items-center'),
-				],direction='horizontal', gap=3)
-			],color='light',className='home-panel d-flex align-items-center justify-content-center'),
-			'dashboard': toc_links[0],
-			'ai': toc_links[1],
-			'analyses': dbc.Stack([
-				html.H3('Analyses',className='home-panel-feature'),
-				dbc.Card([
-					#dcc.Markdown(analysis_text,className='analysis-text'),
-					html.Span('Press coverage of analyses my teams and I have performed',className='home-panel-feature',style={'font-size':'1.1rem'}),
-					dbc.Stack([
-						dbc.Stack([
-							dbc.Nav(
-								alist_buttons,
-								vertical=True,pills=True
-							),
-							dbc.Carousel(
-								items=carousel_images,
-								controls=True,
-								indicators=True,
-								ride='carousel',
-								variant='dark',
-								interval=5000,
-								id='article-carousel',
+					content_left,
+					content_right
+				],direction='horizontal',gap=3,className='align-items-start justify-content-around'),
 
-							),
-						],direction='horizontal',gap=3),
-					]),
-				],color='light',className='home-panel d-flex align-items-start justify-content-center fluid-container'),
-			],className='d-flex align-items-start justify-content-center'),
-		}
+			],href=config['full_path'] if 'full_path' in config.keys() and config['full_path'] else None,className='shadow-lg bg-light',style={'color':'black','flex':'1','border-radius':'1rem','border-width':'3px','width':'100%'}),
+		],gap=3,className='align-items-center justify-content-center',style={'flex':'1','max-width':self.conf['panel_width']})
 
+		return card
 
-	def get_random_song(self):
-		pathname = 'assets/data/taylor_swift_songs.csv'
-		with open(pathname) as g:
-			df = pd.read_csv(g, sep=",", header=0)
-		r = random.randrange(len(df.index))
-		q = df.iloc[r]
-		return q
-
-	
 def create_app_layout(ui):
 
 	layout = dbc.Container([
 		dbc.Row([
 			dbc.Col([
-				dbc.Stack([
-					ui.layout['intro'],
-					ui.layout['dashboard'],
-					ui.layout['ai'],
-					ui.layout['analyses'],
-				],gap=5,className='d-flex flex-column align-items-center justify-content-center'),
+				ui.layout['intro'],
+				ui.layout['toc'],
 			]),
 		]),
-		# html.Br(),
-		# html.Div([
-		# 	html.H3('Analyses'),
-		# ],className='d-flex align-items-center justify-content-start',style={'width':'1000px'}),
-		# dbc.Row([
-		# 	dbc.Col([
-		# 		ui.layout['analyses'],
-		# 	],className='d-flex align-items-center justify-content-center'),
-		# ]),
-		# html.Br(),
-		# dbc.Row([
-		# 	dbc.Col([
-		# 		ui.layout['footer'],
-		# 	],className='d-flex align-items-center justify-content-center'),
-		# ]),
 	],fluid=True,className='d-flex flex-column align-items-center justify-content-center')
 
 	return layout
