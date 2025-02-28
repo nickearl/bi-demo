@@ -177,25 +177,65 @@ class UInterface:
 											dbc.PopoverHeader(dcc.Markdown('**Prompt Template**')),
 											dbc.PopoverBody([
 												dcc.Markdown("""
+						 							>
 													>
-													> You are a digital artist.   All of your work uses the Outrun/Synthwave visual aesthetic, often including visual elements like neon lights and colors (but never green),
-													> palm trees, sunsets, geometric shapes and line patterns, and imagery of the 1980s.  Your work typically has an extremely minimalist design to minimize visual clutter.
-													> Your clients ask you to create pictures of various subjects in your usual style.  I am your client.'
+													> Role / Persona
+						 							>
+													> You are a digital artist with a well defined style, of which all your work is representative.
+													>
+						 							>
+													> Your Style
+						 							>
+													> 1. Hand-Drawn Anime Look with Digital Enhancements
+												 	>							
+						 							> The linework has a slightly organic, hand-drawn feel, rather than the perfectly smooth digital look of modern anime.
+													> Line weights vary, with thicker outlines around characters but detailed, refined interior lines for facial features and mechanical elements.
+													> The shading style uses cel-shading with some soft gradients, adding depth without losing the sharp, high-contrast aesthetic.
+													>
+						 							>
+						 							> 2. Expressive Faces with Larger, More Detailed Eyes
+													>
+						 							> Eyes are slightly larger than in 1990s anime, inspired by modern anime’s focus on expressiveness, but not exaggerated like in moe or slice-of-life anime.
+													> Detailed reflections and highlights in the irises make them feel luminous and alive, but still maintaining a gritty sci-fi intensity.
+													> Facial features retain subtle, naturalistic expressions, avoiding exaggerated reactions in favor of nuanced emotions.
+													>
+						 							>
+						 							> 3. Bold Outlines and Rich Shading
+													>							
+						 							> Characters and objects are defined with thick, confident outlines, similar to 1990s anime.
+													> Shading employs multi-tone cel-shading, giving a three-dimensional look with a hand-painted touch.
+													> Soft airbrushed lighting effects (used sparingly) enhance the cyberpunk glow.
+													>
+						 							>
+						 							> 4. Muted Yet Striking Colors
+													>
+						 							> The overall palette is subdued and industrial, like Ghost in the Shell, but with strategic neon accents.
+													> Deep blues, purples, and grays dominate, with vibrant neon blue and cyan highlights adding a futuristic glow.
+													> Backgrounds remain hand-drawn and painterly, with textured brush strokes, rather than the hyper-polished CGI aesthetic of modern anime.
+													>
+						 							>
+						 							> 5. Cinematic Framing with a Slightly Gritty Look
+													>
+						 							> A mix of sharp angles and dynamic close-ups, inspired by 1990s cinematography.
+													> Glowing effects, digital distortion, and holographic flickering are present but hand-painted rather than fully CGI-rendered.
+													> The scene has a slight grain texture, simulating the look of an old-school anime cel transferred to film.
 													>
 												"""),
 											]),
 										],
 										placement='bottom',
 										target='ai-show-prompt',
-										trigger='hover',	
+										trigger='hover',
+										style={'min-width':'50vw'},	
 									),
 									dcc.Markdown("""
 										**Use Case**: Dynamic marketing copy, sales collateral, user personalization, etc
 									"""),
-
-									dbc.Container([
-										html.Img(src='assets/images/retro_sunset.png',className='intro-image'),
-									],id='ai-image-container',className='d-flex justify-content-center align-items-center'),
+									dcc.Loading([
+										dbc.Stack([
+											html.Img(src='assets/images/placeholder.png',style={'width':'100%','border-radius':'4rem','padding':'2rem'}),
+										],gap=3,className='justify-content-center align-items-center',id='ai-image-container',),
+									],overlay_style={'visibility':'visible', 'filter': 'blur(2px)'})
 
 								],gap=3),
 							],width={'size':8}),
@@ -291,27 +331,83 @@ class UInterface:
 				color_palette.append(hex)
 		return color_palette
 
-
-	def ai_retrowave_image(self, input_prompt):
+	def ai_generate_image(self, input_prompt:str,style='synthwave')->str:
+		print(f'Generating image with prompt: {input_prompt} | style: {style}')
 		client = OpenAI()
 
-
-		response = client.images.generate(
-			model="dall-e-3",
-			prompt=f"""
+		prompt = None
+		if style == 'synthwave':
+			prompt = f"""
 				'You are a digital artist.   All of your work uses the Outrun/Synthwave visual aesthetic, often including visual elements like neon lights and colors (but never green),
 				palm trees, sunsets, geometric shapes and line patterns, and imagery of the 1980s.  Your work typically has an extremely minimalist design to minimize visual clutter.
 				Your clients ask you to create pictures of various subjects in your usual style.  I am your client.'
 
 				{input_prompt}
-			""",
+				"""
+		elif style == 'anime':
+			prompt = f"""
+				Role / Persona
+				You are a digital artist with a well defined style, of which all your work is representative.
+
+				Your Style
+				1. Hand-Drawn Anime Look with Digital Enhancements
+				The linework has a slightly organic, hand-drawn feel, rather than the perfectly smooth digital look of modern anime.
+				Line weights vary, with thicker outlines around characters but detailed, refined interior lines for facial features and mechanical elements.
+				The shading style uses cel-shading with some soft gradients, adding depth without losing the sharp, high-contrast aesthetic.
+				2. Expressive Faces with Larger, More Detailed Eyes
+				Eyes are slightly larger than in 1990s anime, inspired by modern anime’s focus on expressiveness, but not exaggerated like in moe or slice-of-life anime.
+				Detailed reflections and highlights in the irises make them feel luminous and alive, but still maintaining a gritty sci-fi intensity.
+				Facial features retain subtle, naturalistic expressions, avoiding exaggerated reactions in favor of nuanced emotions.
+				3. Bold Outlines and Rich Shading
+				Characters and objects are defined with thick, confident outlines, similar to 1990s anime.
+				Shading employs multi-tone cel-shading, giving a three-dimensional look with a hand-painted touch.
+				Soft airbrushed lighting effects (used sparingly) enhance the cyberpunk glow.
+				4. Muted Yet Striking Colors
+				The overall palette is subdued and industrial, like Ghost in the Shell, but with strategic neon accents.
+				Deep blues, purples, and grays dominate, with vibrant neon blue and cyan highlights adding a futuristic glow.
+				Backgrounds remain hand-drawn and painterly, with textured brush strokes, rather than the hyper-polished CGI aesthetic of modern anime.
+				5. Cinematic Framing with a Slightly Gritty Look
+				A mix of sharp angles and dynamic close-ups, inspired by 1990s cinematography.
+				Glowing effects, digital distortion, and holographic flickering are present but hand-painted rather than fully CGI-rendered.
+				The scene has a slight grain texture, simulating the look of an old-school anime cel transferred to film.
+
+				{input_prompt}
+				"""
+
+		if prompt is None:
+			raise ValueError('Invalid style provided')
+		print(f'Sending prompt to LLM: {prompt}')
+		response = client.images.generate(
+			model="dall-e-3",
+			prompt=prompt,
 			size="1024x1024",
 			quality="standard",
 			n=1,
 		)
-
+		print(f'Image generation response: {response}')
 		image_url = response.data[0].url
 		return image_url
+	
+	# def ai_retrowave_image(self, input_prompt):
+	# 	client = OpenAI()
+
+
+	# 	response = client.images.generate(
+	# 		model="dall-e-3",
+	# 		prompt=f"""
+	# 			'You are a digital artist.   All of your work uses the Outrun/Synthwave visual aesthetic, often including visual elements like neon lights and colors (but never green),
+	# 			palm trees, sunsets, geometric shapes and line patterns, and imagery of the 1980s.  Your work typically has an extremely minimalist design to minimize visual clutter.
+	# 			Your clients ask you to create pictures of various subjects in your usual style.  I am your client.'
+
+	# 			{input_prompt}
+	# 		""",
+	# 		size="1024x1024",
+	# 		quality="standard",
+	# 		n=1,
+	# 	)
+
+	# 	image_url = response.data[0].url
+	# 	return image_url
 
 
 

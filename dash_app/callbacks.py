@@ -254,7 +254,7 @@ def register_callbacks(app):
 					image_url = ui.ai_generate_image(input_prompt, style='anime')
 				except Exception as e:
 					print(f'Error getting image url: {e}')
-				return html.Img(src=image_url,className='intro-image')
+				return html.Img(src=image_url,style={'width':'100%','border-radius':'4rem','padding':'2rem'})
 
 
 	@app.callback(
