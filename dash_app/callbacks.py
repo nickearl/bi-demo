@@ -1,4 +1,4 @@
-import os, time, json, hashlib, re
+import os, time, json, hashlib, re, io, zipfile
 from datetime import date, datetime, timedelta
 import dash
 from dash import Dash, html, dcc, Input, Output, State, ALL, MATCH, Patch, callback, DiskcacheManager, CeleryManager, long_callback
@@ -16,7 +16,7 @@ from openai import OpenAI
 import redis
 from dashboard import UInterface as dashboard_ui
 from ai import UInterface as ai_ui
-from dash_app import auto_num_format, VirtualInterview
+from dash_app import auto_num_format, get_quote, VirtualInterview
 
 load_dotenv()
 REDISCLOUD_URL = os.environ['REDISCLOUD_URL']
@@ -60,8 +60,7 @@ def register_callbacks(app):
 	)
 	def update_quotes(n_intervals):
 		# print('[' + str(datetime.now()) + '] | '+ '[update_quotes] | ' + str(dash.ctx.triggered_id))
-		b = bi.BiUtils()
-		q = b.get_quote()
+		q = get_quote()
 		return q
 
 	@app.callback(
@@ -243,8 +242,8 @@ def register_callbacks(app):
 		background=True,
     	manager=BACKGROUND_CALLBACK_MANAGER,
 	)
-	def ai_retrowave_image(n_clicks,input_prompt):
-		print('[' + str(datetime.now()) + '] | '+ '[ai_custom_colors] | ' + str(dash.ctx.triggered_id))
+	def ai_generate_image(n_clicks,input_prompt):
+		print('[' + str(datetime.now()) + '] | '+ '[ai_generate_image] | ' + str(dash.ctx.triggered_id))
 		if dash.ctx.triggered_id == None:
 			raise PreventUpdate
 		else:
@@ -252,7 +251,7 @@ def register_callbacks(app):
 				image_url = None
 				ui = ai_ui()
 				try:
-					image_url = ui.ai_retrowave_image(input_prompt)
+					image_url = ui.ai_generate_image(input_prompt, style='anime')
 				except Exception as e:
 					print(f'Error getting image url: {e}')
 				return html.Img(src=image_url,className='intro-image')
@@ -426,3 +425,21 @@ def register_callbacks(app):
 			print('****')
 			rendered_history = vi.render_chat_history(chat_history=chat_history)
 			return rendered_history, None
+
+	app.clientside_callback(
+		"""
+		function(children) {
+			console.log("Chat container updated. Children count:", children ? children.length : 0);
+			var chatContainer = document.getElementById("chat-history-stack");
+			if (chatContainer) {
+				chatContainer.scrollTop = chatContainer.scrollHeight;
+				console.log("Scroll position set to:", chatContainer.scrollTop);
+			} else {
+				console.log("Element 'chat-history-stack' not found.");
+			}
+			return "";
+		}
+		""",
+		Output('dev-null', 'children'),
+		Input('chat-history-stack', 'children')
+	)

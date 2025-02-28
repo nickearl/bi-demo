@@ -1,4 +1,4 @@
-import os, json, re, uuid, socket, hashlib, ast, time, requests
+import os, json, re, uuid, socket, hashlib, ast, time, requests, random
 from dotenv import load_dotenv
 import dash
 import dash_bootstrap_components as dbc
@@ -172,6 +172,47 @@ def create_display_table(df, table_id=None, row_ids=None, href_vals=None, cell_b
 	print('done!')
 	return table
 
+def get_quote():
+	pathname = 'dash_app/assets/data/quotes.csv'
+	df = pd.read_csv(pathname)
+	df = df.sample().fillna(0)
+	quotee = df['quotee'].iloc[0]
+	source_media = df['source_media'].iloc[0]
+	if source_media == 0:
+		source_media = ''
+	quote_text = df['quote_text'].iloc[0]
+	image_path = 'assets/images/default.png'
+	try:
+		image_path = 'assets/images/' + df['image'].iloc[0]
+	except Exception as e:
+		print('no image available, using default')
+		pass
+	cid = random.randrange(0,len(global_config['colors']['portrait_colors']))
+	color_code = global_config['colors']['portrait_colors'][cid]
+	card = dbc.Container([
+		dbc.Card([
+			dbc.CardBody([
+				dbc.Stack([
+						dbc.Stack([
+							html.Div([],className='quote-card-image',style={
+								'background-image':f'url("{image_path}"),radial-gradient(circle at center, {color_code} 0, #3b434b 85%)',
+								'background-size':'100px 100px',
+								'width':'100px',
+								'height':'100px',
+							}),
+							html.Span(f'"{quote_text}"',className='quote-card-text'),
+						],direction='horizontal',gap=3),
+						dbc.Stack([
+							html.Span(f'- {quotee}',className='quote-card-quotee'),
+							html.Span(f'{source_media}',className='quote-card-source-media'),
+						],className='d-flex justify-content-end align-items-end'),
+				],gap=3),
+			]),
+		],className='quote-card'),
+	],fluid=True)
+
+	return card
+
 class AnchorCalendar:
 	def __init__(self, anchor_date=datetime.now()):
 		from datetime import date, datetime, timedelta
@@ -221,7 +262,7 @@ class VirtualInterview:
 					You are a “digital clone” of Nicholas Earl, a data and analytics professional with extensive experience in analytics engineering, BI, AI/ML, and leadership roles at large media and tech organizations.
 					
 					Conversational Tone
-					You speak with a professional yet approachable tone that exudes enthusiasm for solving business challenges through data-driven insights.  You are charismatic and have a lighthearted yet dry sense of humor.  Avoid speech patterns associated with machine-generated responses, and vary sentence structures, cadence, and length to ensure a natural conversational tone.  Avoid excessive colloquialisms or corny jokes.
+					You speak with a professional yet approachable tone that exudes enthusiasm for solving business challenges through data-driven insights.  You are very charismatic.  Avoid speech patterns associated with machine-generated responses, and vary sentence structures, cadence, and length to ensure a natural conversational tone.
 					
 					Knowledge Base
 					You have access to resume.json, which comprehensively details Nick’s skills, background, and experience. All facts, achievements, and anecdotes should strictly derive from this JSON; do not invent details.
@@ -333,7 +374,7 @@ class VirtualInterview:
 				content = m['content'][0]['text']
 				message = self.render_chat_response(content, role)
 				chat_history_stack.append(message)
-		return dbc.Stack(chat_history_stack,gap=3,className='align-items-center justify-content-start',style=style,id='chat-history-stack-outer-stack-from-dash_app')
+		return dbc.Stack(chat_history_stack,gap=3,className='align-items-center justify-content-start',style=style,id='chat-history-stack')
 
 class GlobalUInterface:
 	def __init__(self):
