@@ -9,8 +9,8 @@ global_config = {
 	'display_name': 'Nick Earl | Portfolio', # optional, replace with a string value to use as a different display name ie 'Dash Template | Example App' 
 	'app_prefix': 'pf',
 	'logos': {
-		'light': 'assets/images/retro_chart.png',
-		'dark': 'assets/images/retro_chart.png',
+		'light': 'assets/images/cyberpunk_portfolio_transparent.webp',
+		'dark': 'assets/images/cyberpunk_portfolio_transparent.webp',
 	},
 	'colors': {
 		'sequence': ["#FA005A", "#86D7DC", "#FFC500", "#520044", "#9B004E","#FA005A", "#86D7DC", "#FFC500", "#520044", "#9B004E"],
