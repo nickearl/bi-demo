@@ -66,7 +66,11 @@
 		  "LLM Fine-Tuning",
 		  "Spark",
 		  "Databricks",
-		  "AWS Sagemaker"
+		  "AWS Sagemaker",
+		  "Langchain",
+		  "PyTorch",
+		  "OpenAI",
+		  "Gemini"
 		],
 		"bullet_points": [
 		  "Integrated LLM-based pipelines into Slack, Iterable, and Forsta Survey to transform AI insights into business strategy.",
@@ -165,6 +169,7 @@
 	  "DFP",
 	  "true[x]",
 	  "Docker",
+	  "Jinja",
 	  "RFP Management",
 	  "Data Privacy Laws",
 	  "GDPR",
@@ -271,11 +276,13 @@
 	  {
 		"title": "AI-Driven Media Plan Creator",
 		"company": "Fandom",
-		"description": "Built an LLM-based tool analyzing movie plots to identify targetable ad segments and auto-generate sales collateral.",
+		"description": "Built an LLM-based tool analyzing movie plots to identify targetable ad segments and auto-generate sales collateral.  Under the hood its a Flask app running Dash using Plotly libraries and the OpenAI and Gemini APIs",
 		"impact_metrics": [
 		  "15% revenue lift per deal",
+		  "Automated contextual targeting campaign planning, execution, and post-campaign insights.",
+		  "Custom, python-based client-facing UX built on open-source tools (Flask/Dash/Plotly/Redis with OpenAI and Gemini APIs)",
 		  "Daily use by 50+ internal stakeholders",
-		  "Projected subscription-based revenue"
+		  "So successful the company intends to make this a subscription-based revenue product we license out"
 		]
 	  },
 	  {
@@ -304,6 +311,69 @@
 		  "30% reduction in licensing fees",
 		  "Streamlined cross-platform measurement",
 		  "Accelerated data-driven ad strategies"
+		]
+	  },
+	  {
+		"title": "Workflow Automation",
+		"company": "Fandom",
+		"description": "Used python, cloud data platforms, LLMs/ML, and open-source tools to automate manual processes company-wide, enhancing data accessibility and reducing time spent on repetitive tasks.",
+		"impact_metrics": [
+			"Hundreds of staff hours saved per month",
+			"Improved data accuracy and consistency",
+			"Shifted conversations away from being about getting and using the data itself to the insights and outcomes it drives.",
+			"Abstracted complex data back-ends into simple, task-oriented UX front-ends."
+		],
+		"examples": [
+			"Tool that automatically generates, deploys, and optimizes customer surveys.",
+			"Dynamic generation and retrieval of art assets for use in marketing and sales collatoral.",
+			"One-click tool to generate customized, branded sales collatoral (slide decks, graphics) for pitching advertiser clients.",
+			"SQL query generation tool that allows non-technical users to generate, run, and visualize complex queries without needing to know SQL."
+		]
+	  },
+	  {
+		"title": "Pressworthy Analytics",
+		"company": "Fandom",
+		"description": "Analyses performed by my teams have been featured in AdWeek, Variety, LA Times, and other major publications. I have also been quoted in articles and interviews discussing the impact of data on the media industry.",
+		"impact_metrics": [
+		  "Increased visibility and credibility for the analytics team",
+		  "Strengthened relationships with media outlets and industry stakeholders",
+		  "Enhanced Fandom's reputation as a thought leader in data-driven media"
+		],
+		"examples": [
+			{
+				"Variety": [
+				  {
+					"url": "https://variety.com/lists/video-game-tv-series-ideas-study/",
+					"text": "What Video Games Should Streamers Adapt?"
+				  },
+				  {
+					"url": "https://variety.com/2024/tv/news/warhammer-marvel-league-of-legends-fallout-top-franchises-2024-fandom-1236241558/",
+					"text": "‘Warhammer,’ Marvel, ‘League of Legends’ and ‘Fallout’ Among Top Entertainment Franchises of the Year, New Fandom Report Says"
+				  }
+				],
+				"Ad Week": [
+				  {
+					"url": "https://www.adweek.com/convergent-tv/streamer-releases-weekly-binge/",
+					"text": "Binge or Weekly? Here's the Best Way for Streamers to Release Shows"
+				  }
+				],
+				"LA Times": [
+				  {
+					"url": "https://www.latimes.com/entertainment-arts/tv/newsletter/2024-08-09/the-boys-bridgerton-house-of-the-dragon-the-bear-weekly-binge-screen-gab",
+					"text": "Weekly Episode Drops are Better Than Binge.  And There's Data to Back it Up."
+				  }
+				],
+				"TheWrap": [
+				  {
+					"url": "https://www.thewrap.com/fandom-avatar-top-gun-oscars-fan-vote/",
+					"text": "What if Fans Voted for the Oscars?"
+				  },
+				  {
+					"url": "https://www.thewrap.com/peacock-bundling-partner-fandom-data/",
+					"text": "Peacock Bundling Partner Fandom Data"
+				  }
+				]
+			  }	
 		]
 	  }
 	],
@@ -336,7 +406,8 @@
 		  "Package management",
 		  "HTTP protocol",
 		  "BASH/shell scripting",
-		  "Python scripting"
+		  "Python scripting",
+		  "jinja"
 		],
 		"frequency": "Daily tinkering with occasional family-induced frustrations",
 		"transferrable_skills": "Troubleshooting, system administration, automation, and scripting—skills directly applicable to professional work in data engineering and analytics.",
